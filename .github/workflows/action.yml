@@ -44,16 +44,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: lts/*
-          cache: npm
+          cache: pnpm
 
       - name: Install dependencies
-        run: npm i
+        run: pnpm i
 
       - name: 安装 @elog/cli
-        run: npm i @elog/cli -g
+        run: pnpm i @elog/cli -g
 
       - name: 安装 @elog/plugin-adapter
-        run: npm install @elog/plugin-adapter -g
+        run: pnpm install @elog/plugin-adapter -g
 
 
       - name: 执行 elog sync
