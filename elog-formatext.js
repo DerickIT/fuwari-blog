@@ -12,8 +12,8 @@ const format = (doc) => {
     // 将 cover 属性修改为 image
     if (properties.hasOwnProperty("cover")) {
       properties.image = properties.cover;
-      properties.published = new Date(properties.date);
-      delete properties.date
+      properties.published = new Date(properties.time);
+      delete properties.time;
       delete properties.cover;
     }
 
