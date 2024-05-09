@@ -37,23 +37,20 @@ jobs:
           # echo "secrets.NOTION_DATABASE_ID.R2_SECRET_ACCESSKEY!"
           # echo "${{ secrets.R2_SECRET_ACCESSKEY }}"
 
-      - name: 检出代码库
-        uses: actions/checkout@v2
-
-      - name: Install node
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
         with:
-          node-version: lts/*
-          cache: npm
+          version: 7.3.0
+      - run: pnpm install
 
       - name: Install dependencies
-        run: npm i
+        run: pnpm i
 
       - name: 安装 @elog/cli
-        run: npm i @elog/cli
+        run: pnpm i @elog/cli
 
       - name: 安装 @elog/plugin-adapter
-        run: npm install @elog/plugin-adapter
+        run: pnpm install @elog/plugin-adapter
 
       - name: 执行 elog sync
         env:
