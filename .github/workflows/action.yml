@@ -40,11 +40,15 @@ jobs:
       - name: 检出代码库
         uses: actions/checkout@main
 
+      - name: Update Node.js
+        run: npm install -g n && n lts
+
       - name: Install node
         uses: actions/setup-node@v3
         with:
           node-version: lts/*
           cache: npm
+          
       - name: Install pnpm
         run: npm install -g pnpm
 
