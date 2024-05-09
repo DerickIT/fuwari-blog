@@ -13,13 +13,13 @@ on:
   schedule:
     - cron: "30 5,21 * * *" # 每天 5:30 和 21:30
 env:
-    DAY_OF_WEEK: Monday
-    Greeting: Good
-    First_Name: MondayOKO
-    Second_Name: Tuesday
-    Third_Name: Wednesday
-    Fourth_Name: Thursday
-    Fifth_Name: Friday
+  DAY_OF_WEEK: Monday
+  Greeting: Good
+  First_Name: MondayOKO
+  Second_Name: Tuesday
+  Third_Name: Wednesday
+  Fourth_Name: Thursday
+  Fifth_Name: Friday
 
 jobs:
   build:
@@ -27,40 +27,33 @@ jobs:
 
     steps:
       - name: 检查获取的变量
-        run: | 
-            echo "env,$Greeting $First_Name. Today is $DAY_OF_WEEK!"
-            # echo "${{ secrets.NOTION_TOKEN }}"
-            # echo "secrets.NOTION_DATABASE_ID!"
-            # echo "${{ secrets.NOTION_DATABASE_ID }}"
-            # echo "secrets.NOTION_DATABASE_ID.R2_ACCESSKEYID!"
-            # echo "${{ secrets.R2_ACCESSKEYID }}"
-            # echo "secrets.NOTION_DATABASE_ID.R2_SECRET_ACCESSKEY!"
-            # echo "${{ secrets.R2_SECRET_ACCESSKEY }}"
+        run: |
+          echo "env,$Greeting $First_Name. Today is $DAY_OF_WEEK!"
+          # echo "${{ secrets.NOTION_TOKEN }}"
+          # echo "secrets.NOTION_DATABASE_ID!"
+          # echo "${{ secrets.NOTION_DATABASE_ID }}"
+          # echo "secrets.NOTION_DATABASE_ID.R2_ACCESSKEYID!"
+          # echo "${{ secrets.R2_ACCESSKEYID }}"
+          # echo "secrets.NOTION_DATABASE_ID.R2_SECRET_ACCESSKEY!"
+          # echo "${{ secrets.R2_SECRET_ACCESSKEY }}"
 
       - name: 检出代码库
-        uses: actions/checkout@main
-
-      - name: Update Node.js
-        run: npm install -g n && n lts
+        uses: actions/checkout@v2
 
       - name: Install node
         uses: actions/setup-node@v3
         with:
           node-version: lts/*
           cache: npm
-          
-      - name: Install pnpm
-        run: npm install -g pnpm
 
       - name: Install dependencies
-        run: pnpm i
+        run: npm i
 
       - name: 安装 @elog/cli
-        run: pnpm i @elog/cli -g
+        run: npm i @elog/cli
 
       - name: 安装 @elog/plugin-adapter
-        run: pnpm install @elog/plugin-adapter -g
-
+        run: npm install @elog/plugin-adapter
 
       - name: 执行 elog sync
         env:
@@ -98,4 +91,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Action保活
-        uses: gautamkrishnar/keepalive-workflow@master 
+        uses: gautamkrishnar/keepalive-workflow@master
