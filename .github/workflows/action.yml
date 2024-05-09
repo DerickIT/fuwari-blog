@@ -39,18 +39,15 @@ jobs:
 
       - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
-        with:
-          version: 7.3.0
-      - run: pnpm install
 
       - name: Install dependencies
         run: pnpm i
 
       - name: 安装 @elog/cli
-        run: pnpm i @elog/cli
+        run: pnpm i @elog/cli -g
 
       - name: 安装 @elog/plugin-adapter
-        run: pnpm install @elog/plugin-adapter
+        run: pnpm install @elog/plugin-adapter -g
 
       - name: 执行 elog sync
         env:
