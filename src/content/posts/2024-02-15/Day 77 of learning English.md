@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-15 08:00:00'
 day: '2024-02-15'
 catalog: []
 slug: day-77-of-learning-english
 title: Day 77 of learning English
 urlname: 333ccff6-e5bd-4624-9a31-de89f407a222
+date: '2024-02-03 16:53:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_frederic_edwin_church_1871.jpg'
-published: 2024-02-03T16:53:00.000Z
+published: 2024-02-15T08:00:00.000Z
 ---
 
 ### Week 12, Day 4: Real-life Conversation Simulation

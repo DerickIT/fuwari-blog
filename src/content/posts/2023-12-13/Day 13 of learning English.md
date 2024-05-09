@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-13 08:00:00'
 day: '2023-12-13'
 catalog: []
 slug: day-13-of-learning-english
 title: Day 13 of learning English
 urlname: 1fbc2be3-d540-4efa-beee-cb6da5df0def
+date: '2024-01-08 00:09:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_7.jpg'
-published: 2024-01-08T00:09:00.000Z
+published: 2023-12-13T08:00:00.000Z
 ---
 
 Sure, Derick. Here's your study plan for the sixth day of this week. This day, we'll focus on reviewing the week's learning and practicing conversation.

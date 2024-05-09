@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-17 08:00:00'
 day: '2024-02-17'
 catalog: []
 slug: day-79-of-learning-english
 title: Day 79 of learning English
 urlname: 1303766a-6c39-4a1b-9126-804052a95ee1
+date: '2024-02-21 00:02:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_mignons_1660.jpg'
-published: 2024-02-21T00:02:00.000Z
+published: 2024-02-17T08:00:00.000Z
 ---
 
 ### Week 12, Day 6: Listening Practice

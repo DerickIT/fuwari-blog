@@ -5,15 +5,15 @@ tags:
   - Blog
   - JavaScript
 status: 已发布
-time: '2022-12-25 08:00:00'
 day: '2022-12-25'
 catalog: []
 slug: how-does-cors-work
 title: CORS是如何工作的？
 urlname: ccc749ea-0258-4485-b5e8-390113ee81f2
+date: '2023-12-29 23:35:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/nasa_carina_nebula.jpg'
-published: 2023-12-29T23:35:00.000Z
+published: 2022-12-25T08:00:00.000Z
 ---
 
 网络浏览器使用跨源资源共享（CORS）来管理对于提供网页的域名不同的其他域名的请求。这是一种浏览器安全机制，用于减轻跨站请求伪造和其他跨站攻击的风险。

@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-18 08:00:00'
 day: '2024-02-18'
 catalog: []
 slug: day-80-of-learning-english
 title: Day 80 of learning English
 urlname: ec232eea-1f95-4bcf-bbb3-af986e0a2aec
+date: '2024-02-23 22:42:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg'
-published: 2024-02-23T22:42:00.000Z
+published: 2024-02-18T08:00:00.000Z
 ---
 
 ### Week 12, Day 7: Comprehensive Review and Relaxation

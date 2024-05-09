@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-17 08:00:00'
 day: '2024-01-17'
 catalog: []
 slug: day-48-of-learning-english
 title: Day 48 of learning English
 urlname: 59d56d3e-9783-4690-81f5-475c71b1e970
+date: '2024-01-25 21:21:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_vincent_van_gogh_cradle.jpg'
-published: 2024-01-25T21:21:00.000Z
+published: 2024-01-17T08:00:00.000Z
 ---
 
 On the third day of Week 8, you should continue with vocabulary building and review the material from the previous two days. Here's a detailed plan:

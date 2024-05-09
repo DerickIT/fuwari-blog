@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-06 08:00:00'
 day: '2024-01-06'
 catalog: []
 slug: day-37-of-learning-english
 title: Day 37 of learning English
 urlname: f7a709ce-4be1-48cb-b6ad-113503c349df
+date: '2024-01-18 22:07:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_bruegel_1565.jpg'
-published: 2024-01-18T22:07:00.000Z
+published: 2024-01-06T08:00:00.000Z
 ---
 
 Dear Derick,

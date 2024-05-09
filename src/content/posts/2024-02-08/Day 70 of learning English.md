@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-08 08:00:00'
 day: '2024-02-08'
 catalog: []
 slug: day-70-of-learning-english
 title: Day 70 of learning English
 urlname: 815dd5ce-5f9d-4268-91cb-debd88c054b0
+date: '2024-02-03 16:53:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/nasa_new_york_city_grid.jpg'
-published: 2024-02-03T16:53:00.000Z
+published: 2024-02-08T08:00:00.000Z
 ---
 
 Dear Derick,

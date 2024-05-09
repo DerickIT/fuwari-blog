@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-21 08:00:00'
 day: '2023-12-21'
 catalog: []
 slug: day-21-of-learning-english
 title: Day 21 of learning English
 urlname: 42628614-3283-4f43-af1b-def732c11c32
+date: '2024-01-07 00:01:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_9.jpg'
-published: 2024-01-07T00:01:00.000Z
+published: 2023-12-21T08:00:00.000Z
 ---
 
 On the first day of the fourth week, your learning tasks should include vocabulary building and an introduction to a new grammar concept. Here's a specific plan for the day:

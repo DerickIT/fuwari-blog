@@ -6,16 +6,16 @@ tags:
   - BackEnd
   - 云原生
 status: 已发布
-time: '2023-11-15 08:00:00'
 day: '2023-11-15'
 catalog: []
 slug: introduction-to-net-aspire-simplify-cloud-native-development-with-net-8
 title: .NET Aspire简介：使用.NET 8简化云原生开发
 summary: 'Introducing .NET Aspire: Simplifying Cloud-Native Development with .NET 8 - .NET Blog (microsoft.com)'
 urlname: 5ffc164b-374a-4a36-a81b-a51f967a5fdd
+date: '2023-11-17 21:26:00'
 updated: '2024-05-09 23:17:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
-published: 2023-11-17T21:26:00.000Z
+published: 2023-11-15T08:00:00.000Z
 ---
 
 为了帮助简化云应用程序的复杂性，微软推出了.NET Aspire

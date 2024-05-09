@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-24 08:00:00'
 day: '2023-12-24'
 catalog: []
 slug: day-24-of-learning-english
 title: Day 24 of learning English
 urlname: 93506099-2227-4b22-b651-66951f96ab37
+date: '2024-01-08 00:09:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/webb2.jpg'
-published: 2024-01-08T00:09:00.000Z
+published: 2023-12-24T08:00:00.000Z
 ---
 
 On the fourth day of the fourth week, your learning tasks should focus on enhancing your listening skills and practicing the present simple tense with adverbs of frequency. Here's a specific plan for the day:

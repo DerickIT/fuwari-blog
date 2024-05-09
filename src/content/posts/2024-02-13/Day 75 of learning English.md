@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-13 08:00:00'
 day: '2024-02-13'
 catalog: []
 slug: day-75-of-learning-english
 title: Day 75 of learning English
 urlname: 393dbe07-510d-47d9-8c40-5285e3e19597
+date: '2024-02-03 16:53:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/webb4.jpg'
-published: 2024-02-03T16:53:00.000Z
+published: 2024-02-13T08:00:00.000Z
 ---
 
 ### Week 12, Day 2: Advanced Conversational Phrases

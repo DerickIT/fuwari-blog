@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-22 08:00:00'
 day: '2023-12-22'
 catalog: []
 slug: day-22-of-learning-english
 title: Day 22 of learning English
 urlname: 402b1fa6-7195-494d-8f89-963bde169bf7
+date: '2024-01-07 00:01:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_15.jpg'
-published: 2024-01-07T00:01:00.000Z
+published: 2023-12-22T08:00:00.000Z
 ---
 
 On the second day of the fourth week, your learning tasks should continue with vocabulary building and further practice of the present simple tense. Here's a specific plan for the day:

@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-03 08:00:00'
 day: '2024-02-03'
 catalog: []
 slug: day-65-of-learning-english
 title: Day 65 of learning English
 urlname: db2ca8db-6502-4d6e-9955-f7d143b5185e
+date: '2024-01-29 22:37:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/nasa_wrights_first_flight.jpg'
-published: 2024-01-29T22:37:00.000Z
+published: 2024-02-03T08:00:00.000Z
 ---
 
 On the sixth day of Week 10 in the study plan, considering the focus on language learning and the absence of specific search results related to our English study plan, the tasks could include:

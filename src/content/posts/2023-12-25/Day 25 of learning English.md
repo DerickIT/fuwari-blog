@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-25 08:00:00'
 day: '2023-12-25'
 catalog: []
 slug: day-25-of-learning-english
 title: Day 25 of learning English
 urlname: 2660bee7-f4dd-4081-9d1b-b2f96f989197
+date: '2024-01-11 18:13:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_8.jpg'
-published: 2024-01-11T18:13:00.000Z
+published: 2023-12-25T08:00:00.000Z
 ---
 
 On the fifth day of the fourth week, your learning tasks should focus on reading comprehension and practicing the present simple tense with adverbs of frequency. Here's a specific plan for the day:

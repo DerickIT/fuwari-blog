@@ -4,14 +4,14 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-04 08:00:00'
 day: '2024-02-04'
 catalog: []
 slug: day-66-of-learning-english
 title: Day 66 of learning English
 urlname: c50c8593-f208-4da1-ba00-23d16668a45e
+date: '2024-01-29 22:37:00'
 updated: '2024-05-08 23:04:00'
-published: 2024-01-29T22:37:00.000Z
+published: 2024-02-04T08:00:00.000Z
 ---
 
 On the seventh day of Week 10 in the study plan, the tasks could include:

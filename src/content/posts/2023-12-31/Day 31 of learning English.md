@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-31 08:00:00'
 day: '2023-12-31'
 catalog: []
 slug: day-31-of-learning-english
 title: Day 31 of learning English
 urlname: c69829c0-a941-48ce-ae36-0ce13ee8565b
+date: '2024-01-15 22:29:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/solid_yellow.png'
-published: 2024-01-15T22:29:00.000Z
+published: 2023-12-31T08:00:00.000Z
 ---
 
 For the fifth day of the fifth week, let's focus on integrating the vocabulary and grammar you've learned so far with practical application exercises to enhance your conversational skills.

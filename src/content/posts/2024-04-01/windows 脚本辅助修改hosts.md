@@ -4,15 +4,15 @@ tags:
   - 编程环境
   - PowerShell
 status: 已发布
-time: '2024-04-01 08:00:00'
 day: '2024-04-01'
 catalog: []
 slug: windows-script-assist-modify-hosts
 title: windows 脚本辅助修改hosts
 urlname: 142fe2d0-e85e-4776-ad94-ab1c13fb503c
+date: '2024-04-14 16:52:00'
 updated: '2024-05-08 23:22:00'
 image: 'https://www.notion.so/images/page-cover/nasa_space_shuttle_columbia_and_sunrise.jpg'
-published: 2024-04-14T16:52:00.000Z
+published: 2024-04-01T08:00:00.000Z
 ---
 
 在Windows系统的软件中使用代理软件，通常监听127.0.0.1:xxxx固定地址，但如果使用了虚拟机，容器，Linux子系统等支持自定义配置代理的软件后，在配置代理会比较繁琐，所以我试着在hosts文件中配置映射，虚拟域名对应经常变动的ipv4地址，例如192.168.1.65 mylocal.ip，这样其他软件只需要配置一个代理地址 mylocal.ip:port

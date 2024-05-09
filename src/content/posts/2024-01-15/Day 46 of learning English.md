@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-15 08:00:00'
 day: '2024-01-15'
 catalog: []
 slug: day-46-of-learning-english
 title: Day 46 of learning English
 urlname: 6de97533-b4d8-406b-aa7e-b7fdfbd40cbe
+date: '2024-01-20 10:51:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
-published: 2024-01-20T10:51:00.000Z
+published: 2024-01-15T08:00:00.000Z
 ---
 
 On the first day of Week 8, you should focus on vocabulary building. Here's the detailed plan:

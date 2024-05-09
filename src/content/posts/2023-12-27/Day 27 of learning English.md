@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-27 08:00:00'
 day: '2023-12-27'
 catalog: []
 slug: day-27-of-learning-english
 title: Day 27 of learning English
 urlname: 106a15e2-d9fc-4508-8708-971b7c595bb9
+date: '2024-01-11 18:13:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg'
-published: 2024-01-11T18:13:00.000Z
+published: 2023-12-27T08:00:00.000Z
 ---
 
 On the seventh day of the fourth week, your learning tasks should focus on review and self-assessment. Here's a specific plan for the day:

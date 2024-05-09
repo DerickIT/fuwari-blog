@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-17 08:00:00'
 day: '2023-12-17'
 catalog: []
 slug: day-17-of-learning-english
 title: Day 17 of learning English
 urlname: 114a160e-0239-456c-a7f5-f53b2f156966
+date: '2024-01-03 18:39:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_jan_lievens_1627.jpg'
-published: 2024-01-03T18:39:00.000Z
+published: 2023-12-17T08:00:00.000Z
 ---
 
 Hello Derick,

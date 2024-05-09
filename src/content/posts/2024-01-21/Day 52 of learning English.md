@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-21 08:00:00'
 day: '2024-01-21'
 catalog: []
 slug: day-52-of-learning-english
 title: Day 52 of learning English
 urlname: e882bbb7-2a96-4d0f-a780-6d9ad0ad196c
+date: '2024-01-25 21:21:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/webb3.jpg'
-published: 2024-01-25T21:21:00.000Z
+published: 2024-01-21T08:00:00.000Z
 ---
 
 On the seventh day of Week 8, you should focus on review and self-assessment. Here's a detailed plan:

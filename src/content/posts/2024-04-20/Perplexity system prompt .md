@@ -3,15 +3,15 @@ category: 技术分享
 tags:
   - 总结
 status: 已发布
-time: '2024-04-20 08:00:00'
 day: '2024-04-20'
 catalog: []
 slug: perplexity-system-prompt
 title: 'Perplexity system prompt '
 urlname: 6c0d857a-aabb-4c48-8f1c-60633810bcc7
+date: '2024-04-22 13:26:00'
 updated: '2024-05-08 23:26:00'
 image: 'https://www.notion.so/images/page-cover/webb1.jpg'
-published: 2024-04-22T13:26:00.000Z
+published: 2024-04-20T08:00:00.000Z
 ---
 
 看到perplexity放出来的prompt，针对这几大类提问方式，提供基础的建议，测试之后发现对于越确定性的内容，输出的结果越理想

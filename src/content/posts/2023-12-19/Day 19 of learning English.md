@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-19 08:00:00'
 day: '2023-12-19'
 catalog: []
 slug: day-19-of-learning-english
 title: Day 19 of learning English
 urlname: 3a785232-ddf0-4b48-b2f8-d8f07b287bf8
+date: '2024-01-03 18:39:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_jansz_1649.jpg'
-published: 2024-01-03T18:39:00.000Z
+published: 2023-12-19T08:00:00.000Z
 ---
 
 Hello Derick,

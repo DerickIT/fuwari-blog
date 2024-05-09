@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-12 08:00:00'
 day: '2023-12-12'
 catalog: []
 slug: day-12-of-learning-english
 title: Day 12 of learning English
 urlname: 485cf611-7cfa-4e45-9cc7-266357cbee55
+date: '2024-01-08 00:09:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_jan_lievens_1627.jpg'
-published: 2024-01-08T00:09:00.000Z
+published: 2023-12-12T08:00:00.000Z
 ---
 
 Sure, Derick. Here's your study plan for the fifth day of this week. This day, we'll focus on reinforcing your vocabulary and practicing the past continuous tense, and we'll introduce the future simple tense.

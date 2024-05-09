@@ -4,15 +4,15 @@ tags:
   - CSharp
   - Blazor
 status: 已发布
-time: '2023-12-02 08:00:00'
 day: '2023-12-02'
 catalog: []
 slug: net-8-blazor-snake-game
 title: .NET 8 Blazor Snake Game
 urlname: eddbd7c9-609b-4774-912a-e1b1aedf53f4
+date: '2023-12-03 22:29:00'
 updated: '2024-05-09 23:17:00'
 image: 'https://www.notion.so/images/page-cover/webb4.jpg'
-published: 2023-12-03T22:29:00.000Z
+published: 2023-12-02T08:00:00.000Z
 ---
 
 # Mini Snake Game 

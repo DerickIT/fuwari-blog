@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-04 08:00:00'
 day: '2023-12-04'
 catalog: []
 slug: day-4-of-learning-english
 title: Day 4 of learning English
 urlname: 6715b42c-1fdb-43b2-a2dc-f0cc9fab9bbd
+date: '2024-01-03 18:39:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/gradients_8.png'
-published: 2024-01-03T18:39:00.000Z
+published: 2023-12-04T08:00:00.000Z
 ---
 
 Hello Derick,

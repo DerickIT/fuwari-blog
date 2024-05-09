@@ -3,15 +3,15 @@ category: 三分钟技术
 tags:
   - 架构设计
 status: 已发布
-time: '2019-11-12 08:00:00'
 day: '2019-11-12'
 catalog: []
 slug: solid-design-principles
 title: SOLID设计原则
 urlname: 2d810f8c-f950-406c-8d0b-faa4a27fd21b
+date: '2023-11-12 23:08:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_avercamp_1620.jpg'
-published: 2023-11-12T23:08:00.000Z
+published: 2019-11-12T08:00:00.000Z
 ---
 
 **SOLID** 原则是**面向对象编程(OOP)**的关键. 但每项原则的实际含义是什么？它们为何如此重要？

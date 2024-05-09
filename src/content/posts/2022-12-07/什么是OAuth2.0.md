@@ -3,15 +3,15 @@ category: 三分钟技术
 tags:
   - 架构设计
 status: 已发布
-time: '2022-12-07 08:00:00'
 day: '2022-12-07'
 catalog: []
 slug: what-is-oauth2-0
 title: 什么是OAuth2.0
 urlname: cd1aca4f-b4df-449a-9ed9-c3809666a6bb
+date: '2023-12-10 20:16:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_15.jpg'
-published: 2023-12-10T20:16:00.000Z
+published: 2022-12-07T08:00:00.000Z
 ---
 
 OAuth 2.0 是一个授权框架，它使应用程序能够在不共享用户密码的情况下访问用户在另一个服务（如 Facebook 或 GitHub）上的数据。它本质上是应用程序、服务和用户之间的一种数字握手，每个人都同意共享什么。

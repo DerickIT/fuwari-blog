@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-27 08:00:00'
 day: '2024-01-27'
 catalog: []
 slug: day-58-of-learning-english
 title: Day 58 of learning English
 urlname: 3e7d8528-aabc-4eab-9317-e76326a7bf51
+date: '2024-01-28 23:57:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_camille_pissarro_1896.jpg'
-published: 2024-01-28T23:57:00.000Z
+published: 2024-01-27T08:00:00.000Z
 ---
 
 Dear Derick,

@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-04 08:00:00'
 day: '2024-01-04'
 catalog: []
 slug: day-35-of-learning-english
 title: Day 35 of learning English
 urlname: 6fa67ba8-9fa8-45ac-85f3-eb4229e8876a
+date: '2024-01-18 22:07:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_5.jpg'
-published: 2024-01-18T22:07:00.000Z
+published: 2024-01-04T08:00:00.000Z
 ---
 
 Dear Derick,

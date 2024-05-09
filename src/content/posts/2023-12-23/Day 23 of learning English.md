@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-23 08:00:00'
 day: '2023-12-23'
 catalog: []
 slug: day-23-of-learning-english
 title: Day 23 of learning English
 urlname: 9f2dee4e-e338-41f2-98bf-eae34d4c81b9
+date: '2024-01-08 00:09:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_10.jpg'
-published: 2024-01-08T00:09:00.000Z
+published: 2023-12-23T08:00:00.000Z
 ---
 
 On the third day of the fourth week, your learning tasks should focus on listening comprehension and continue practicing the present simple tense. Here's a specific plan for the day:

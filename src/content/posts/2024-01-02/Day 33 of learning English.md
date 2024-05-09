@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-02 08:00:00'
 day: '2024-01-02'
 catalog: []
 slug: day-33-of-learning-english
 title: Day 33 of learning English
 urlname: 5af60489-55d7-4116-8e78-f40acab35cb1
+date: '2024-01-18 22:07:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_5.jpg'
-published: 2024-01-18T22:07:00.000Z
+published: 2024-01-02T08:00:00.000Z
 ---
 
 For the seventh day of the fifth week, it's important to take a step back and reflect on the progress made so far. This day can be used for rest, review, and reinforcement of the concepts learned throughout the week.

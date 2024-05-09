@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-14 08:00:00'
 day: '2023-12-14'
 catalog: []
 slug: day-14-of-learning-english
 title: Day 14 of learning English
 urlname: fe7cdcc9-ff29-4fc8-81ad-2bc9b2740847
+date: '2024-01-08 00:09:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_claesz_1628.jpg'
-published: 2024-01-08T00:09:00.000Z
+published: 2023-12-14T08:00:00.000Z
 ---
 
 Certainly, Derick. Here's your study plan for the seventh day of this week, which will be a day for review and assessment to consolidate your learning from the past week.

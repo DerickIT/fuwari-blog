@@ -4,15 +4,15 @@ tags:
   - BackEnd
   - 架构设计
 status: 已发布
-time: '2022-12-30 08:00:00'
 day: '2022-12-30'
 catalog: []
 slug: ssl-and-tls
 title: SSL和TLS
 urlname: dcb1e1b3-1e18-4610-a4f4-3f9dfca4de6c
+date: '2023-12-30 12:53:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_avercamp_1620.jpg'
-published: 2023-12-30T12:53:00.000Z
+published: 2022-12-30T08:00:00.000Z
 ---
 
 SSL（安全套接字层）和 TLS（传输层安全）是为了在网络上提供安全通信而设计的加密协议。TLS 是 SSL 的后继者，解决了 SSL 中存在的漏洞。

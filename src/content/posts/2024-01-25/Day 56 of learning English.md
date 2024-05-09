@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-25 08:00:00'
 day: '2024-01-25'
 catalog: []
 slug: day-56-of-learning-english
 title: Day 56 of learning English
 urlname: 7185a316-1427-4b2f-9317-c530dcb9cb84
+date: '2024-01-26 23:43:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/solid_red.png'
-published: 2024-01-26T23:43:00.000Z
+published: 2024-01-25T08:00:00.000Z
 ---
 
 Dear Derick,

@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-02 08:00:00'
 day: '2023-12-02'
 catalog: []
 slug: day-2-of-learning-english
 title: Day 2 of learning English
 urlname: 07af5667-4cdf-4f51-afb8-0bac8e857220
+date: '2024-01-03 18:39:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
-published: 2024-01-03T18:39:00.000Z
+published: 2023-12-02T08:00:00.000Z
 ---
 
 Hello Derick,

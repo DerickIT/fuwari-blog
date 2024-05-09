@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-16 08:00:00'
 day: '2024-01-16'
 catalog: []
 slug: day-47-of-learning-english
 title: Day 47 of learning English
 urlname: 4055d6dd-be25-4839-a2d9-562f0285bef3
+date: '2024-01-20 10:51:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_4.jpg'
-published: 2024-01-20T10:51:00.000Z
+published: 2024-01-16T08:00:00.000Z
 ---
 
 On the second day of Week 8, you should continue with vocabulary building and review the material from the previous day. Here's a detailed plan:

@@ -5,15 +5,15 @@ tags:
   - Docker
   - 编程环境
 status: 已发布
-time: '2020-01-18 08:00:00'
 day: '2020-01-18'
 catalog: []
 slug: quick-install-docker-on-ubuntu
 title: Ubuntu快速安装Docker
 urlname: 3bd3cd5c-012b-418c-93b1-c3d325c3ca3c
+date: '2023-11-18 13:06:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_3.jpg'
-published: 2023-11-18T13:06:00.000Z
+published: 2020-01-18T08:00:00.000Z
 ---
 
 Docker是一种流行的容器化平台，它能够简化应用程序的部署和管理。本文将介绍在Ubuntu操作系统上安装Docker的步骤，以便我们可以开始使用Docker来构建和运行容器化应用程序。

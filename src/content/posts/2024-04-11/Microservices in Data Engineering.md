@@ -5,15 +5,15 @@ tags:
   - 架构设计
   - Cache
 status: 已发布
-time: '2024-04-11 08:00:00'
 day: '2024-04-11'
 catalog: []
 slug: microservices-in-data-engineering
 title: Microservices in Data Engineering
 urlname: 7f279ea0-883d-426a-b803-34c09b27d574
+date: '2024-04-12 00:10:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
-published: 2024-04-12T00:10:00.000Z
+published: 2024-04-11T08:00:00.000Z
 ---
 
 ### 介绍

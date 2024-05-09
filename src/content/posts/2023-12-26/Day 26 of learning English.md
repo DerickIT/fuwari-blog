@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-26 08:00:00'
 day: '2023-12-26'
 catalog: []
 slug: day-26-of-learning-english
 title: Day 26 of learning English
 urlname: 6ee5308a-cb82-4ef7-9f7e-3de13c273a88
+date: '2024-01-11 18:13:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/webb3.jpg'
-published: 2024-01-11T18:13:00.000Z
+published: 2023-12-26T08:00:00.000Z
 ---
 
 On the sixth day of the fourth week, your learning tasks should focus on speaking skills and practicing the present simple tense with adverbs of frequency. Here's a specific plan for the day:

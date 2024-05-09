@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-16 08:00:00'
 day: '2024-02-16'
 catalog: []
 slug: day-78-of-learning-english
 title: Day 78 of learning English
 urlname: d7e13f2c-794b-4f04-9030-ff9ccb4c4825
+date: '2024-02-03 16:53:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_claesz_1628.jpg'
-published: 2024-02-03T16:53:00.000Z
+published: 2024-02-16T08:00:00.000Z
 ---
 
 ### Week 12, Day 5: Writing and Comprehension

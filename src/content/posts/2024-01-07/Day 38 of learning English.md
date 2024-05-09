@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-07 08:00:00'
 day: '2024-01-07'
 catalog: []
 slug: day-38-of-learning-english
 title: Day 38 of learning English
 urlname: 815fde93-6c4f-4e8c-8562-410b2c071c62
+date: '2024-01-18 22:08:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/nasa_multi-axis_gimbal_rig.jpg'
-published: 2024-01-18T22:08:00.000Z
+published: 2024-01-07T08:00:00.000Z
 ---
 
 Dear Derick,

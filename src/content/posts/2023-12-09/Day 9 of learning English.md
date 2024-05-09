@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-09 08:00:00'
 day: '2023-12-09'
 catalog: []
 slug: day-9-of-learning-english
 title: Day 9 of learning English
 urlname: 5db6084a-ea4f-43e7-9a86-04f212197d45
+date: '2024-01-08 00:09:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/webb4.jpg'
-published: 2024-01-08T00:09:00.000Z
+published: 2023-12-09T08:00:00.000Z
 ---
 
 Certainly, Derick. Here's a focused study plan for the second day of this week:

@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-10 08:00:00'
 day: '2023-12-10'
 catalog: []
 slug: day-10-of-learning-english
 title: Day 10 of learning English
 urlname: 77d09b6f-9933-4b08-baf3-49f2bd5fa6bb
+date: '2024-01-08 00:09:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
-published: 2024-01-08T00:09:00.000Z
+published: 2023-12-10T08:00:00.000Z
 ---
 
 Absolutely, Derick. Here's a detailed study plan for the third day of this week:

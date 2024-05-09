@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-16 08:00:00'
 day: '2023-12-16'
 catalog: []
 slug: day-16-of-learning-english
 title: Day 16 of learning English
 urlname: 420426f5-7dae-4e43-8f53-054822c00108
+date: '2024-01-03 18:38:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/webb3.jpg'
-published: 2024-01-03T18:38:00.000Z
+published: 2023-12-16T08:00:00.000Z
 ---
 
 Hello Derick,

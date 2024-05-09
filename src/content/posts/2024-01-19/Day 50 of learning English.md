@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-19 08:00:00'
 day: '2024-01-19'
 catalog: []
 slug: day-50-of-learning-english
 title: Day 50 of learning English
 urlname: fc20fe09-6b77-4368-b61d-7734b3be85c1
+date: '2024-01-25 21:21:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/webb2.jpg'
-published: 2024-01-25T21:21:00.000Z
+published: 2024-01-19T08:00:00.000Z
 ---
 
 On the fifth day of Week 8, you should focus on speaking exercises to improve your fluency and pronunciation. Here's a detailed plan:

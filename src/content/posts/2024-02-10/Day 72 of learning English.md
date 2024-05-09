@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-10 08:00:00'
 day: '2024-02-10'
 catalog: []
 slug: day-72-of-learning-english
 title: Day 72 of learning English
 urlname: 5c948021-c57d-47e5-bc04-f7f36a660ef8
+date: '2024-02-03 16:53:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_3.jpg'
-published: 2024-02-03T16:53:00.000Z
+published: 2024-02-10T08:00:00.000Z
 ---
 
 Dear Derick,

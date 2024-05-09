@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-29 08:00:00'
 day: '2023-12-29'
 catalog: []
 slug: day-29-of-learning-english
 title: Day 29 of learning English
 urlname: f473d20c-9cb3-4aa0-ade5-9b7456a6ad64
+date: '2024-01-11 18:13:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg'
-published: 2024-01-11T18:13:00.000Z
+published: 2023-12-29T08:00:00.000Z
 ---
 
 Sure, Derick. Here's your learning plan for the second day of the fifth week:

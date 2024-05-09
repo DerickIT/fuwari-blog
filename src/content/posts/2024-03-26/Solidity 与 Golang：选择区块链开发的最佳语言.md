@@ -5,15 +5,15 @@ tags:
   - Web3
   - Smart Contract
 status: 已发布
-time: '2024-03-26 08:00:00'
 day: '2024-03-26'
 catalog: []
 slug: solidity-vs-golang-best-language-for-blockchain-development
 title: Solidity 与 Golang：选择区块链开发的最佳语言
 urlname: 8fa56ae1-c844-485f-9d7f-bfdbc920c565
+date: '2024-03-26 22:12:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
-published: 2024-03-26T22:12:00.000Z
+published: 2024-03-26T08:00:00.000Z
 ---
 
 区块链开发是一个充满活力的领域，选择正确的编程语言对任何项目的成功至关重要。在这篇全面的探讨中,我们将深入比较Solidity和Golang,阐明它们在EVM区块链开发中的优势、长处和考虑因素。

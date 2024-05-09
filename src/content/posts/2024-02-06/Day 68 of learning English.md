@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-06 08:00:00'
 day: '2024-02-06'
 catalog: []
 slug: day-68-of-learning-english
 title: Day 68 of learning English
 urlname: 69d444fa-f1d0-4ead-bdf0-9f6368aa2dd4
+date: '2024-02-03 16:53:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_jansz_1649.jpg'
-published: 2024-02-03T16:53:00.000Z
+published: 2024-02-06T08:00:00.000Z
 ---
 
 Dear Derick,

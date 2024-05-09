@@ -3,15 +3,15 @@ category: 三分钟技术
 tags:
   - Linux
 status: 已发布
-time: '2022-12-13 08:00:00'
 day: '2022-12-13'
 catalog: []
 slug: how-does-linux-permissions-work
 title: Linux权限是如何工作的？
 urlname: a6be9dc6-fec0-430d-9281-3f26d520b332
+date: '2023-12-13 23:16:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_1.jpg'
-published: 2023-12-13T23:16:00.000Z
+published: 2022-12-13T08:00:00.000Z
 ---
 
 Linux是一个多用户操作系统，内置了强大的用户和组权限。这些权限提供了限制谁可以访问文件或目录以及他们可以执行的操作（读取，写入或执行）的能力。

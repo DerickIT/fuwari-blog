@@ -8,7 +8,6 @@ tags:
   - Github
   - Hexo
 status: 已发布
-time: '2023-11-07 08:00:00'
 day: '2023-11-07'
 catalog:
   - 一级目录1
@@ -16,9 +15,10 @@ slug: notion-blog-tinkering-guide
 title: Notion博客折腾指南
 summary: 介绍使用notion作为创作平台，利用slack+pipidream+elog同步博客到GitHub并持续部署到cloud flare平台
 urlname: 6f395df6-a931-4cd0-9049-555f6e9b7d8c
+date: '2023-11-06 17:03:00'
 updated: '2024-05-08 23:26:00'
 image: 'https://www.notion.so/images/page-cover/webb1.jpg'
-published: 2023-11-06T17:03:00.000Z
+published: 2023-11-07T08:00:00.000Z
 ---
 
 ### 前言

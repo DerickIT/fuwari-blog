@@ -6,15 +6,15 @@ tags:
   - Web3
   - ethers-rs
 status: 已发布
-time: '2023-11-05 08:00:00'
 day: '2023-11-05'
 catalog: []
 slug: ethereum-development-with-rust-1
 title: Ethereum Development with rust 1
 urlname: 39ce5e1e-6413-440c-9721-6ff863b945cf
+date: '2024-04-05 10:42:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/solid_red.png'
-published: 2024-04-05T10:42:00.000Z
+published: 2023-11-05T08:00:00.000Z
 ---
 
 The intention is that if you are already somewhat familiar with Ethereum and Rust, but are unsure about how to combine the two, then this book is a good starting point - adapted from "Ethereum Development with Go"

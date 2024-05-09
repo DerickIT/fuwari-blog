@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-18 08:00:00'
 day: '2024-01-18'
 catalog: []
 slug: day-49-of-learning-english
 title: Day 49 of learning English
 urlname: 330a2304-9950-47de-8efb-04f934991ecf
+date: '2024-01-25 21:21:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_14.jpg'
-published: 2024-01-25T21:21:00.000Z
+published: 2024-01-18T08:00:00.000Z
 ---
 
 On the fourth day of Week 8, you should focus on listening exercises to improve your comprehension and familiarize yourself with different accents and speaking styles. Here's a detailed plan:

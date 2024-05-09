@@ -4,15 +4,15 @@ tags:
   - Web3
   - Solidity
 status: 已发布
-time: '2024-03-24 08:00:00'
 day: '2024-03-24'
 catalog: []
 slug: how-to-become-an-expert-in-web3-technologies-ethereum-ipfs-solidity
 title: 'How To Become an expert in Web3 technologies (Ethereum, IPFS, Solidity)'
 urlname: d09c3f68-35a8-4f91-a325-423f6fa66a94
+date: '2024-03-28 00:03:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_jansz_1649.jpg'
-published: 2024-03-28T00:03:00.000Z
+published: 2024-03-24T08:00:00.000Z
 ---
 
 ## **Introduction to Web3 Technologies**

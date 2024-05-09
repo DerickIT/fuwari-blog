@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-11 08:00:00'
 day: '2023-12-11'
 catalog: []
 slug: day-11-of-learning-english
 title: Day 11 of learning English
 urlname: 4c077df5-2e43-4db7-a32d-f8645bb8f590
+date: '2024-01-08 00:09:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/nasa_bruce_mccandless_spacewalk.jpg'
-published: 2024-01-08T00:09:00.000Z
+published: 2023-12-11T08:00:00.000Z
 ---
 
 Sure, Derick. Here's your study plan for the fourth day of this week. This day, we'll focus on further expanding your vocabulary and introducing the past continuous tense.

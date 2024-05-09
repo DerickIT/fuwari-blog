@@ -3,15 +3,15 @@ category: 三分钟技术
 tags:
   - 架构设计
 status: 已发布
-time: '2022-11-13 08:00:00'
 day: '2022-11-13'
 catalog: []
 slug: components-of-url
 title: URL的组成部分
 urlname: 2b43c481-65f4-4275-84b3-a8a5bd8085b2
+date: '2023-12-13 23:35:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/nasa_space_shuttle_columbia.jpg'
-published: 2023-12-13T23:35:00.000Z
+published: 2022-11-13T08:00:00.000Z
 ---
 
 ### 什么是URL？

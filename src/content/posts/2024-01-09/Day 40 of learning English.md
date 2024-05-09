@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-09 08:00:00'
 day: '2024-01-09'
 catalog: []
 slug: day-40-of-learning-english
 title: Day 40 of learning English
 urlname: a3d75915-0bc6-49a4-a7fc-ac29489ddae6
+date: '2024-01-20 10:51:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/gradients_5.png'
-published: 2024-01-20T10:51:00.000Z
+published: 2024-01-09T08:00:00.000Z
 ---
 
 Dear Derick,

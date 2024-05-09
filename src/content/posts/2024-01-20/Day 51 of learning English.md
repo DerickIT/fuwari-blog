@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-20 08:00:00'
 day: '2024-01-20'
 catalog: []
 slug: day-51-of-learning-english
 title: Day 51 of learning English
 urlname: cf6dd160-acef-4f26-9baa-2d13a2e0bb8a
+date: '2024-01-25 21:21:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
-published: 2024-01-25T21:21:00.000Z
+published: 2024-01-20T08:00:00.000Z
 ---
 
 On the sixth day of Week 8, you should focus on reading comprehension and writing skills. Here's a detailed plan:

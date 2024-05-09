@@ -6,15 +6,15 @@ tags:
   - Docker
   - Web3
 status: 已发布
-time: '2023-11-01 08:00:00'
 day: '2023-11-01'
 catalog: []
 slug: wsl2-environment-configuration
 title: WSL2环境配置
 urlname: bd266599-5cec-40ed-b803-521fe8cccdde
+date: '2023-11-27 15:37:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1878.jpg'
-published: 2023-11-27T15:37:00.000Z
+published: 2023-11-01T08:00:00.000Z
 ---
 
 ### 引言

@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-30 08:00:00'
 day: '2023-12-30'
 catalog: []
 slug: day-30-of-learning-english
 title: Day 30 of learning English
 urlname: 3cd54e13-35ae-4a4c-87b6-dddc32527715
+date: '2024-01-15 22:29:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_avercamp_1620.jpg'
-published: 2024-01-15T22:29:00.000Z
+published: 2023-12-30T08:00:00.000Z
 ---
 
 For the third day of the fifth week, we will continue to build on your vocabulary and grammar skills, incorporating new words and grammatical structures to enhance your English proficiency.

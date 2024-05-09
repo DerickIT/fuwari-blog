@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-06 08:00:00'
 day: '2023-12-06'
 catalog: []
 slug: day-6-of-learning-english
 title: Day 6 of learning English
 urlname: e21db480-c9ce-47ae-bea8-4917589fefa1
+date: '2024-01-07 00:01:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_mignons_1660.jpg'
-published: 2024-01-07T00:01:00.000Z
+published: 2023-12-06T08:00:00.000Z
 ---
 
 Hello Derick,

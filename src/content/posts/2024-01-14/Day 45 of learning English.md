@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-14 08:00:00'
 day: '2024-01-14'
 catalog: []
 slug: day-45-of-learning-english
 title: Day 45 of learning English
 urlname: e4eca024-f65d-4a50-8c7d-1b0a1ab77214
+date: '2024-01-25 11:51:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_jansz_1641.jpg'
-published: 2024-01-25T11:51:00.000Z
+published: 2024-01-14T08:00:00.000Z
 ---
 
 On the fifth day of Week 7, you should focus on expanding your vocabulary and practicing grammar. Here's a detailed plan:

@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-08 08:00:00'
 day: '2024-01-08'
 catalog: []
 slug: day-39-of-learning-english
 title: Day 39 of learning English
 urlname: 266a7d19-76da-4f87-8711-d7c96b73453d
+date: '2024-01-20 10:51:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg'
-published: 2024-01-20T10:51:00.000Z
+published: 2024-01-08T08:00:00.000Z
 ---
 
 Dear Derick,

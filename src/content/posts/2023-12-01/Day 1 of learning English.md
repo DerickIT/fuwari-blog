@@ -4,15 +4,15 @@ tags:
   - English
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-01 08:00:00'
 day: '2023-12-01'
 catalog: []
 slug: day-1-of-learning-english
 title: Day 1 of learning English
 urlname: 759b900e-77fc-4995-8529-c59b5eebd93e
+date: '2024-01-03 18:39:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_avercamp_1608.jpg'
-published: 2024-01-03T18:39:00.000Z
+published: 2023-12-01T08:00:00.000Z
 ---
 
 Effective study techniques for learning a new language include:

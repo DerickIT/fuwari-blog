@@ -4,15 +4,15 @@ tags:
   - 编程环境
   - NodeJS
 status: 已发布
-time: '2019-11-16 08:00:00'
 day: '2019-11-16'
 catalog: []
 slug: nodejs-initial-configuration
 title: NodeJS初始化配置
 urlname: 683b565e-75f1-4d55-a282-f9b3b73503b1
+date: '2023-11-16 18:08:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://images.unsplash.com/photo-1543536448-d209d2d13a1c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
-published: 2023-11-16T18:08:00.000Z
+published: 2019-11-16T08:00:00.000Z
 ---
 
 ```sql

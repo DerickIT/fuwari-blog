@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-07 08:00:00'
 day: '2024-02-07'
 catalog: []
 slug: day-69-of-learning-english
 title: Day 69 of learning English
 urlname: 7de772c8-7e1a-41a2-afca-0e505f2bdc74
+date: '2024-02-03 16:53:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_paul_signac.jpg'
-published: 2024-02-03T16:53:00.000Z
+published: 2024-02-07T08:00:00.000Z
 ---
 
 Dear Derick,

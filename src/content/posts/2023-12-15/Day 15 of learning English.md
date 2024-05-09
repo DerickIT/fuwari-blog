@@ -3,15 +3,15 @@ category: 英语学习
 tags:
   - LearnEnglishNote
 status: 已发布
-time: '2023-12-15 08:00:00'
 day: '2023-12-15'
 catalog: []
 slug: day-15-of-learning-english
 title: Day 15 of learning English
 urlname: 3a07eaae-4760-4c41-a749-e17f8715f26f
+date: '2024-01-02 22:29:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/gradients_3.png'
-published: 2024-01-02T22:29:00.000Z
+published: 2023-12-15T08:00:00.000Z
 ---
 
 《从零开始学英语》-第十五天

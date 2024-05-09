@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-29 08:00:00'
 day: '2024-01-29'
 catalog: []
 slug: day-60-of-learning-english
 title: Day 60 of learning English
 urlname: 439055b3-af1f-4171-aeb4-2cf2c1beb398
+date: '2024-01-29 22:36:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
-published: 2024-01-29T22:36:00.000Z
+published: 2024-01-29T08:00:00.000Z
 ---
 
 ## Week 10 Learning Tasks

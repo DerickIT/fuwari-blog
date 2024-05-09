@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-30 08:00:00'
 day: '2024-01-30'
 catalog: []
 slug: day-61-of-learning-english
 title: Day 61 of learning English
 urlname: 9f92f0e9-99a8-4f44-b972-c8fcd28205d0
+date: '2024-01-29 22:37:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_horace_pippin.jpg'
-published: 2024-01-29T22:37:00.000Z
+published: 2024-01-30T08:00:00.000Z
 ---
 
 On the second day of Week 10, you should complete the following tasks:

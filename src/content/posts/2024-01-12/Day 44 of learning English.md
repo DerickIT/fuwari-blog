@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-12 08:00:00'
 day: '2024-01-12'
 catalog: []
 slug: day-44-of-learning-english
 title: Day 44 of learning English
 urlname: ab1e8b5d-7e74-438a-b4d0-824decf3b3f8
+date: '2024-01-20 10:51:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_5.jpg'
-published: 2024-01-20T10:51:00.000Z
+published: 2024-01-12T08:00:00.000Z
 ---
 
 On the third day of Week 7, you should continue to build on your vocabulary and grammar skills. Here's a detailed plan:

@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-01 08:00:00'
 day: '2024-01-01'
 catalog: []
 slug: day-32-of-learning-english
 title: Day 32 of learning English
 urlname: 0a402c13-a33f-454d-b2aa-c4c1e72277ac
+date: '2024-01-18 22:07:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_5.jpg'
-published: 2024-01-18T22:07:00.000Z
+published: 2024-01-01T08:00:00.000Z
 ---
 
 For the sixth day of the fifth week, we will focus on enhancing your listening skills and reviewing the content learned throughout the week.

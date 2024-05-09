@@ -6,15 +6,15 @@ tags:
   - DotNet
   - Blazor
 status: 已发布
-time: '2023-11-14 08:00:00'
 day: '2023-11-14'
 catalog: []
 slug: net-8-release-conference
 title: .NET 8发布会
 urlname: 80e5c56d-f3ef-4559-9720-865fbe8df017
+date: '2023-11-15 20:48:00'
 updated: '2024-05-09 23:17:00'
 image: 'https://www.notion.so/images/page-cover/met_silk_kashan_carpet.jpg'
-published: 2023-11-15T20:48:00.000Z
+published: 2023-11-14T08:00:00.000Z
 ---
 
 Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下内容

@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-02-05 08:00:00'
 day: '2024-02-05'
 catalog: []
 slug: day-67-of-learning-english
 title: Day 67 of learning English
 urlname: 593f96a3-8c45-4a22-9b99-a811a5f81dab
+date: '2024-02-03 16:49:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_vermeer_the_milkmaid.jpg'
-published: 2024-02-03T16:49:00.000Z
+published: 2024-02-05T08:00:00.000Z
 ---
 
 Dear Derick,

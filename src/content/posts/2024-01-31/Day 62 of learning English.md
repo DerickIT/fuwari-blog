@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-31 08:00:00'
 day: '2024-01-31'
 catalog: []
 slug: day-62-of-learning-english
 title: Day 62 of learning English
 urlname: cc54f469-b76c-46a5-a191-847f9533dce4
+date: '2024-01-29 22:37:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/webb1.jpg'
-published: 2024-01-29T22:37:00.000Z
+published: 2024-01-31T08:00:00.000Z
 ---
 
 On the third day of Week 10, you should focus on the following tasks:

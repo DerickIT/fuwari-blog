@@ -4,15 +4,15 @@ tags:
   - LearnEnglishNote
   - English
 status: 已发布
-time: '2024-01-22 08:00:00'
 day: '2024-01-22'
 catalog: []
 slug: day-53-of-learning-english
 title: Day 53 of learning English
 urlname: 870592d3-6d6c-457d-9c6c-f1bfe7b31e6d
+date: '2024-01-25 21:21:00'
 updated: '2024-05-08 23:04:00'
 image: 'https://www.notion.so/images/page-cover/met_silk_kashan_carpet.jpg'
-published: 2024-01-25T21:21:00.000Z
+published: 2024-01-22T08:00:00.000Z
 ---
 
 Dear Derick,

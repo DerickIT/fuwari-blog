@@ -4,16 +4,16 @@ tags:
   - Notion
   - Blog
 status: 已发布
-time: '2021-11-08 08:00:00'
 day: '2021-11-08'
 catalog: []
 slug: notion-example-article
 title: Notion示例文章
 sort: 1
 urlname: a34b5b6f-1c34-4a26-ba67-2e549da654f5
+date: '2023-11-06 17:03:00'
 updated: '2024-05-08 23:26:00'
 image: 'https://www.notion.so/images/page-cover/met_frederic_edwin_church_1871.jpg'
-published: 2023-11-06T17:03:00.000Z
+published: 2021-11-08T08:00:00.000Z
 ---
 
 # Notion-Markdown
