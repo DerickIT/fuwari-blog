@@ -1,7 +1,7 @@
 ---
 category: 技术分享
 tags:
-  - C#
+  - CSharp
   - DotNet
   - BackEnd
   - 云原生
@@ -13,7 +13,7 @@ slug: introduction-to-net-aspire-simplify-cloud-native-development-with-net-8
 title: .NET Aspire简介：使用.NET 8简化云原生开发
 summary: 'Introducing .NET Aspire: Simplifying Cloud-Native Development with .NET 8 - .NET Blog (microsoft.com)'
 urlname: 5ffc164b-374a-4a36-a81b-a51f967a5fdd
-updated: '2024-05-08 23:04:00'
+updated: '2024-05-09 23:17:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
 published: 2023-11-17T21:26:00.000Z
 ---

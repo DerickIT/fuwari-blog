@@ -7,10 +7,10 @@ status: 已发布
 time: '2024-01-13 08:00:00'
 day: '2024-01-13'
 catalog: []
-slug: day-44-of-learning-english
-title: Day 44 of learning English
+slug: week-7-of-learning-english
+title: Week 7 of learning English
 urlname: 8c59684b-156a-49fb-873c-b71d351b89f0
-updated: '2024-05-08 23:04:00'
+updated: '2024-05-09 23:13:00'
 image: 'https://www.notion.so/images/page-cover/nasa_space_shuttle_challenger.jpg'
 published: 2024-01-25T11:51:00.000Z
 ---

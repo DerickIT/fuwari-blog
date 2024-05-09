@@ -2,7 +2,7 @@
 category: DOTNET
 tags:
   - BackEnd
-  - C#
+  - CSharp
   - DotNet
   - Blazor
 status: 已发布
@@ -12,7 +12,7 @@ catalog: []
 slug: net-8-release-conference
 title: .NET 8发布会
 urlname: 80e5c56d-f3ef-4559-9720-865fbe8df017
-updated: '2024-05-08 23:04:00'
+updated: '2024-05-09 23:17:00'
 image: 'https://www.notion.so/images/page-cover/met_silk_kashan_carpet.jpg'
 published: 2023-11-15T20:48:00.000Z
 ---
