@@ -10,7 +10,8 @@ slug: day-66-of-learning-english
 title: Day 66 of learning English
 urlname: c50c8593-f208-4da1-ba00-23d16668a45e
 date: '2024-01-29 22:37:00'
-updated: '2024-05-08 23:04:00'
+updated: '2024-05-10 20:44:00'
+image: 'https://www.notion.so/images/page-cover/woodcuts_sekka_2.jpg'
 published: 2024-02-04T08:00:00.000Z
 ---
 
