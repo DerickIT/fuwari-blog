@@ -12,12 +12,18 @@ slug: ethereum-development-with-rust-2
 title: Ethereum Development With Rust 2
 urlname: f4872acb-d5b7-418f-8814-7d2168f10acb
 date: '2024-05-12 11:50:00'
-updated: '2024-05-12 12:08:00'
+updated: '2024-05-14 23:03:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_5.jpg'
 published: 2023-11-10T08:00:00.000Z
 ---
 
+:::note
+
+
 This series of articles mainly uses Rust's ethers-rs to replicate the content of the book "Ethereum Development with Go", so the title of this series is called "Ethereum Development with Rust". It can be considered as a quick start tutorial for ethers-rs. Since the original book is already well-written, this series will focus more on replicating the code and will not explain too much about the related basic knowledge.
+
+
+:::
 
 
 Last time, we studied how to create various clients (Providers) with ethers-rs. This time, we will replicate the second chapter "Accounts" from "Ethereum Development with Go".

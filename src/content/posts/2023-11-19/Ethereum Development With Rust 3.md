@@ -12,12 +12,18 @@ slug: ethereum-development-with-rust-3
 title: Ethereum Development With Rust 3
 urlname: 6cca776e-e4bf-48dc-8723-c70a29dd19c6
 date: '2024-05-12 11:52:00'
-updated: '2024-05-12 23:01:00'
+updated: '2024-05-14 23:03:00'
 image: 'https://www.notion.so/images/page-cover/gradients_3.png'
 published: 2023-11-19T08:00:00.000Z
 ---
 
+:::note
+
+
 This series of articles mainly uses Rust's `ethers-rs` to replicate the content of the book "Ethereum Development with Go". Therefore, the title of this series is called "Ethereum Development with Rust". It can be considered as a quick start tutorial for `ethers-rs`. Since the original book is already well-written, this series will focus more on replicating the code and will not explain too much about the related basic knowledge.
+
+
+:::
 
 
 This time, we will replicate the third chapter "Transactions" from "Ethereum Development with Go".

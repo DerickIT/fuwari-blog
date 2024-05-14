@@ -12,12 +12,18 @@ slug: ethereum-development-with-rust-4
 title: Ethereum Development With Rust 4
 urlname: d01579f8-b64c-4169-9222-6e9df192b491
 date: '2024-05-12 11:53:00'
-updated: '2024-05-13 16:37:00'
+updated: '2024-05-14 23:04:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_13.jpg'
 published: 2023-12-07T08:00:00.000Z
 ---
 
-This series of articles mainly uses Rust's ethers-rs to replicate the content of the book "Ethereum Development with Go". Therefore, the title of this series is called "Ethereum Development with Rust". Since the original book is already well-written, this series will focus more on replicating the code and will not explain too much about the related basic knowledge.
+:::note
+
+
+This series of articles mainly uses Rust's ethers-rs to reproduce the content of the book "Ethereum Development with Go", so the title of this series is called "Ethereum Development with Rust". Since the original book is already well-written, this series focuses more on replicating the code and will not explain too much of the related basic knowledge.
+
+
+:::
 
 
 This time, we will replicate the fourth chapter "Smart Contracts" from "Ethereum Development with Go".

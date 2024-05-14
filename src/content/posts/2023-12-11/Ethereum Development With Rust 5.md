@@ -12,12 +12,12 @@ slug: ethereum-development-with-rust-5
 title: Ethereum Development With Rust 5
 urlname: 8cb249e5-e5f5-4302-b296-085cf531ca1b
 date: '2024-05-12 12:25:00'
-updated: '2024-05-14 00:19:00'
+updated: '2024-05-14 23:02:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_5.jpg'
 published: 2023-12-11T08:00:00.000Z
 ---
 
-:::tips[提示]
+:::note[提示]
 
 
 This series of articles mainly uses Rust's ethers-rs to reproduce the content of the book "Ethereum Development with Go", so the title of this series is called "Ethereum Development with Rust". Since the original book is already well-written, this series focuses more on replicating the code and will not explain too much of the related basic knowledge.
