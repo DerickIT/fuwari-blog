@@ -1,7 +1,7 @@
 ---
 category: 环境配置
 tags:
-  - 编程环境
+  - ProgramEnv
   - PowerShell
 status: 已发布
 day: '2024-04-01'
@@ -10,7 +10,7 @@ slug: windows-script-assist-modify-hosts
 title: windows 脚本辅助修改hosts
 urlname: 142fe2d0-e85e-4776-ad94-ab1c13fb503c
 date: '2024-04-14 16:52:00'
-updated: '2024-05-08 23:22:00'
+updated: '2024-05-16 00:16:00'
 image: 'https://www.notion.so/images/page-cover/nasa_space_shuttle_columbia_and_sunrise.jpg'
 published: 2024-04-01T08:00:00.000Z
 ---

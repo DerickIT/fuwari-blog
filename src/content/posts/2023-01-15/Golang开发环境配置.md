@@ -1,7 +1,7 @@
 ---
 category: 环境配置
 tags:
-  - 编程环境
+  - ProgramEnv
   - Golang
 status: 已发布
 day: '2023-01-15'
@@ -10,7 +10,7 @@ slug: golang-development-environment-configuration
 title: Golang开发环境配置
 urlname: 63792556-e441-4c68-bdfc-f3afb56d64dd
 date: '2024-03-15 13:06:00'
-updated: '2024-05-08 23:04:00'
+updated: '2024-05-16 00:16:00'
 image: 'https://www.notion.so/images/page-cover/met_henri_rousseau_1907.jpg'
 published: 2023-01-15T08:00:00.000Z
 ---

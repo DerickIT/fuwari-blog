@@ -3,7 +3,7 @@ category: 技术分享
 tags:
   - 云原生
   - Docker
-  - 编程环境
+  - ProgramEnv
 status: 已发布
 day: '2020-01-18'
 catalog: []
@@ -11,7 +11,7 @@ slug: quick-install-docker-on-ubuntu
 title: Ubuntu快速安装Docker
 urlname: 3bd3cd5c-012b-418c-93b1-c3d325c3ca3c
 date: '2023-11-18 13:06:00'
-updated: '2024-05-08 23:04:00'
+updated: '2024-05-16 00:16:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_3.jpg'
 published: 2020-01-18T08:00:00.000Z
 ---
