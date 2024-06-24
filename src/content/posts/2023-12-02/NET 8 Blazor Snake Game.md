@@ -1,5 +1,5 @@
 ---
-category: DotNet
+category: .Net
 tags:
   - CSharp
   - Blazor
