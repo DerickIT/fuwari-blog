@@ -1,5 +1,5 @@
 ---
-category: 观点
+category: Thoughts&Perspectives
 tags:
   - Notion
 status: 已发布
@@ -9,7 +9,7 @@ slug: the-end-of-software
 title: The End of Software
 urlname: 04f517cb-b151-4cb2-bb6b-b5e4cd5910bc
 date: '2024-06-03 00:26:00'
-updated: '2024-06-03 00:36:00'
+updated: '2024-06-25 23:21:00'
 image: 'https://images.unsplash.com/photo-1570215171323-4ec328f3f5fa?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2024-06-03T08:00:00.000Z
 ---

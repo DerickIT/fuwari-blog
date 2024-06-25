@@ -1,5 +1,5 @@
 ---
-category: 环境配置
+category: Tech Setup & Configuration
 tags:
   - ProgramEnv
   - PowerShell

@@ -1,5 +1,5 @@
 ---
-category: 观点
+category: Thoughts&Perspectives
 tags:
   - 人文
 status: 已发布
@@ -9,7 +9,7 @@ slug: manage-your-energy-not-your-time
 title: 'Energy Management: 10 Common Mistakes to Avoid'
 urlname: b9b19292-3b50-4f3b-b4f7-cfba54a437d5
 date: '2024-06-13 16:18:00'
-updated: '2024-06-13 16:23:00'
+updated: '2024-06-25 23:21:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_claesz_1628.jpg'
 published: 2024-06-13T08:00:00.000Z
 ---
