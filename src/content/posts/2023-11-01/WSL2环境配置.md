@@ -1,5 +1,5 @@
 ---
-category: Tech Setup & Configuration
+category: TechSetup&Configuration
 tags:
   - ProgramEnv
   - 云原生
@@ -12,7 +12,7 @@ slug: wsl2-environment-configuration
 title: WSL2环境配置
 urlname: bd266599-5cec-40ed-b803-521fe8cccdde
 date: '2023-11-27 15:37:00'
-updated: '2024-05-16 00:16:00'
+updated: '2024-06-26 18:26:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1878.jpg'
 published: 2023-11-01T08:00:00.000Z
 ---

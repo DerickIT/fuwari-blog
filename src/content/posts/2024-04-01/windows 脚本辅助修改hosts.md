@@ -1,5 +1,5 @@
 ---
-category: Tech Setup & Configuration
+category: TechSetup&Configuration
 tags:
   - ProgramEnv
   - PowerShell
@@ -10,7 +10,7 @@ slug: windows-script-assist-modify-hosts
 title: windows 脚本辅助修改hosts
 urlname: 142fe2d0-e85e-4776-ad94-ab1c13fb503c
 date: '2024-04-14 16:52:00'
-updated: '2024-05-16 00:16:00'
+updated: '2024-06-26 18:26:00'
 image: 'https://www.notion.so/images/page-cover/nasa_space_shuttle_columbia_and_sunrise.jpg'
 published: 2024-04-01T08:00:00.000Z
 ---

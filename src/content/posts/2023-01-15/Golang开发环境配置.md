@@ -1,5 +1,5 @@
 ---
-category: Tech Setup & Configuration
+category: TechSetup&Configuration
 tags:
   - ProgramEnv
   - Golang
@@ -10,7 +10,7 @@ slug: golang-development-environment-configuration
 title: Golang开发环境配置
 urlname: 63792556-e441-4c68-bdfc-f3afb56d64dd
 date: '2024-03-15 13:06:00'
-updated: '2024-05-16 00:16:00'
+updated: '2024-06-26 18:26:00'
 image: 'https://www.notion.so/images/page-cover/met_henri_rousseau_1907.jpg'
 published: 2023-01-15T08:00:00.000Z
 ---

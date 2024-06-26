@@ -1,5 +1,5 @@
 ---
-category: Tech Setup & Configuration
+category: TechSetup&Configuration
 tags:
   - Github
   - 笔记
@@ -12,7 +12,7 @@ slug: git-source-management-project
 title: Git原理与实践
 urlname: bec673d2-f48c-4bc5-9a06-2b485f162b42
 date: '2024-05-31 00:32:00'
-updated: '2024-06-25 19:02:00'
+updated: '2024-06-26 18:26:00'
 image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2021-05-31T08:00:00.000Z
 ---

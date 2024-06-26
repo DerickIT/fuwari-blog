@@ -1,5 +1,5 @@
 ---
-category: Tech Setup & Configuration
+category: TechSetup&Configuration
 tags:
   - ProgramEnv
   - NodeJS
@@ -10,7 +10,7 @@ slug: nodejs-initial-configuration
 title: NodeJS初始化配置
 urlname: 683b565e-75f1-4d55-a282-f9b3b73503b1
 date: '2023-11-16 18:08:00'
-updated: '2024-05-16 00:16:00'
+updated: '2024-06-26 18:26:00'
 image: 'https://images.unsplash.com/photo-1543536448-d209d2d13a1c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2019-11-16T08:00:00.000Z
 ---
