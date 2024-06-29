@@ -9,12 +9,12 @@ slug: learning-english-food-vocabulary-culture-a1-beginners
 title: 'Learning English: Food Vocabulary and Culture for A1 Beginners'
 urlname: 651e33ef-4e2e-423b-afc2-82830cbe7237
 date: '2024-06-25 23:58:00'
-updated: '2024-06-26 00:08:00'
+updated: '2024-06-29 23:09:00'
 image: 'https://images.unsplash.com/photo-1539632346654-dd4c3cffad8c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2021-06-25T08:00:00.000Z
 ---
 
-<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1Bx421Q7nU&p=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1Bx421Q7nU&p=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" muted="false"  danmaku="false"> </iframe>
 
 
 Hey everybody, welcome to this A1 English listening practice video. You can use this video to train your listening and comprehension as I speak. You ready?

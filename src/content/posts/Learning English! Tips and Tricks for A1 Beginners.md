@@ -9,12 +9,12 @@ slug: english-comprehension-made-easy-begin
 title: 'Learning English: Tips and Tricks for A1 Beginners'
 urlname: f16a6d51-f995-4cd9-b442-aa3ec9481b2a
 date: '2024-06-25 12:28:00'
-updated: '2024-06-25 23:33:00'
+updated: '2024-06-29 23:09:00'
 image: 'https://images.unsplash.com/photo-1565022536102-f7645c84354a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2021-06-24T08:00:00.000Z
 ---
 
-<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1Bx421Q7nU&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1Bx421Q7nU&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" muted="false"  danmaku="false"> </iframe>
 
 
 Hey everybody, welcome to this A1 English listening practice video. You can use this video to train your listening and comprehension as I speak.

@@ -9,12 +9,12 @@ slug: learning-english-new-years-resolutions-vocabulary-a1-beginners
 title: 'Learning English: New Year''s Resolutions Vocabulary for A1 Beginners'
 urlname: 41c6a9f1-0bc6-49ab-91e7-0b45afacef58
 date: '2024-06-26 00:03:00'
-updated: '2024-06-26 18:33:00'
+updated: '2024-06-29 23:09:00'
 image: 'https://images.unsplash.com/photo-1539632346654-dd4c3cffad8c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2021-06-28T08:00:00.000Z
 ---
 
-<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1Bx421Q7nU&p=5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1Bx421Q7nU&p=5" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" muted="false"  danmaku="false"> </iframe>
 
 
 Hey everybody, welcome to this A1 English listening practice video. You can use this video to practice your listening and comprehension as I speak. You ready?
