@@ -12,7 +12,8 @@ slug: setting-up-wsl2-with-fedora-40-on-windows-11-proxy-configuration-and-mirro
 title: Windows 11 下的 WSL2 开发环境：安装 Fedora 40、配置代理和镜像网络
 urlname: 35f4cf95-9dce-4071-8c15-d1f6085c9097
 date: '2024-07-24 18:18:00'
-updated: '2024-07-24 18:33:00'
+updated: '2024-07-25 15:16:00'
+image: 'https://images.unsplash.com/flagged/photo-1562599838-8cc871c241a5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2024-07-08T08:00:00.000Z
 ---
 
@@ -58,7 +59,7 @@ wsl --install
 在 WSL2 中配置代理可以让您的 `Linux` 环境使用 `Windows` 主机的网络设置。
 
 
-在旧的版本还需要手动配置`http/s`代理，现在最新版支持镜像网络模式，在后文有介绍
+在旧的版本还需要手动配置`http/https`代理，现在最新版支持**镜像网络**模式，在后文有介绍
 
 
 ## 4. 验证代理设置
@@ -109,7 +110,6 @@ wsl --install
 
 	```shell
 	sudo dnf update -y
-	
 	```
 
 2. 安装常用开发工具：
