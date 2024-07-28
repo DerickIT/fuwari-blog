@@ -1,5 +1,5 @@
 ---
-category: 三分钟技术
+category: QuickTechBites
 tags:
   - Linux
 status: 已发布

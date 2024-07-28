@@ -1,5 +1,5 @@
 ---
-category: 技术分享
+category: TechKnowledgeShare
 tags:
   - Mongodb
 status: 已发布
@@ -9,7 +9,7 @@ title: Mongodb学习笔记
 summary: MongoDB编程指南这本书的学习笔记
 urlname: 8c9e7b9d-56d1-4501-af6f-824ac3ff7ba4
 date: '2023-11-08 18:25:00'
-updated: '2024-05-08 23:04:00'
+updated: '2024-07-29 00:16:00'
 image: 'https://www.notion.so/images/page-cover/webb4.jpg'
 published: 2022-11-18T08:00:00.000Z
 ---

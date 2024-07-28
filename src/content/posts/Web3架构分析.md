@@ -1,5 +1,5 @@
 ---
-category: 技术分享
+category: TechKnowledgeShare
 tags:
   - Web3
   - 架构设计
@@ -10,7 +10,7 @@ title: Web3架构分析
 summary: The Architecture of a Web 3.0 application --- Web 3.0应用程序的架构 (preethikasireddy.com)
 urlname: e9c1a394-9631-4db7-8b9b-f4eb92f30d89
 date: '2023-11-17 21:06:00'
-updated: '2024-05-08 23:04:00'
+updated: '2024-07-29 00:16:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg'
 published: 2022-11-16T08:00:00.000Z
 ---

@@ -1,5 +1,5 @@
 ---
-category: 技术分享
+category: TechKnowledgeShare
 tags:
   - Web3
   - Solidity
@@ -9,7 +9,7 @@ slug: how-to-become-an-expert-in-web3-technologies-ethereum-ipfs-solidity
 title: 'How To Become an expert in Web3 technologies (Ethereum, IPFS, Solidity)'
 urlname: d09c3f68-35a8-4f91-a325-423f6fa66a94
 date: '2024-03-28 00:03:00'
-updated: '2024-05-08 23:04:00'
+updated: '2024-07-29 00:16:00'
 image: 'https://www.notion.so/images/page-cover/rijksmuseum_jansz_1649.jpg'
 published: 2024-03-24T08:00:00.000Z
 ---

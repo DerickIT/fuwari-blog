@@ -1,5 +1,5 @@
 ---
-category: 技术分享
+category: TechKnowledgeShare
 tags:
   - Terraform
   - DevOps
@@ -9,7 +9,7 @@ slug: how-to-effectively-manage-multiple-terraform-environments
 title: 如何有效管理多个 Terraform 环境
 urlname: a7b2a5aa-22f5-4b72-bb6b-b96ee84d89eb
 date: '2024-05-07 00:46:00'
-updated: '2024-05-25 18:11:00'
+updated: '2024-07-29 00:16:00'
 image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2024-05-22T08:00:00.000Z
 ---

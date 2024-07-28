@@ -1,5 +1,5 @@
 ---
-category: 技术分享
+category: TechKnowledgeShare
 tags:
   - Solidity
   - Web3
@@ -10,7 +10,7 @@ slug: solidity-vs-golang-best-language-for-blockchain-development
 title: Solidity 与 Golang：选择区块链开发的最佳语言
 urlname: 8fa56ae1-c844-485f-9d7f-bfdbc920c565
 date: '2024-03-26 22:12:00'
-updated: '2024-05-08 23:04:00'
+updated: '2024-07-29 00:16:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1875.jpg'
 published: 2024-03-26T08:00:00.000Z
 ---

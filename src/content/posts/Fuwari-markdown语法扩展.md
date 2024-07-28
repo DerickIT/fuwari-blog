@@ -1,5 +1,5 @@
 ---
-category: 技术分享
+category: TechKnowledgeShare
 tags:
   - Blog
   - JavaScript
@@ -9,7 +9,7 @@ slug: fuwari-md-syntactic-extend
 title: Fuwari-markdown语法扩展
 urlname: e45632f2-8e98-46f5-ac99-8063cb5be60b
 date: '2024-05-10 22:08:00'
-updated: '2024-05-10 22:24:00'
+updated: '2024-07-29 00:16:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_1.jpg'
 published: 2024-05-10T08:00:00.000Z
 ---

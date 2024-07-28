@@ -1,5 +1,5 @@
 ---
-category: 技术分享
+category: TechKnowledgeShare
 tags:
   - Web3
   - Smart Contract
@@ -11,7 +11,7 @@ slug: how-to-develop-and-deploy-an-erc20-smart-contract-using-foundry
 title: 如何使用Foundry开发并部署一个ERC20智能合约
 urlname: 68c138d5-7b52-4005-8698-e008ef444758
 date: '2023-11-26 17:45:00'
-updated: '2024-05-08 23:04:00'
+updated: '2024-07-29 00:16:00'
 image: 'https://www.notion.so/images/page-cover/woodcuts_1.jpg'
 published: 2023-11-02T08:00:00.000Z
 ---

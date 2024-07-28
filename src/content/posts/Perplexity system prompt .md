@@ -1,5 +1,5 @@
 ---
-category: 技术分享
+category: TechKnowledgeShare
 tags:
   - 总结
 status: 已发布
@@ -8,7 +8,7 @@ slug: perplexity-system-prompt
 title: 'Perplexity system prompt '
 urlname: 6c0d857a-aabb-4c48-8f1c-60633810bcc7
 date: '2024-04-22 13:26:00'
-updated: '2024-05-08 23:26:00'
+updated: '2024-07-29 00:16:00'
 image: 'https://www.notion.so/images/page-cover/webb1.jpg'
 published: 2024-04-20T08:00:00.000Z
 ---

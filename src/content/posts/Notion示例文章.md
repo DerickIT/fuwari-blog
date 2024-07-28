@@ -1,5 +1,5 @@
 ---
-category: 工具分享
+category: TechToolsShared
 tags:
   - Notion
   - Blog
