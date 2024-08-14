@@ -8,7 +8,7 @@ slug: what-is-rpa
 title: RPA工具使用介绍
 urlname: dac1c71a-b2a8-4a55-a0dd-00946eee8517
 date: '2024-01-13 21:36:00'
-updated: '2024-07-29 11:38:00'
+updated: '2024-08-14 22:16:00'
 image: 'https://images.unsplash.com/photo-1603923407797-2d25dfbbb1a0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2023-07-29T08:00:00.000Z
 ---
