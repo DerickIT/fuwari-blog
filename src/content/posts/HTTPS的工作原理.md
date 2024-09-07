@@ -2,15 +2,15 @@
 category: QuickTechBites
 tags:
   - FrontEnd
-  - 架构设计
-  - 笔记
+  - ArchitectureDesign
+  - Notes
 status: 已发布
 catalog: []
 slug: know-how-is-https-workflow
 title: HTTPS的工作原理
 urlname: 4984d049-f013-4816-a65c-4b83a09f7b7c
 date: '2024-05-31 00:40:00'
-updated: '2024-07-29 11:13:00'
+updated: '2024-09-07 17:44:00'
 image: 'https://images.unsplash.com/photo-1673154548234-6cc96fa9a8a6?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2024-03-29T08:00:00.000Z
 ---

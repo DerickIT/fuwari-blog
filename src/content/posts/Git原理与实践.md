@@ -2,7 +2,7 @@
 category: TechSetup&Configuration
 tags:
   - Github
-  - 笔记
+  - Notes
   - DevOps
   - 总结
 status: 已发布

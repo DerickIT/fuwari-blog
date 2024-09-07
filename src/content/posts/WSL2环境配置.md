@@ -2,7 +2,7 @@
 category: TechSetup&Configuration
 tags:
   - ProgramEnv
-  - 云原生
+  - CloudNative
   - Docker
   - Web3
 status: 已发布
@@ -11,7 +11,7 @@ slug: wsl2-environment-configuration
 title: WSL2环境配置
 urlname: bd266599-5cec-40ed-b803-521fe8cccdde
 date: '2023-11-27 15:37:00'
-updated: '2024-07-26 23:01:00'
+updated: '2024-09-07 17:43:00'
 image: 'https://www.notion.so/images/page-cover/met_william_morris_1878.jpg'
 published: 2023-11-01T08:00:00.000Z
 ---

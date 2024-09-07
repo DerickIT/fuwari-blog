@@ -2,7 +2,7 @@
 category: QuickTechBites
 tags:
   - BackEnd
-  - 架构设计
+  - ArchitectureDesign
 status: 已发布
 catalog: []
 slug: ssl-and-tls

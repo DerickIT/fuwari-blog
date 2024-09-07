@@ -1,7 +1,7 @@
 ---
 category: AgileR&D
 tags:
-  - 笔记
+  - Notes
   - 总结
 status: 已发布
 catalog: []
@@ -9,7 +9,7 @@ slug: team-work-dex
 title: 从翻译Solana文档讨论分布式协作
 urlname: 9f2f48cf-e586-472c-b5d1-048f8066e6ad
 date: '2024-05-28 00:00:00'
-updated: '2024-05-28 00:09:00'
+updated: '2024-09-07 17:44:00'
 image: 'https://www.notion.so/images/page-cover/nasa_space_shuttle_challenger.jpg'
 published: 2024-05-28T08:00:00.000Z
 ---

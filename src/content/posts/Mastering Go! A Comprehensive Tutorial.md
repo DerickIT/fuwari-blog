@@ -2,7 +2,7 @@
 category: Golang
 tags:
   - Golang
-  - 云原生
+  - CloudNative
   - DevOps
 status: 已发布
 catalog: []
@@ -10,7 +10,7 @@ slug: how-to-learning-golang-use-comprehensive-tutorial
 title: 'Mastering Go: A Comprehensive Tutorial'
 urlname: fa5fc8f1-436e-454f-942c-10670da48df8
 date: '2024-06-09 00:31:00'
-updated: '2024-07-22 16:52:00'
+updated: '2024-09-07 17:43:00'
 image: 'https://images.unsplash.com/photo-1683486404739-431f36a31c6f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb'
 published: 2023-07-02T08:00:00.000Z
 ---

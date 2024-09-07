@@ -2,7 +2,7 @@
 category: Golang
 tags:
   - Golang
-  - 笔记
+  - Notes
 status: 已发布
 catalog: []
 slug: concurrent-safe-counter-using-rwmutex-in-golang

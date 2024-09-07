@@ -1,7 +1,7 @@
 ---
 category: QuickTechBites
 tags:
-  - 架构设计
+  - ArchitectureDesign
 status: 已发布
 catalog: []
 slug: what-is-oauth2-0
