@@ -20,7 +20,7 @@ published: 2023-11-15T08:00:00.000Z
 为了帮助简化云应用程序的复杂性，微软推出了.NET Aspire
 
 
-![Untitled.png](https://r2.ithuo.net/elog-image/df9cd321d6d8708c21ed0e472d413a0f.png)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/04572440-4e76-4760-ba68-3d0d74b19c08/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241108T213334Z&X-Amz-Expires=3600&X-Amz-Signature=4d8912bdcfd7b2ca6355f6e4328822dadee843a4ae384da6ee5efe0491eaf1fa&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 .NET Aspire 是一个用于构建弹性、可观察和可配置的云原生应用程序的成熟套件。它包括一组经过精心挑选的组件，通过默认包含服务发现、遥测、弹性和健康检查来增强云原生能力。结合了复杂场景但提升简单的本地开发人员体验，.NET Aspire 使您能够轻松发现、获取和配置云原生应用程序的基本依赖项。
@@ -38,7 +38,7 @@ published: 2023-11-15T08:00:00.000Z
 初学者应用程序旨在让您启动并运行一个可以试用的.NET Aspire解决方案。该应用程序由两个项目和一个Redis缓存组成。前端项目是一个Blazor Web应用程序，它调用后端API获取天气信息。
 
 
-![dotnetAspire-Solution-Explorer2.png](https://r2.ithuo.net/elog-image/42b19f45c15135189141a9749a83627f.png)
+![dotnetAspire-Solution-Explorer2.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/dotnetAspire-Solution-Explorer2.png)
 
 
 你会注意到两个你以前没有见过的新项目 `<appname>.AppHost` 和 `<appname>.ServiceDefaults` 。
@@ -59,13 +59,13 @@ published: 2023-11-15T08:00:00.000Z
 这个仪表板不仅仅是一个进入云原生应用程序的窗口;它是一个交互式平台，可以为您的项目提供有价值的见解，并突出显示任何错误，从而进行更深入的调查。下面是一个图像，显示了一个已识别错误的项目，用红点表示：
 
 
-![dotnet-Aspire-dashboard-projects-errors.png](https://r2.ithuo.net/elog-image/a52ef75c46e04dbfc66573ea8b27c3ae.png)
+![dotnet-Aspire-dashboard-projects-errors.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/dotnet-Aspire-dashboard-projects-errors.png)
 
 
 我们还可以看到所有项目的日志，甚至还有一个分布式跟踪，显示了对天气页面的请求。跟踪是诊断分布式系统中问题的不可或缺的工具。
 
 
-![dotnet-Aspire-trace-view-filter.png](https://r2.ithuo.net/elog-image/d2f51a733b3c73064065366046173948.png)
+![dotnet-Aspire-trace-view-filter.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/dotnet-Aspire-trace-view-filter.png)
 
 
 开发人员仪表板是您收集所有开发时间诊断数据以及对开发机器上的速度减慢和错误进行故障排除的地方。它使用的开放标准与您在配置生产遥测系统（如Grafana+Prometheus、Application Insights等）时在生产中使用的开放标准完全相同。
@@ -80,7 +80,7 @@ published: 2023-11-15T08:00:00.000Z
 现在让我们开始看看这些项目有什么不同。首先，Web项目有一个NuGet包，其名称为 `Aspire.StackExchange.Redis.OutputCaching` ，其中包含 `Aspire` 。
 
 
-![dotnetAspire-Components-Dependencies-Packages.png](https://r2.ithuo.net/elog-image/efe421747645cfce08e2099be0bd8753.png)
+![dotnetAspire-Components-Dependencies-Packages.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/dotnetAspire-Components-Dependencies-Packages.png)
 
 
 如果你沿着看，没有看到这个包，你可能在创建项目的时候没有选中“**使用Redis缓存**”。
@@ -263,7 +263,7 @@ builder.Build().Run();
 .NET Aspire仪表板仅在AppHost运行时可见，并将在您启动项目时自动启动。左侧导航提供了指向我们将在此处描述的仪表板不同部分的链接。此外，仪表板右上角的齿轮图标提供了对设置页面的访问，该页面允许您配置仪表板体验。
 
 
-![dotnet-Aspire-metrics-view.png](https://r2.ithuo.net/elog-image/11ed413f2b6637be84daacc9085068b7.png)
+![dotnet-Aspire-metrics-view.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/dotnet-Aspire-metrics-view.png)
 
 - 项目：项目页面是仪表板的主页，它列出了应用程序中的所有项目资源。它的主要功能是向你显示每个项目的状态，并给予你应用程序各部分的URL。当一个项目记录了错误时，它还会显示一个标记，让你轻松地锁定问题。
 - 容器：此页面与项目页面相同，但用于应用程序的容器资源。在我们上面的教程中，Redis缓存容器将显示在这里。
@@ -297,7 +297,7 @@ builder.Build().Run();
 .NET Aspire还提供了我们上面提到的开发人员仪表板，它为您提供了应用程序的所有日志，指标和跟踪。仪表板的一个突出功能是Traces视图，它提供了通过应用程序的请求的分布式跟踪。在下面的示例中，我们向 `Aspire Starter App` 模板的天气页面发出了请求。您可以看到请求如何从前端转到Redis缓存，以查看数据是否被缓存（DATA redis GET行），然后因为该高速缓存中没有数据，它会调用后端API，最后缓存该数据。
 
 
-![dotnetAspire-Redis-Cache-View.png](https://r2.ithuo.net/elog-image/ce88cf6c5093c0f9684e0023e74a7d15.png)
+![dotnetAspire-Redis-Cache-View.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/dotnetAspire-Redis-Cache-View.png)
 
 
 这种类型的视图使得查找诸如用户操作之类的东西，这些操作会导致系统中的低效路径。您将能够立即看到正在进行的多个数据库调用或正在减慢系统其他部分的单个服务。如果没有这种类型的数据和数据视图，这些类型的问题可能很难发现。
@@ -330,13 +330,13 @@ builder.Build().Run();
 .NET Aspire是.NET 8的一部分。因此，您需要在尝试使用堆栈的任何部分之前进行升级。我们在这里提供了工具和指导来帮助您：升级助手|.NET（microsoft.com）。如果你想使用Visual Studio工具，你还需要最新的Visual Studio预览版，在撰写本文时是17.9。
 
 
-![Untitled.png](https://r2.ithuo.net/elog-image/328ea874b0f522c340c4323eabe9c6c8.png)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/04eacd40-23e7-4f47-a8da-acf6029b5a21/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241108T213335Z&X-Amz-Expires=3600&X-Amz-Signature=9a778335a6af0a1de90e9186ac0d64b51c5697ee1ce85abf5460b8f1a7d39b79&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 然后，系统将提示您确认项目和操作。
 
 
-![dotnetAspire-Add-Orchestrator-Support.png](https://r2.ithuo.net/elog-image/ab6584fb647e24b2ca1f87dff527dcb9.png)
+![dotnetAspire-Add-Orchestrator-Support.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/dotnetAspire-Add-Orchestrator-Support.png)
 
 
 这将创建一个 `AppHost` 和 `ServiceDefaults` 项目，您选择的项目将已添加到 `AppHost` 。您现在可以启动AppHost项目，并将看到开发人员仪表板。从这里，您可以添加对 `ServiceDefaults` 项目的引用，并在应用程序构建器上调用 `AddServiceDefaults()` 方法。这将为此项目设置Open Telemetry、运行状况检查端点、服务发现和默认弹性模式。

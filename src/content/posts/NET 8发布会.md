@@ -25,7 +25,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 5. MAUI更新：使用.NET MAUI将您的移动的应用程序部署到最新版本的iOS和Android
 6. C#12语言特性更新
 
-![Untitled.png](https://r2.ithuo.net/elog-image/661abd14ff3e544152a31e0a645739b2.png)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/10cda029-65af-4ea7-b30e-605b2d9e6c57/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241108T213339Z&X-Amz-Expires=3600&X-Amz-Signature=b97c08a2c0137aafe81243141db73d23b3bab4ad8776f258b14288e22a29264d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### **迄今为止最快的.NET**
@@ -34,7 +34,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 .NET 8在整个堆栈中带来了数千项性能改进。一个名为动态配置文件引导优化（PGO）的新代码生成器可以根据实际使用情况优化您的代码，默认情况下可以将应用的性能提高20%。现在支持的AVX-512指令集使您能够对512位数据向量执行并行操作，这意味着您可以在更短的时间内处理更多的数据。原始类型（数值及以上）现在实现了一个新的可格式化和可解析接口，使它们能够直接格式化和解析为UTF-8，而无需任何代码转换开销。
 
 
-![Untitled.png](https://r2.ithuo.net/elog-image/ff54dba447c35d9f6eefbd266b920daf.png)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/edcbf140-d619-4389-a4a6-f97c113ab9f2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241108T213339Z&X-Amz-Expires=3600&X-Amz-Signature=a92683acee7b8ddc69af637fbc4fdcbd7ee70607ce1a2cb85c996fea8dee850f&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### **.NET Aspire -一个自定义的堆栈，用于构建可观察的，生产就绪的云原生应用程序微服务框架组件**
@@ -43,7 +43,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 .NET Aspire是一个堆栈，用于使用. NET构建弹性，可观察和可配置的云原生应用程序。它包括一组针对云原生增强的策划组件，默认情况下包括遥测，弹性，配置和健康检查。为复杂的服务提供简单的本地开发人员体验，.NET Aspire可以在轻松发现、获取和配置云原生应用程序的基本依赖项。今天发布了.NET Aspire的第一个预览版。
 
 
-![Untitled.png](https://r2.ithuo.net/elog-image/f8e683a4a51c0deec5a273242b00673b.png)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/ff6a34d3-ac25-412d-9204-a7263d00528f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241108%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241108T213339Z&X-Amz-Expires=3600&X-Amz-Signature=6debf9d5f872c9069517de06c3a59893671c8c75ca15c4ca193cba3effc73c90&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### **.NET 8容器增强功能-更安全，更紧凑，更高效**
@@ -52,7 +52,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 使用容器打包您的应用程序比以往任何时候都更容易，更安全。每个.NET映像都包含一个非root用户，从而通过一行配置实现更安全的容器。.NET SDK工具发布的容器镜像没有Dockerfile，默认情况下是非root。由于更小的.NET基础映像-包括我们映像的新实验变体，可为原生AOT提供真正最小的应用程序大小，因此可以更快地部署容器化应用程序。选择使用新的Chiseled Ubuntu映像变体进行更多的安全加固，以进一步减少您的攻击面。使用Dockerfiles或SDK工具，为任何架构构建应用和容器镜像。
 
 
-![Containers2.png](https://r2.ithuo.net/elog-image/d034369a960a26ac6fd7f0abc8dfbc95.png)
+![Containers2.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/Containers2.png)
 
 
 ## 原生AoT -迈向更高密度可持续计算之旅
@@ -61,7 +61,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 将.NET应用程序编译为使用更少内存并立即启动的本机代码。无需等待JIT（即时）编译器在运行时编译代码。无需部署JIT编译器和IL代码。AOT应用仅部署应用所需的代码。您的应用现在可以在不允许JIT编译器的受限环境中运行。
 
 
-![AOTOptimizations4.png](https://r2.ithuo.net/elog-image/cac41bf4275abd80ecdcf22efd041f51.png)
+![AOTOptimizations4.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/AOTOptimizations4.png)
 
 
 ## 人工智能-将AI融入.NET应用程序
@@ -76,7 +76,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 - [Retrieval Augmented Generation](https://github.com/Azure-Samples/azure-search-openai-demo-csharp)[检索增强生成](https://github.com/Azure-Samples/azure-search-openai-demo-csharp)
 - [Developing Apps using Azure AI services](https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/)[使用Azure AI服务开发应用](https://devblogs.microsoft.com/dotnet/demystifying-retrieval-augmented-generation-with-dotnet/)
 
-![InfuseAIdotnetapps1.png](https://r2.ithuo.net/elog-image/83deff5b4288b662a8a1d03f7cee1eff.png)
+![InfuseAIdotnetapps1.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/InfuseAIdotnetapps1.png)
 
 
 ## Blazor -使用.NET构建全栈Web应用程序
@@ -85,7 +85,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 .NET 8中的Blazor可以同时使用服务器和客户端来处理所有的Web UI需求。这是全栈Web UI！通过几项新的增强功能，专注于优化页面加载时间，可扩展性和提升用户体验，开发人员现在可以在同一个应用程序中使用Blazor Server和Blazor WebAssembly，在运行时自动将用户从服务器转移到客户端。由于新的基于“Jiterpreter”的运行时和新的内置组件，您的.NET代码在WebAssembly上运行得更快。作为增强.NET 8中整体身份验证、授权和身份管理的一部分，Blazor现在支持生成完整的基于Blazor的Identity UI。
 
 
-![Blazor2.png](https://r2.ithuo.net/elog-image/3f7d7974ae4067da8edd66710f7becdb.png)
+![Blazor2.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/Blazor2.png)
 
 
 ## .NET MAUI -提升性能、可靠性和开发人员体验
@@ -94,7 +94,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 ..NET MAUI为您提供了一个单一的项目系统和单一的代码库来构建WinUI，Mac Catalyst，iOS和Android应用程序。原生AOT（实验性）现在支持针对类iOS平台。针对.NET MAUI的新Visual Studio代码扩展为您提供了开发跨平台.NET移动的和桌面应用程序所需的工具。现在支持Xcode 15和Android API 34，允许您针对最新版本的iOS和Android。在性能、控件和UI元素以及特定于平台的行为方面进行了大量的质量改进，例如桌面交互添加了更好的点击处理、键盘侦听器等。
 
 
-![dotnetMAUIin8-1.png](https://r2.ithuo.net/elog-image/6a436844619283a769b1daa8101f794d.png)
+![dotnetMAUIin8-1.png](https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2023/11/dotnetMAUIin8-1.png)
 
 
 ## C# 12特性-简化语法，提高开发人员的生产力

@@ -129,7 +129,7 @@ ObjectId 类似唯一主键，可以很快的去生成和排序，包含 12 byte
 - 紧接的两个字节由进程 id 组成 PID
 - 最后三个字节是随机数
 
-![1620731779142-4439a94d-d3e5-44b3-b32f-4a01685db860.jpeg](https://r2.ithuo.net/elog-image/c2be9f86f4004e2f58fa7de70b899135.jpeg)
+![1620731779142-4439a94d-d3e5-44b3-b32f-4a01685db860.jpeg](https://cdn.nlark.com/yuque/0/2021/jpeg/8388311/1620731779142-4439a94d-d3e5-44b3-b32f-4a01685db860.jpeg?x-oss-process=image%2Fresize%2Cw_670%2Climit_0%2Finterlace%2C1)
 
 - MongoDB 中存储的文档必须有一个 _id 键。这个键的值可以是任何类型的，默认是个 ObjectId 对象
 - 由于 ObjectId 中保存了创建的时间戳，所以你不需要为你的文档保存时间戳字段，你可以通过 getTimestamp 函数来获取文档的创建时间:

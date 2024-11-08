@@ -35,7 +35,7 @@ The most famous app is Facebook. Facebook is very popular all around the world. 
 _最出名的APP是Facebook，在全世界都很受欢迎。全世界的人每天都在使用Facebook,不管是手机端还是PC端。我认为大多数人是在手机端使用。Facebook 创办于2004年，但那时候还不流行。我是在2010年开始用的。你呢？你知道如何使用Facebook吗？_
 
 
-![Expression_21@2x.png](https://r2.ithuo.net/elog-image/452978229d01b22e3f49757797e92162.png)
+![Expression_21@2x.png](https://res.wx.qq.com/t/wx_fed/we-emoji/res/v1.3.10/assets/Expression/Expression_21@2x.png?tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 
 
 So let's talk about what you can do on Facebook. First of all, you can use it to post text, pictures, and videos. When you post something, all your friends can see it. I don't post much on Facebook. You can also use Facebook to send messages. You can send messages to one person or to a group. You can also follow people and pages on Facebook. I follow some news pages, so I can see the news on Facebook. You can do many things on this app, but I don't really like Facebook.

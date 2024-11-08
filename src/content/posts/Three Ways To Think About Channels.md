@@ -26,7 +26,7 @@ But it is not enough to know how the channel API works. You also need to be comf
 Lastly, understanding how the Go runtime manages channels is important when comparing implementations. In some cases, channels add unnecessary overhead compared to mutexes or atomics. But alternatives to channels can disagree with the Golang runtime in ways that make source code clunky and hamper performance.
 
 
-![max-channel-abstractions.png](https://r2.ithuo.net/elog-image/7a681547ea8a60b13e48db4b8d2e8ba8.png)
+![max-channel-abstractions.png](https://www.dolthub.com/blog/static/c640141a342a471bdcdf2e68945092b0/ad12c/max-channel-abstractions.png)
 
 
 Segmenting these concerns helps me focus on the right things at the right time. When I want to write channel code that works, I think "queues". When I need my channel code to stop running, I compare concurrency patterns for tracking threads. When I want to compare performance and safety, the theoretical concerns matter.
@@ -44,7 +44,7 @@ We will deep dive these topics to get a better understanding of each.
 Channels are implemented as a queue with lock-protected access. Senders try to add to the queue. Receivers try to read from the queue. The queue size is fixed. Senders can pile up waiting to add to the queue, and receivers can pile up competing for the next item. The sender and receiver queues (as opposed to the message queue), sit in linked lists. The Go runtime parks and signals senders and receivers manually to avoid, for example, a sender wasting time spinning on a full queue while a receiver could be doing work.
 
 
-![max-channel-queue.png](https://r2.ithuo.net/elog-image/c1ada4cb009be3c2afcbd31f70c46fea.png)
+![max-channel-queue.png](https://www.dolthub.com/blog/static/929347d5ab95c8ec9090c0cb50aa7032/ad12c/max-channel-queue.png)
 
 
 Here is how you send work to a channel:
@@ -350,7 +350,7 @@ Embedding channels into the language runtime also makes it easier to write more 
 [**Aaron's**](https://www.dolthub.com/team#aaron) recent [**fetcher refactor**](https://www.dolthub.com/blog/2024-05-08-dolt-new-puller/) is one example where almost a dozen channel contexts coordinate to download table updates. The implementation [**in the code**](https://github.com/dolthub/dolt/blob/b4492803f152878a91e6c9f49c2262decf22f55a/go/libraries/doltcore/remotestorage/chunk_fetcher.go#L65) is only concise because the channel API abstracts so many details. And the Go runtime's smart context switching makes it possible to maximize productive work in-between network calls.
 
 
-![old_puller_sequence_uml.png](https://r2.ithuo.net/elog-image/2b5754d36e782cd2567ee65a55b9a2f5.png)
+![old_puller_sequence_uml.png](https://www.dolthub.com/blog/static/09749f17ede13df6fc1a2a2fbdd69dbf/ad12c/old_puller_sequence_uml.png)
 
 
 # **Summary**

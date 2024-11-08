@@ -54,7 +54,7 @@ npm config set registry https://registry.npmjs.org/
 ```
 
 
-![kr9swdjcl6.png](https://r2.ithuo.net/elog-image/f6168e5ad1d043ca4bdba5c52d37a69c.png)
+![kr9swdjcl6.png](https://ask.qcloudimg.com/http-save/yehe-5774797/kr9swdjcl6.png)
 
 - **方式2：nrm 工具**
 	- nrm can help you easy and fast switch between different npm registries, now include: npm, cnpm, taobao, nj(nodejitsu).
@@ -69,10 +69,10 @@ nrm test [registry] // 测速
 ```
 
 
-![5ufngnd8h5.png](https://r2.ithuo.net/elog-image/0017b48b83a3822404228232b76490ee.png)
+![5ufngnd8h5.png](https://ask.qcloudimg.com/http-save/yehe-5774797/5ufngnd8h5.png)
 
 
-![rwryrg9jqn.png](https://r2.ithuo.net/elog-image/33177e82239727fd8b018dd2032308a3.png)
+![rwryrg9jqn.png](https://ask.qcloudimg.com/http-save/yehe-5774797/rwryrg9jqn.png)
 
 
 <u>**2.2. 配置代理**</u>

@@ -108,7 +108,7 @@ Notion示例文章的子页面
 ## Media（媒体）
 
 
-![cover.JPG](https://r2.ithuo.net/elog-image/10a91945736a3027f2854218fa71c659.JPG)
+![cover.JPG](https://image.1874.cool/moon/cover.JPG)
 
 
 [bookmark](https://elog.1874.cool)
