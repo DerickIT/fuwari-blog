@@ -45,33 +45,33 @@ notion→slack→pipedream→elog→hexo→github→cloudflare→[最终博客](
 
 - 注册notion，并复制 [elog-notion-template | 表格](https://1874.notion.site/09ff9e1e141744c6af0a1f69d2a3d834?v=a09065f9266446afa745b475044daca6) 数据库到空间内，记录数据库ID。创建integrations [https://www.notion.com/my-integrations](https://www.notion.com/my-integrations) 并集成到刚复制的这个模板中，记录Integrations的Secrets当作同步Token。(**注意**两个关键要素**NOTION_DATABASE_ID**和**NOTION_TOKEN**)
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/2394fa24-4767-4945-a07c-24fcf7d22af1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=fcfad1c33f3521d9c3cfbd40d861d373152d6b465e385b166e5f19724c970eee&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/2394fa24-4767-4945-a07c-24fcf7d22af1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=a12483c50dfd4604a92aa4c24b1d2d80e296ef94d0d35dfea619fec2b46e43cf&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/814f0514-62dd-4190-a7c7-e2f263f96104/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=42d10e6b2713a6709ccbfc9e3a6161214dbc35eb3c4a12acbd3129f07bb39c5b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/814f0514-62dd-4190-a7c7-e2f263f96104/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=bc13a13c3ab6841eb610566e0359dc38bc15b298f8bed2bd1c0983309105ed5a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 第三步
 
 - 注册slack，添加notion应用，与notion进行关联，并且配置小闪电（自动程序）用于监听文档状态，例如当有文档status设置为`已发布`，则给slack发送消息
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/088bec8e-f897-4660-935c-18f1394db21a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=05aa23e9b5983dd14d9f8d2f25f88dc3a5c063c5628a85f37e5e5b314cb73c46&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/088bec8e-f897-4660-935c-18f1394db21a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=4af1af8a73ea1cb50442f74a902a124fc3fabf3497303f3c4a9531fe13f15dc2&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/883a3ede-3ae4-4e14-a6a4-094984a0a640/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=def1972ecc71ac181c585c822f10140e0300e47c75d789949ca0c65f881c0fef&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/883a3ede-3ae4-4e14-a6a4-094984a0a640/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=ede4ad8a65e0d2eccdce4af0e83e7850851a11ed0eeb3aef746aeadec322d68b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/1698a25b-8722-44ef-90c9-5844df15e985/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=6c23f7258881241f8769b0c5e37e326760624d221b5e6ecb2c5c8aeafe553a84&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/1698a25b-8722-44ef-90c9-5844df15e985/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=be649e8c9aeaf8c8f34c08b02ddd24f2414000204a5d6b4dd0747b614cc617ff&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 第四步
 
 - 注册pipedream，添加自动化脚本`trigger`用于监听slack的消息，并通知GitHub Workflow Action进行打包发布，创建`trigger`和`http`调用通知。需要**提前**在Github创建存储仓库并生成**`Github Token`**
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/aae800af-3109-4966-bf06-681bb5182683/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=f01ab50390d033e48dc540f300e9363227e367b1b98ef3eeaaa621394423fc04&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/aae800af-3109-4966-bf06-681bb5182683/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=89e2c7da66245c00ef42ede4008df99781d544e4f34a01a3df95e64662853a86&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/375dffae-f308-44e9-abc7-a93bcaad9456/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=fa34ae908059d3412df9bb222f15163da83be9ae7d667588ab468662775a6fe7&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/375dffae-f308-44e9-abc7-a93bcaad9456/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=2a03ffb15c634ba8db5e98e51390900a2272f5748741153fdbe917f9e7e5a935&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 - 使用elog提供的`vercel-severless`服务可以很方便的调用GitHub的`Deploy API`
 
@@ -82,7 +82,7 @@ https://serverless-api-elog.vercel.app/api/github?user=cyolc932&repo=elog&event_
 
 - 如果点击Test调用Github API没有出现`Success`，需要检查`Github Token`
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/4c628495-7482-441a-b3de-39575ea51c35/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=f4ecb0a18d46eb3a1e6ff5614e2f2cab76518ca2ed349a2a68a6a10052de39ad&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/4c628495-7482-441a-b3de-39575ea51c35/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=9f47c71a789ec04887d8cb6fd7aa471bc563ea055f59b8d41a5d69e3e027f02c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 第五步
@@ -118,7 +118,7 @@ npx @elog/cli clean
 
 - 在代码路径中初始化elog后，会出现这些elog开头的配置文件，使用哪个平台就配置哪个，比如我选择的是`notion+GitHub`，注意将`.elog.env`加入忽略文件，避免泄露关键信息
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/9284cc58-67da-4509-8410-506d5858484b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=34dbdd28b63813d59dc28bfbca83be8a859e25e4ee39725e249bc2aa7d05f138&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/9284cc58-67da-4509-8410-506d5858484b/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=9208aba610ac59be17cbe988a330f3bd58dce9e7f80e64b567aacf59f33b3429&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 - 配置`.elog.env`后，继续配置`elog.config.js`，关键配置如下
 
@@ -201,14 +201,14 @@ module.exports = {
 
 - 现在`elog`环节配置结束，使用命令验证是否可以正常同步
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/3f55db07-5727-4b52-be1f-caf221731c94/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=006ad392ef796e0e1a0ba3817f80b9751a439f10e79a01c48c0fd0781a95af72&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/3f55db07-5727-4b52-be1f-caf221731c94/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=5477b678d47c3b3234dc7eec3f4f1374b28b34328a83051f5787f34526416c3b&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 第七步
 
 - 配置`GitHub`环境变量和`Github Action` ，在你创建的GitHub存储库中点击`Settings`如下图步骤
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/bcde9e11-dcc0-40f3-9a68-4c6ce284bebf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=1196be4be69ccc9315c6665b138af9487c9e35bb2337449f001699837e4631de&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/bcde9e11-dcc0-40f3-9a68-4c6ce284bebf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=bc040893e2bafb4db04c62e8d6a3d3249657d07071702296eee4fc79633678f0&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 第八步
@@ -284,11 +284,11 @@ jobs:
 
 - 注册`Cloud Flare`或者`Vercel`作为站点托管平台，如果仅仅是备份目的，在第8步完成就结束了
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/4f26828f-dd91-493a-9815-d1dfda8583f6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=469029fb26a53009c0474640c56d312b6f612dcdffad7762c97e01399502e3d1&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/4f26828f-dd91-493a-9815-d1dfda8583f6/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=1e6a630064dbea641c0cf87e91a52a7f6da2a65dc63eb91dbb9950333fa4611e&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 - 在`CloudFlare`创建`pages`应用，连接你的`GitHub`仓库，构建命令如下，如果有域名可以使用子域名映射进来，比如我的将`blog`映射到此`pages`下。添加完成之后，每次`GitHub`提交后`CloudFlare`就会拉取代码，重新构建。
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/554689e6-dfbc-4fe6-86f1-6529e993befa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T053853Z&X-Amz-Expires=3600&X-Amz-Signature=17e967b6519219ebf49a94cd7fdc312a71520b2b8c24176a0d2e91f46bbaa601&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/554689e6-dfbc-4fe6-86f1-6529e993befa/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241116T213305Z&X-Amz-Expires=3600&X-Amz-Signature=d355a3be719e0658eaff23664cef8c99ca04e5937de46d310fe672c2a86916aa&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 第十步
