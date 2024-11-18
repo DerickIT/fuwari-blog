@@ -25,7 +25,7 @@ published: 2023-12-13T08:00:00.000Z
 在配置请求代理时，Run、Map和Use扩展方法起着关键作用。请求代理，作为一个单独的处理步骤，可以作为匿名方法（称为内联中间件）在行内设置，也可以在可重用的类中定义。这些类和内联方法共同形成中间件组件。请求管道中的每个中间件组件都有责任调用序列中的下一个组件，或者在某些情况下，停止管道。当一个中间件组件停止处理时，它被称为"终端中间件"，因为它有效地阻止了后续中间件进一步处理请求。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/da807807-d02d-4fa1-86b6-db45e4678714/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241117T213249Z&X-Amz-Expires=3600&X-Amz-Signature=ed1aca42c3d44396f5af760d1890298e01752bd4f560c9bc168ad4b143dac00c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/da807807-d02d-4fa1-86b6-db45e4678714/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241118T053949Z&X-Amz-Expires=3600&X-Amz-Signature=44a5f5d1ed0639719a6efd2304b27094cb80101f24097f59266efe2b2e9d0262&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 中间件
@@ -59,7 +59,7 @@ published: 2023-12-13T08:00:00.000Z
 顺序之所以重要，是因为每个中间件组件可能会修改请求或响应，它们的执行顺序可能会影响最终的结果。如果你有身份验证中间件，它应该在依赖于经过身份验证的用户信息的其他中间件之前执行。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/24f795a2-1c5a-4a6b-a0d8-2afb160076f1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241117T213249Z&X-Amz-Expires=3600&X-Amz-Signature=b42b7c13a9f4bab648e5dc2d6be4f1d02a766008edd980e759ab4e6d6b999ece&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/24f795a2-1c5a-4a6b-a0d8-2afb160076f1/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241118T053949Z&X-Amz-Expires=3600&X-Amz-Signature=7a5aab847a94d02f1197fa3ed565429093e1727a1b6ae8fe9ded319b4b30e9ff&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### 举例
@@ -74,7 +74,7 @@ published: 2023-12-13T08:00:00.000Z
 ```
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/371d9517-dafe-4432-94b7-2d14d1593167/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241117T213249Z&X-Amz-Expires=3600&X-Amz-Signature=c9b5ca159a853de1b8c1c73b560efcf0ba70d4f57eb5ceb3f3cd72ad90332972&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/371d9517-dafe-4432-94b7-2d14d1593167/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241118T053949Z&X-Amz-Expires=3600&X-Amz-Signature=f9ac733a6b3b68aec1349d6ea3dc6b729e8396ddf23a8909a11a2d66eab95561&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 中间件处理
@@ -84,7 +84,7 @@ published: 2023-12-13T08:00:00.000Z
 短路是根据特定条件停止执行管道中的中间件组件并跳过其余组件的过程。这通常是为了提高性能或处理特定情况，而无需完全通过中间件管道。例如，你可能有一个中间件组件，它检查特定条件，如果条件满足，立即返回响应。在这个例子中，中间件处理请求并生成响应，而不调用其他中间件组件。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/e8a1d943-cb51-4723-936e-23c6af2fb0f9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241117T213249Z&X-Amz-Expires=3600&X-Amz-Signature=edd60f1925f2179267ce6e770eda02ea3b019f17733ac8dd55e62a7ef98c356c&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/e8a1d943-cb51-4723-936e-23c6af2fb0f9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241118%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241118T053949Z&X-Amz-Expires=3600&X-Amz-Signature=4b7ad6eb6ced38e348d6106b702b664ea0efc614e7fb88da6af6988a61627ca0&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 #### 注意事项
