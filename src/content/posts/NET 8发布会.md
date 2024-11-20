@@ -25,7 +25,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 5. MAUI更新：使用.NET MAUI将您的移动的应用程序部署到最新版本的iOS和Android
 6. C#12语言特性更新
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/10cda029-65af-4ea7-b30e-605b2d9e6c57/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241120T053933Z&X-Amz-Expires=3600&X-Amz-Signature=48c8c6c0016572fd5f117840be1f390a36c39dafbf65b4c44a8628256ac258d0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/10cda029-65af-4ea7-b30e-605b2d9e6c57/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241120T213444Z&X-Amz-Expires=3600&X-Amz-Signature=e03a6371c26207349c8ebe3c12436a9eb56b0a3b1751b90cfd3b833285c11f7c&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### **迄今为止最快的.NET**
@@ -34,7 +34,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 .NET 8在整个堆栈中带来了数千项性能改进。一个名为动态配置文件引导优化（PGO）的新代码生成器可以根据实际使用情况优化您的代码，默认情况下可以将应用的性能提高20%。现在支持的AVX-512指令集使您能够对512位数据向量执行并行操作，这意味着您可以在更短的时间内处理更多的数据。原始类型（数值及以上）现在实现了一个新的可格式化和可解析接口，使它们能够直接格式化和解析为UTF-8，而无需任何代码转换开销。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/edcbf140-d619-4389-a4a6-f97c113ab9f2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241120T053933Z&X-Amz-Expires=3600&X-Amz-Signature=66644aea3ac8ef37d1ca1d697768aff1a1c2d9c9bf5d2dda1335d117ddb6ff31&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/edcbf140-d619-4389-a4a6-f97c113ab9f2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241120T213444Z&X-Amz-Expires=3600&X-Amz-Signature=effe2b4d95d3d474129e10a486c840b126481783aebd915dec4e5b70c2905d30&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### **.NET Aspire -一个自定义的堆栈，用于构建可观察的，生产就绪的云原生应用程序微服务框架组件**
@@ -43,7 +43,7 @@ Microsoft在今天发布了 **.NET 8.0 LTS**版本，这个版本更新了以下
 .NET Aspire是一个堆栈，用于使用. NET构建弹性，可观察和可配置的云原生应用程序。它包括一组针对云原生增强的策划组件，默认情况下包括遥测，弹性，配置和健康检查。为复杂的服务提供简单的本地开发人员体验，.NET Aspire可以在轻松发现、获取和配置云原生应用程序的基本依赖项。今天发布了.NET Aspire的第一个预览版。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/ff6a34d3-ac25-412d-9204-a7263d00528f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241120T053933Z&X-Amz-Expires=3600&X-Amz-Signature=a2f55a58f38fe4e38d3233b1fca75cde31bf4b7d1b578d1e181114df8f08a5ad&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/ff6a34d3-ac25-412d-9204-a7263d00528f/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45GO43JXI4%2F20241120%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241120T213444Z&X-Amz-Expires=3600&X-Amz-Signature=607d4fd9d278006796f5fb3e5bca3d1fb47698953ba0ae36c6ed7d07a9bee71a&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### **.NET 8容器增强功能-更安全，更紧凑，更高效**
