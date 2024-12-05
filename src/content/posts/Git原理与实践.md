@@ -52,7 +52,7 @@ Git 支持创建多个分支,每个分支都可以独立地进行开发和提交
 标签则用于标记特定的提交,例如版本发布。在图中,我们可以看到 `tag v0.0.9` 和 `tag v0.1.0` 等标签。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/77b77e01-3aab-4add-bdbd-7f489727861d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T053942Z&X-Amz-Expires=3600&X-Amz-Signature=ac021851ea3e7351b956e08a099cd00e50f0a94b9c7f9ca165b537fe673f97ab&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/77b77e01-3aab-4add-bdbd-7f489727861d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241205%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241205T213451Z&X-Amz-Expires=3600&X-Amz-Signature=f856425d49cbf665839b9ecc5ead0ddf791cd719ae231165bbbd5376b6ce9375&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 实战演练
