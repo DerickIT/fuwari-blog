@@ -210,25 +210,25 @@ https://polkadot.js.org/apps/#/explorer?rpc=ws://localhost:9944
 ### 获取内容
 
 
-![chaininfo.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/89be5adf-5619-4306-be75-45b425e3c446/chaininfo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T053852Z&X-Amz-Expires=3600&X-Amz-Signature=c4a1bcf89a31df6e7d648ebdf85054c5990931847b6e03449a23db4e9244fbb4&X-Amz-SignedHeaders=host&x-id=GetObject)
+![chaininfo.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/89be5adf-5619-4306-be75-45b425e3c446/chaininfo.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T213154Z&X-Amz-Expires=3600&X-Amz-Signature=bcaac5d8e3404475dea27eba008a4e61809e57d168cbb50f662412dd5a6ca674&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 查看账户
 
 
-![conn-node.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/05964f92-c6d8-42d1-b4a1-b3a852295683/conn-node.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T053852Z&X-Amz-Expires=3600&X-Amz-Signature=65a5f49874fc2d4ec441d53fefb98faab40c732cc695dc5b5579c7ed3b53678b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![conn-node.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/05964f92-c6d8-42d1-b4a1-b3a852295683/conn-node.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T213154Z&X-Amz-Expires=3600&X-Amz-Signature=1a6e335d9cd54007690203b744a5b362e891470fef0800d4ed84912e0537f4cd&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 转账交易
 
 
-![transaction.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/65593d3b-9b56-4fbe-a383-1447c903127f/transaction.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T053852Z&X-Amz-Expires=3600&X-Amz-Signature=28abbfbb8509f7d13450b464543cbd5106686880a064eee10b661d6e2668458a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![transaction.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/65593d3b-9b56-4fbe-a383-1447c903127f/transaction.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T213154Z&X-Amz-Expires=3600&X-Amz-Signature=5c9ec8d7a5c4547c2e109726aa9ea0d1bac0cc119b5fb3af12add851cabed393&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 ### 交易信息
 
 
-![hash-info.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/7b9b0ba8-edf2-4998-9e9d-9cde7a64aa23/hash-info.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T053852Z&X-Amz-Expires=3600&X-Amz-Signature=111a0588e89549cf1c257e69db1446c8161c4e4ffb5b74b59c58efe21e447453&X-Amz-SignedHeaders=host&x-id=GetObject)
+![hash-info.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/7b9b0ba8-edf2-4998-9e9d-9cde7a64aa23/hash-info.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20241217%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20241217T213154Z&X-Amz-Expires=3600&X-Amz-Signature=2548244fb7aa1d4a807e4fc2fd04404df0198b45434043c63fe9d0e7cb8e2230&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 由于官方提供的文档为英文，且文档中仓库信息发生过变更，我手动将doc.substrate.io翻译为中文了，为不熟悉英文的朋友提供帮助
