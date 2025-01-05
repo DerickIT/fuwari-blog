@@ -129,7 +129,6 @@ yarn config delete https-proxy
 
 **参考：**
 
-
 > NPM registry manager（nrm）：  
 > https://github.com/Pana/nrm  
 >   
@@ -137,4 +136,3 @@ yarn config delete https-proxy
 > https://docs.npmjs.com/cli/v6/using-npm/config#proxy  
 >   
 > https://docs.npmjs.com/cli/v6/using-npm/config#https-proxy
-

@@ -37,9 +37,7 @@ We will deep dive these topics to get a better understanding of each.
 
 # **Queue with a lock**
 
-
 > "you can think [of] it as a box in which you put a[n] item at one end and then pick it from other end." https://stackoverflow.com/questions/39826692/what-are-channels-used-for
-
 
 Channels are implemented as a queue with lock-protected access. Senders try to add to the queue. Receivers try to read from the queue. The queue size is fixed. Senders can pile up waiting to add to the queue, and receivers can pile up competing for the next item. The sender and receiver queues (as opposed to the message queue), sit in linked lists. The Go runtime parks and signals senders and receivers manually to avoid, for example, a sender wasting time spinning on a full queue while a receiver could be doing work.
 
@@ -121,9 +119,7 @@ The [**full channel implementation**](https://go.dev/src/runtime/chan.go) has 
 
 # **Concurrency Language Primitives**
 
-
 > "channels and goroutines are the primitives on top of which most of concurrent golang code is built." https://www.reddit.com/r/golang/comments/103undh/comment/j31qtug/
-
 
 The second way to think about channels is not as their own isolated abstraction, but as one fundamental component in the Go ecosystem of concurrency controls. To use channels to write concurrent code, you need to understand the other primitives as well.
 
@@ -325,15 +321,11 @@ Choosing the right organizational pattern and set of primitives can be a bit of 
 
 # **Message passing**
 
-
 > "Go channels are modeled on Hoare's Communicating Sequential Processes, a process algebra for concurrency that is oriented around event flows between communicating actors" https://stackoverflow.com/a/13602361
-
 
 If you are still here, you have probably seen the channel call to action:
 
-
 > don't communicate by sharing memory, share memory by communicating
-
 
 I don't know about you, but this doesn't exactly get me in the mood. Keeping two mental models for the queue implementation/API and the language-specific syntax is hard enough without this third layer of complexity. But this is the canonical channel quote, we have to unpack it.
 
