@@ -20,7 +20,7 @@ published: 2023-11-15T08:00:00.000Z
 为了帮助简化云应用程序的复杂性，微软推出了.NET Aspire
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/04572440-4e76-4760-ba68-3d0d74b19c08/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T213319Z&X-Amz-Expires=3600&X-Amz-Signature=91ac704f165b4ad37a935225cb50cac8d6a882f98ed0d17abaf2602f53a93ac0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/04572440-4e76-4760-ba68-3d0d74b19c08/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250110T053812Z&X-Amz-Expires=3600&X-Amz-Signature=06348168e0bb22c3714bd9aa33680a52aae8a9c7563ba653347bf7b293606b51&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 .NET Aspire 是一个用于构建弹性、可观察和可配置的云原生应用程序的成熟套件。它包括一组经过精心挑选的组件，通过默认包含服务发现、遥测、弹性和健康检查来增强云原生能力。结合了复杂场景但提升简单的本地开发人员体验，.NET Aspire 使您能够轻松发现、获取和配置云原生应用程序的基本依赖项。
@@ -330,7 +330,7 @@ builder.Build().Run();
 .NET Aspire是.NET 8的一部分。因此，您需要在尝试使用堆栈的任何部分之前进行升级。我们在这里提供了工具和指导来帮助您：升级助手|.NET（microsoft.com）。如果你想使用Visual Studio工具，你还需要最新的Visual Studio预览版，在撰写本文时是17.9。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/04eacd40-23e7-4f47-a8da-acf6029b5a21/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250109%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250109T213319Z&X-Amz-Expires=3600&X-Amz-Signature=777bc8755317e8b27f0a3e519262004bf3db6962501ef802e2914501dd94dfd5&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/04eacd40-23e7-4f47-a8da-acf6029b5a21/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250110%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250110T053812Z&X-Amz-Expires=3600&X-Amz-Signature=832cef4c96c1679fac991ed4acf5ffc5dbe17d619ec198a92409b88dc7be3dfe&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 然后，系统将提示您确认项目和操作。
