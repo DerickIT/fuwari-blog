@@ -45,7 +45,7 @@ ubuntu下自带了docker的库，不需要添加新的源。
 我们就需要使用`sudo apt-get remove docker docker-engine docker.io containerd runc`命令使用root权限来进行卸载。
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/39952d0f-7851-4550-b715-72a33876c773/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T053748Z&X-Amz-Expires=3600&X-Amz-Signature=28e2fe1b867ec26b30d97dcd6175d43e10969ce53b2622891b813c22e3831aaa&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/39952d0f-7851-4550-b715-72a33876c773/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T213311Z&X-Amz-Expires=3600&X-Amz-Signature=bdd004f1d29da1d67c69f3257fc688d4f19411d7b199f04a72dd946fae9f3800&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 安装步骤
@@ -68,7 +68,7 @@ Docker在Ubuntu上依赖一些软件包。执行以下命令来安装这些依�
 `sudo apt-get install ca-certificates curl gnupg lsb-release`
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/b5a549a8-6621-4824-a151-93e8b0592f14/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T053747Z&X-Amz-Expires=3600&X-Amz-Signature=b5752fce6c705a1afdd4260b4978e47c3ef40207f76c89a49c071094499a1c3f&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/b5a549a8-6621-4824-a151-93e8b0592f14/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T213311Z&X-Amz-Expires=3600&X-Amz-Signature=5d85cbacb7225ca2a22195b20aeb36dba2096852ac453f77702253886bdd9d07&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 1. 添加Docker官方GPG密钥
 
@@ -78,7 +78,7 @@ Docker在Ubuntu上依赖一些软件包。执行以下命令来安装这些依�
 `sudo curl -fsSL http://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -`
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/98014b5e-f5b7-4b16-804e-ab6917971bd3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T053747Z&X-Amz-Expires=3600&X-Amz-Signature=60cfc7f087eccb03cff04ca03217dde04777cf6b465f6acc1bc9e1dbb7f9d3a0&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/98014b5e-f5b7-4b16-804e-ab6917971bd3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T213311Z&X-Amz-Expires=3600&X-Amz-Signature=5a9a3dba2daf749563a4298a8642e21b14d918396082938adffc65ed43ac04cf&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 结果如下：
@@ -91,7 +91,7 @@ Docker在Ubuntu上依赖一些软件包。执行以下命令来安装这些依�
 `sudo add-apt-repository "deb [arch=amd64] http://mirrors.aliyun.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable"`
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/7fc5bdbe-9d4c-48b8-ba03-3309380f47ba/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T053748Z&X-Amz-Expires=3600&X-Amz-Signature=912461fa274980136f6938f80950016226056aa01b5f6649765d77efae634d70&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/7fc5bdbe-9d4c-48b8-ba03-3309380f47ba/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T213311Z&X-Amz-Expires=3600&X-Amz-Signature=08aa8814e4ef867799f477d0ddbe52523ebfe21367983976b2992342b9dda2e6&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 1. 安装docker
 
@@ -101,7 +101,7 @@ Docker在Ubuntu上依赖一些软件包。执行以下命令来安装这些依�
 `sudo apt-get install docker-ce docker-ce-cli containerd.io`
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/d5ede442-ffc5-49c3-a76a-76559a797244/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T053747Z&X-Amz-Expires=3600&X-Amz-Signature=f346aa843047a01b0b40ba4db8648730163533b4cd05714f8a34ca0e6992cc49&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/d5ede442-ffc5-49c3-a76a-76559a797244/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T213311Z&X-Amz-Expires=3600&X-Amz-Signature=0d70e55d080232c50af5e63e90819460c77b0b830252c4605c8f90332a00e096&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 1. 配置用户组（可选）
 
@@ -129,7 +129,7 @@ Docker在Ubuntu上依赖一些软件包。执行以下命令来安装这些依�
 `sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common`
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/0c3615c1-94db-46f5-9743-68bb221a9964/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T053748Z&X-Amz-Expires=3600&X-Amz-Signature=c18993d84ca2737853dc1fb2570a1fef7952d9e943ddd0e8a051ebef2c288a0b&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/0c3615c1-94db-46f5-9743-68bb221a9964/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T213311Z&X-Amz-Expires=3600&X-Amz-Signature=7bdf06c96baafdc23d4aa1de5723b6d022d56129f58004e0a8dbd4dcab7f22b3&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 **重启docker**
@@ -162,5 +162,5 @@ Docker在Ubuntu上依赖一些软件包。执行以下命令来安装这些依�
 结果如下：
 
 
-![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/efdb509a-3c1e-41a3-91ee-a1bd88793688/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T053748Z&X-Amz-Expires=3600&X-Amz-Signature=ddde0a93a00787dfa97550f9e189b26fd73ea4d772422b62a67f2311a6491e8a&X-Amz-SignedHeaders=host&x-id=GetObject)
+![Untitled.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/efdb509a-3c1e-41a3-91ee-a1bd88793688/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250115%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250115T213311Z&X-Amz-Expires=3600&X-Amz-Signature=5210556519e0527fd8c207c83318a955ced50e3296e308c4e374afe3faf08060&X-Amz-SignedHeaders=host&x-id=GetObject)
 
