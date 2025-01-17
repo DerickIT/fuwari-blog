@@ -19,7 +19,7 @@ image: 'https://images.unsplash.com/photo-1642083139428-9ee5fa423c46?ixlib=rb-4.
 published: 2024-07-26T08:00:00.000Z
 ---
 
-![projects.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/adfdc1fe-2109-46ac-9ad4-f50e8631f20c/projects.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250116%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250116T213215Z&X-Amz-Expires=3600&X-Amz-Signature=4c1a2b81609d4479a37331282183b650296eea68c0579bf0f71c7f184ac01023&X-Amz-SignedHeaders=host&x-id=GetObject)
+![projects.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/adfdc1fe-2109-46ac-9ad4-f50e8631f20c/projects.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45FSPPWI6X%2F20250117%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250117T053456Z&X-Amz-Expires=3600&X-Amz-Signature=c1b0302935b32d4ed0ce0bfcf323f03815b3dea9d77558f30580a460a32f40ff&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 在当今快速发展的技术世界中，高效的应用部署和管理变得越来越重要。作为开发者，我们经常面临着寻找既强大又经济实惠的部署解决方案的挑战。今天，我很高兴为大家介绍一个令人兴奋的新选择：Dokploy。
