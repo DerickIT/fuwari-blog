@@ -52,7 +52,6 @@ func main() {
 	fmt.Printf("The two's complement of %d: %b\\n", delta, uint32(delta))
 	fmt.Printf("The equivalent: %b\\n", ^uint32(-(-3)-1))
 }
-
 ```
 
 
@@ -98,7 +97,6 @@ func forAndCAS1() {
 	<-sign
 	<-sign
 }
-
 ```
 
 
@@ -156,7 +154,6 @@ func forAndCAS2() {
 	<-sign
 	<-sign
 }
-
 ```
 
 

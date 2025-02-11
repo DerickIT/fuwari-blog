@@ -51,7 +51,6 @@ func main() {
 		fmt.Printf("response: %s\\n", resp)
 	}
 }
-
 ```
 
 
@@ -74,7 +73,6 @@ func checkFileExists(filename string) error {
 	}
 	return nil
 }
-
 ```
 
 
@@ -119,7 +117,6 @@ func main() {
 	uError := underlyingError(err)
 	fmt.Printf("underlying error: %s (type: %T)\\n", uError, uError)
 }
-
 ```
 
 
@@ -150,7 +147,6 @@ func checkValue(val int) error {
 	}
 	return nil
 }
-
 ```
 
 
@@ -192,7 +188,6 @@ func main() {
 		fmt.Println("ERR2")
 	}
 }
-
 ```
 
 
@@ -223,7 +218,6 @@ func validateInput(input string) error {
 	}
 	return nil
 }
-
 ```
 
 

@@ -61,7 +61,6 @@ func TestHello(t *testing.T) {
 	}
 	t.Logf("The expected greeting is %q.\\n", expected)
 }
-
 ```
 
 
@@ -83,7 +82,6 @@ func TestIntroduce(t *testing.T) {
 	}
 	t.Logf("The expected introduce is %q.\\n", expected)
 }
-
 ```
 
 
@@ -101,7 +99,6 @@ func TestFail(t *testing.T) {
 	t.FailNow() // 此调用会让当前的测试立即失败。
 	t.Log("Failed.")
 }
-
 ```
 
 
@@ -123,7 +120,6 @@ func TestFail(t *testing.T) {
 func init() {
 	flag.StringVar(&name, "name", "everyone", "The greeting object.")
 }
-
 ```
 
 
@@ -144,7 +140,6 @@ func main() {
 	}
 	fmt.Println(greeting, introduce())
 }
-
 ```
 
 
@@ -165,7 +160,6 @@ func hello(name string) (string, error) {
 	}
 	return fmt.Sprintf("Hello, %s!", name), nil
 }
-
 ```
 
 
@@ -181,7 +175,6 @@ func hello(name string) (string, error) {
 func introduce() string {
 	return "Welcome to my Golang column."
 }
-
 ```
 
 

@@ -50,7 +50,6 @@ func main() {
 		<-sign
 	}
 }
-
 ```
 
 
@@ -60,7 +59,6 @@ func main() {
 
 	```go
 	sign := make(chan struct{}, num)
-	
 	```
 
 
@@ -75,7 +73,6 @@ func main() {
 	        sign <- struct{}{}
 	    }()
 	}
-	
 	```
 
 
@@ -87,7 +84,6 @@ func main() {
 	for j := 0; j < num; j++ {
 	    <-sign
 	}
-	
 	```
 
 
@@ -136,7 +132,6 @@ func main() {
 	}
 	trigger(10, func() {})
 }
-
 ```
 
 
@@ -146,7 +141,6 @@ func main() {
 
 	```go
 	var count uint32
-	
 	```
 
 
@@ -165,7 +159,6 @@ func main() {
 	        time.Sleep(time.Nanosecond)
 	    }
 	}
-	
 	```
 
 
@@ -182,7 +175,6 @@ func main() {
 	        trigger(i, fn)
 	    }(i)
 	}
-	
 	```
 
 
@@ -192,7 +184,6 @@ func main() {
 
 	```go
 	trigger(10, func() {})
-	
 	```
 
 

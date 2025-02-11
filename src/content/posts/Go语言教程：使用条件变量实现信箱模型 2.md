@@ -37,7 +37,6 @@ published: 2022-05-27T08:00:00.000Z
 ```go
 var mailbox uint8
 var lock sync.Mutex
-
 ```
 
 - `mailbox` 代表信箱的状态，`0`表示空，`1`表示满。
@@ -52,7 +51,6 @@ var lock sync.Mutex
 ```go
 sendCond := sync.NewCond(&lock)
 recvCond := sync.NewCond(&lock)
-
 ```
 
 - `sendCond` 用于发送信件的条件变量。
@@ -76,7 +74,6 @@ send := func(id, index int) {
     lock.Unlock()
     recvCond.Broadcast()
 }
-
 ```
 
 - 先获取锁，检查信箱是否满。
@@ -99,7 +96,6 @@ recv := func(id, index int) {
     lock.Unlock()
     sendCond.Signal()
 }
-
 ```
 
 - 先获取锁，检查信箱是否空。
@@ -140,7 +136,6 @@ go func(id, max int) {
         recv(id, k)
     }
 }(2, max/2)
-
 ```
 
 - 我们启动了三个goroutine：一个用于发送信件，两个用于接收信件。
@@ -156,7 +151,6 @@ go func(id, max int) {
 <-sign
 <-sign
 <-sign
-
 ```
 
 - 主函数通过接收`sign`通道的信号来等待所有goroutine完成。

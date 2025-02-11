@@ -120,7 +120,6 @@ contract PublicMessageBoard {
         return (message.sender, message.content, message.timestamp);
     }
 }
-
 ```
 
 
@@ -164,7 +163,6 @@ contract PublicMessageBoardTest is Test {
         board.postMessage(longMessage);
     }
 }
-
 ```
 
 
@@ -206,7 +204,7 @@ contract DeployMessageBoard is Script {
 创建`.env`文件并添加以下内容:
 
 
-```text
+```plain text
 PRIVATE_KEY=your_private_key_here
 W3Q_RPC_URL=https://galileo.web3q.io:8545
 ```

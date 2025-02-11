@@ -70,7 +70,6 @@ func main() {
 	result, err = add(x, y)
 	fmt.Printf("The result: %d (error: %v)\\n", result, err)
 }
-
 ```
 
 
@@ -87,7 +86,6 @@ func calculate(x int, y int, op operate) (int, error) {
 	}
 	return op(x, y), nil
 }
-
 ```
 
 
@@ -109,7 +107,6 @@ func genCalculator(op operate) calculateFunc {
 		return op(x, y), nil
 	}
 }
-
 ```
 
 

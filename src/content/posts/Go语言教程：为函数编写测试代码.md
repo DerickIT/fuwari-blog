@@ -60,7 +60,6 @@ func hello(name string) (string, error) {
 func introduce() string {
 	return "Welcome to my Golang column."
 }
-
 ```
 
 
@@ -78,7 +77,6 @@ import (
 	"flag"
 	"fmt"
 )
-
 ```
 
 - `package main`：声明程序的包名为`main`，表示这是一个可执行程序。
@@ -89,7 +87,6 @@ import (
 
 ```go
 var name string
-
 ```
 
 - 声明一个全局变量`name`，用于存储命令行参数的值。
@@ -101,7 +98,6 @@ var name string
 func init() {
 	flag.StringVar(&name, "name", "everyone", "The greeting object.")
 }
-
 ```
 
 - `init`函数在`main`函数之前自动执行，用于初始化全局变量。
@@ -120,7 +116,6 @@ func main() {
 	}
 	fmt.Println(greeting, introduce())
 }
-
 ```
 
 - `flag.Parse`：解析命令行参数。
@@ -137,7 +132,6 @@ func hello(name string) (string, error) {
 	}
 	return fmt.Sprintf("Hello, %s!", name), nil
 }
-
 ```
 
 - 接受一个字符串参数`name`，返回问候语和可能的错误。
@@ -151,7 +145,6 @@ func hello(name string) (string, error) {
 func introduce() string {
 	return "Welcome to my Golang column."
 }
-
 ```
 
 - 返回固定的介绍内容。
@@ -202,7 +195,6 @@ func testIntroduce(t *testing.T) { // 请注意这个测试函数的名称。
 	}
 	t.Logf("The expected introduce is %q.\\n", expected)
 }
-
 ```
 
 

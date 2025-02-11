@@ -61,7 +61,6 @@ func main() {
 	}
 	fmt.Println(numbers3)
 }
-
 ```
 
 
@@ -79,7 +78,6 @@ for i := range numbers1 {
 	}
 }
 fmt.Println(numbers1)
-
 ```
 
 
@@ -105,7 +103,6 @@ for i, e := range numbers2 {
 	}
 }
 fmt.Println(numbers2)
-
 ```
 
 
@@ -133,7 +130,6 @@ for i, e := range numbers3 {
 	}
 }
 fmt.Println(numbers3)
-
 ```
 
 

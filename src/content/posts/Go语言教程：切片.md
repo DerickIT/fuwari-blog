@@ -38,7 +38,6 @@ func main() {
     }
     fmt.Println()
 }
-
 ```
 
 
@@ -79,7 +78,6 @@ func main() {
     fmt.Printf("s7e3: len: %d, cap: %d\\n", len(s7e3), cap(s7e3))
     fmt.Println()
 }
-
 ```
 
 
@@ -119,7 +117,6 @@ func main() {
     s8c := append(s8b, make([]int, 45)...)
     fmt.Printf("s8c: len: %d, cap: %d\\n", len(s8c), cap(s8c))
 }
-
 ```
 
 

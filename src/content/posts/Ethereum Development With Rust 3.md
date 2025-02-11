@@ -58,7 +58,6 @@ regex = "1.10.2"
 
 
 ```rust
-
 use ethers::prelude::*;
 
 const RPC_URL: &str = "http://127.0.0.1:8545";
@@ -88,7 +87,6 @@ Unlike `go-ethereum`, the transaction object of `ethers-rs` does not need to con
 
 
 ```rust
-
 use ethers::prelude::*;
 
 const RPC_URL: &str = "http://127.0.0.1:8545";

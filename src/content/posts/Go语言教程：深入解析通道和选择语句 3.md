@@ -75,7 +75,6 @@ func example2() {
 		fmt.Println("The candidate case is selected.")
 	}
 }
-
 ```
 
 
@@ -94,7 +93,6 @@ intChannels := [3]chan int{
 	make(chan int, 1),
 	make(chan int, 1),
 }
-
 ```
 
 
@@ -105,7 +103,6 @@ intChannels := [3]chan int{
 index := rand.Intn(3)
 fmt.Printf("The index: %d\\n", index)
 intChannels[index] <- index
-
 ```
 
 
@@ -123,7 +120,6 @@ case elem := <-intChannels[2]:
 default:
 	fmt.Println("No candidate case is selected!")
 }
-
 ```
 
 
@@ -133,10 +129,9 @@ default:
 运行结果会根据随机选择的通道不同而有所变化。例如：
 
 
-```text
+```plain text
 The index: 1
 The second candidate case is selected.
-
 ```
 
 
@@ -151,7 +146,6 @@ The second candidate case is selected.
 
 ```go
 intChan := make(chan int, 1)
-
 ```
 
 
@@ -162,7 +156,6 @@ intChan := make(chan int, 1)
 time.AfterFunc(time.Second, func() {
 	close(intChan)
 })
-
 ```
 
 
@@ -178,7 +171,6 @@ case _, ok := <-intChan:
 	}
 	fmt.Println("The candidate case is selected.")
 }
-
 ```
 
 
@@ -188,9 +180,8 @@ case _, ok := <-intChan:
 由于通道在一秒后关闭，运行结果将会是：
 
 
-```text
+```plain text
 The candidate case is closed.
-
 ```
 
 

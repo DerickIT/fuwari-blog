@@ -28,7 +28,6 @@ type Animal interface {
     ScientificName() string
     Category() string
 }
-
 ```
 
 
@@ -50,7 +49,6 @@ func (dog Dog) ScientificName() string {
 func (dog Dog) Category() string {
     return "dog"
 }
-
 ```
 
 
@@ -71,7 +69,6 @@ if animal == nil {
 } else {
     fmt.Println("The animal is not nil.")
 }
-
 ```
 
 
@@ -93,7 +90,6 @@ type Pet interface {
     Animal
     Named
 }
-
 ```
 
 
@@ -111,7 +107,6 @@ type PetTag struct {
 func (pt PetTag) Name() string {
     return pt.name
 }
-
 ```
 
 
@@ -131,7 +126,6 @@ func (dog Dog) ScientificName() string {
 func (dog Dog) Category() string {
     return "dog"
 }
-
 ```
 
 
@@ -167,7 +161,6 @@ func main() {
     }
     PlayWithPet(dog)
 }
-
 ```
 
 

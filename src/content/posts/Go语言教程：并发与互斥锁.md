@@ -36,7 +36,6 @@ import (
 	"log"
 	"sync"
 )
-
 ```
 
 - `bytes`：提供了缓冲区操作。
@@ -52,7 +51,6 @@ import (
 
 ```go
 var protecting uint
-
 ```
 
 
@@ -66,7 +64,6 @@ var protecting uint
 func init() {
 	flag.UintVar(&protecting, "protecting", 1, "It indicates whether to use a mutex to protect data writing.")
 }
-
 ```
 
 
@@ -127,7 +124,6 @@ func main() {
 	}
 	log.Printf("The contents:\\n%s", data)
 }
-
 ```
 
 
@@ -137,14 +133,12 @@ func main() {
 
 	```go
 	flag.Parse()
-	
 	```
 
 2. **定义缓冲区**：
 
 	```go
 	var buffer bytes.Buffer
-	
 	```
 
 3. **常量定义**：
@@ -155,7 +149,6 @@ func main() {
 	    max2 = 10 // 每个goroutine写入的数据块数量
 	    max3 = 10 // 每个数据块中重复的数字数量
 	)
-	
 	```
 
 4. **互斥锁和信号通道**：
@@ -163,7 +156,6 @@ func main() {
 	```go
 	var mu sync.Mutex
 	sign := make(chan struct{}, max1)
-	
 	```
 
 5. **启动goroutine**：
@@ -196,7 +188,6 @@ func main() {
 	        }
 	    }(i, &buffer)
 	}
-	
 	```
 
 6. **等待所有goroutine完成**：
@@ -205,7 +196,6 @@ func main() {
 	for i := 0; i < max1; i++ {
 	    <-sign
 	}
-	
 	```
 
 7. **读取并打印缓冲区内容**：
@@ -216,7 +206,6 @@ func main() {
 	    log.Fatalf("fatal error: %s", err)
 	}
 	log.Printf("The contents:\\n%s", data)
-	
 	```
 
 
@@ -246,7 +235,6 @@ for k := 0; k < max3; k++ {
 if protecting > 0 {
     mu.Unlock()
 }
-
 ```
 
 

@@ -32,7 +32,6 @@ case 表达式2:
 default:
     // 默认代码块
 }
-
 ```
 
 
@@ -55,7 +54,6 @@ case 2, 3, 4:
 case 4, 5, 6:
     fmt.Println("4 or 5 or 6")
 }
-
 ```
 
 
@@ -78,7 +76,6 @@ case value5[2], value5[3], value5[4]:
 case value5[4], value5[5], value5[6]:
     fmt.Println("4 or 5 or 6")
 }
-
 ```
 
 
@@ -101,7 +98,6 @@ case byte:
 default:
     fmt.Printf("unsupported type: %T", t)
 }
-
 ```
 
 
@@ -127,7 +123,6 @@ case value1[2], value1[3]:
 case value1[4], value1[5], value1[6]:
     fmt.Println("4 or 5 or 6")
 }
-
 ```
 
 

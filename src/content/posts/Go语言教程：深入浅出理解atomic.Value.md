@@ -35,7 +35,6 @@ fmt.Printf("Store %v to box.\\n", v1)
 box.Store(v1)
 fmt.Printf("The value load from box is %v.\\n", box.Load())
 fmt.Printf("The value load from box2 is %v.\\n", box2.Load())
-
 ```
 
 
@@ -51,7 +50,6 @@ fmt.Printf("Store %q to box2.\\n", v2)
 box2.Store(v2) // 这里并不会引发panic。
 fmt.Printf("The value load from box is %v.\\n", box.Load())
 fmt.Printf("The value load from box2 is %q.\\n", box2.Load())
-
 ```
 
 
@@ -68,7 +66,6 @@ fmt.Printf("The value load from box3 is %v.\\n", box3.Load())
 v3 := 123
 fmt.Printf("Store %d to box3.\\n", v3)
 //box3.Store(v3) // 这里会引发一个panic，报告存储值的类型不一致。
-
 ```
 
 
@@ -91,7 +88,6 @@ if ok {
     fmt.Printf("Store a value of type %T that implements error interface to box4.\\n", v42)
     //box4.Store(v42) // 这里会引发一个panic，报告存储值的类型不一致。
 }
-
 ```
 
 
@@ -117,7 +113,6 @@ err = box5.Store(v42)
 if err != nil {
     fmt.Printf("error: %s\\n", err)
 }
-
 ```
 
 
@@ -145,7 +140,6 @@ fmt.Printf("Store %v to box6.\\n", v6)
 store(v6)
 v6[2] = 5 // 此处的操作是安全的。
 fmt.Printf("The value load from box6 is %v.\\n", box6.Load())
-
 ```
 
 

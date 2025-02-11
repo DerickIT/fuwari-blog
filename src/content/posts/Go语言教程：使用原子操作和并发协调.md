@@ -32,7 +32,6 @@ func main() {
 	fmt.Println()
 	coordinateWithWaitGroup()
 }
-
 ```
 
 
@@ -57,7 +56,6 @@ func coordinateWithChan() {
 	<-sign
 	<-sign
 }
-
 ```
 
 
@@ -78,7 +76,6 @@ func coordinateWithWaitGroup() {
 	go addNum(&num, 4, max, wg.Done)
 	wg.Wait()
 }
-
 ```
 
 
@@ -107,7 +104,6 @@ func addNum(numP *int32, id, max int32, deferFunc func()) {
 		}
 	}
 }
-
 ```
 
 

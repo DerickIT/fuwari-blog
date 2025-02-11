@@ -90,7 +90,6 @@ func main() {
 	_, ok = interface{}(&cat).(Pet)
 	fmt.Printf("*Cat implements interface Pet: %v\\n", ok)
 }
-
 ```
 
 
@@ -109,7 +108,6 @@ type Cat struct {
 	scientificName string // 学名。
 	category       string // 动物学基本分类。
 }
-
 ```
 
 
@@ -127,7 +125,6 @@ func New(name, scientificName, category string) Cat {
 		category:       category,
 	}
 }
-
 ```
 
 
@@ -162,7 +159,6 @@ func (cat Cat) String() string {
 	return fmt.Sprintf("%s (category: %s, name: %q)",
 		cat.scientificName, cat.category, cat.name)
 }
-
 ```
 
 
@@ -183,7 +179,6 @@ func main() {
 
 	cat.SetNameOfCopy("little pig")
 	fmt.Printf("The cat: %s\\n", cat)
-
 ```
 
 
@@ -194,7 +189,7 @@ func main() {
 
 
 ```go
-	type Pet interface {
+type Pet interface {
 		SetName(name string)
 		Name() string
 		Category() string
@@ -205,7 +200,6 @@ func main() {
 	fmt.Printf("Cat implements interface Pet: %v\\n", ok)
 	_, ok = interface{}(&cat).(Pet)
 	fmt.Printf("*Cat implements interface Pet: %v\\n", ok)
-
 ```
 
 
@@ -215,12 +209,11 @@ func main() {
 运行上述代码，输出结果如下：
 
 
-```text
+```plain text
 The cat: American Shorthair (category: cat, name: "monster")
 The cat: American Shorthair (category: cat, name: "monster")
 Cat implements interface Pet: false
 *Cat implements interface Pet: true
-
 ```
 
 
@@ -265,7 +258,6 @@ func (dog Dog) String() string {
 	return fmt.Sprintf("%s (category: %s, name: %q)",
 		dog.scientificName, dog.category, dog.name)
 }
-
 ```
 
 
@@ -290,7 +282,6 @@ func main() {
 	_, ok = interface{}(&dog).(Pet)
 	fmt.Printf("*Dog implements interface Pet: %v\\n", ok)
 }
-
 ```
 
 

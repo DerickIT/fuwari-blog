@@ -36,7 +36,6 @@ published: 2023-01-15T08:00:00.000Z
 go: finding module for package rsc.io/quote
 go: LearnApp imports
         rsc.io/quote: module rsc.io/quote: Get "https://proxy.golang.org/rsc.io/quote/@v/list": dial tcp 172.217.160.113:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
-
 ```
 
 

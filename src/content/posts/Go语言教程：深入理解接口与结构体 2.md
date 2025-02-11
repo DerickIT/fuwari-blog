@@ -67,7 +67,6 @@ func main() {
 	fmt.Printf("This pet is a %s, the name is %q.\\n",
 		pet.Category(), pet.Name())
 }
-
 ```
 
 
@@ -86,7 +85,6 @@ type Pet interface {
 	Name() string
 	Category() string
 }
-
 ```
 
 
@@ -100,7 +98,6 @@ type Pet interface {
 type Dog struct {
 	name string // 名字。
 }
-
 ```
 
 
@@ -122,7 +119,6 @@ func (dog Dog) Name() string {
 func (dog Dog) Category() string {
 	return "dog"
 }
-
 ```
 
 
@@ -147,7 +143,6 @@ func main() {
 	fmt.Printf("This pet is a %s, the name is %q.\\n",
 		pet.Category(), pet.Name())
 }
-
 ```
 
 
@@ -157,12 +152,11 @@ func main() {
 运行上述代码，输出结果如下：
 
 
-```text
+```plain text
 Dog implements interface Pet: false
 *Dog implements interface Pet: true
 
 This pet is a dog, the name is "little pig".
-
 ```
 
 
@@ -188,7 +182,6 @@ func (cat Cat) Name() string {
 func (cat Cat) Category() string {
 	return "cat"
 }
-
 ```
 
 
@@ -210,7 +203,6 @@ func main() {
 	fmt.Printf("This pet is a %s, the name is %q.\\n",
 		pet.Category(), pet.Name())
 }
-
 ```
 
 

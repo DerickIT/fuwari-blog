@@ -25,7 +25,6 @@ var wg sync.WaitGroup
 wg.Add(stride)  // 增加计数
 go someFunction(wg.Done)  // 传入Done函数
 wg.Wait()  // 等待所有goroutine完成
-
 ```
 
 
@@ -49,7 +48,6 @@ currNum := atomic.LoadInt32(numP)
 if atomic.CompareAndSwapInt32(numP, currNum, newNum) {
     // 操作成功
 }
-
 ```
 
 
@@ -84,7 +82,6 @@ if atomic.CompareAndSwapInt32(numP, currNum, newNum) {
 defer func() {
     deferFunc()
 }()
-
 ```
 
 

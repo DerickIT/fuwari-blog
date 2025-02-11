@@ -37,7 +37,6 @@ import (
 )
 
 var container = []string{"zero", "one", "two"}
-
 ```
 
 - `package main`：声明这是一个可执行程序。
@@ -50,7 +49,6 @@ var container = []string{"zero", "one", "two"}
 ```go
 func main() {
 	container := map[int]string{0: "zero", 1: "one", 2: "two"}
-
 ```
 
 - `container := map[int]string{0: "zero", 1: "one", 2: "two"}`：在`main`函数中，声明一个局部变量`container`，类型为映射（map），覆盖了全局变量`container`。
@@ -59,7 +57,7 @@ func main() {
 
 
 ```go
-	// 方式1。
+// 方式1。
 	_, ok1 := interface{}(container).([]string)
 	_, ok2 := interface{}(container).(map[int]string)
 	if !(ok1 || ok2) {
@@ -68,7 +66,6 @@ func main() {
 	}
 	fmt.Printf("The element is %q. (container type: %T)\\n",
 		container[1], container)
-
 ```
 
 - `interface{}(container).([]string)`：将`container`转换为`interface{}`类型，然后尝试断言为`[]string`类型。
@@ -80,7 +77,7 @@ func main() {
 
 
 ```go
-	// 方式2。
+// 方式2。
 	elem, err := getElement(container)
 	if err != nil {
 		fmt.Printf("Error: %s\\n", err)
@@ -89,7 +86,6 @@ func main() {
 	fmt.Printf("The element is %q. (container type: %T)\\n",
 		elem, container)
 }
-
 ```
 
 - `elem, err := getElement(container)`：调用`getElement`函数获取`container`的第一个元素。
@@ -112,7 +108,6 @@ func getElement(containerI interface{}) (elem string, err error) {
 	}
 	return
 }
-
 ```
 
 - `func getElement(containerI interface{}) (elem string, err error)`：定义一个函数，接受一个`interface{}`类型的参数，返回一个字符串和一个错误。

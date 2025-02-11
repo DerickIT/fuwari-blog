@@ -32,7 +32,6 @@ func main() {
 	}
 	defer fmt.Println("last defer")
 }
-
 ```
 
 
@@ -50,13 +49,12 @@ func main() {
 ### 输出结果
 
 
-```text
+```plain text
 last defer
 defer in for [2]
 defer in for [1]
 defer in for [0]
 first defer
-
 ```
 
 
@@ -97,7 +95,6 @@ func main() {
 
 	fmt.Println("Exit function main.")
 }
-
 ```
 
 
@@ -118,13 +115,12 @@ func main() {
 ### 输出结果
 
 
-```text
+```plain text
 Enter function main.
 no panic: <nil>
 Enter defer function.
 panic: something wrong
 Exit defer function.
-
 ```
 
 
@@ -151,7 +147,6 @@ func caller() {
 	panic(fmt.Println)                   // 反例。
 	fmt.Println("Exit function caller.")
 }
-
 ```
 
 
@@ -169,11 +164,10 @@ func caller() {
 ### 输出结果
 
 
-```text
+```plain text
 Enter function main.
 Enter function caller.
 panic: something wrong
-
 ```
 
 

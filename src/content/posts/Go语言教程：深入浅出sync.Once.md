@@ -46,7 +46,6 @@ func main() {
 	})
 	fmt.Printf("The counter: %d\\n", counter)
 }
-
 ```
 
 
@@ -59,10 +58,9 @@ func main() {
 输出结果：
 
 
-```text
+```plain text
 The counter: 1
 The counter: 1
-
 ```
 
 
@@ -121,7 +119,6 @@ func main() {
 
 	wg.Wait()
 }
-
 ```
 
 
@@ -134,14 +131,13 @@ func main() {
 输出结果：
 
 
-```text
+```plain text
 Do task. [1-0]
 Do task. [1-1]
 Do task. [1-2]
 Done. [1]
 Done. [2]
 Done. [3]
-
 ```
 
 
@@ -195,7 +191,6 @@ func main() {
 
 	wg.Wait()
 }
-
 ```
 
 
@@ -208,11 +203,10 @@ func main() {
 输出结果：
 
 
-```text
+```plain text
 Do task. [4]
 fatal error: something wrong
 Done. [5]
-
 ```
 
 

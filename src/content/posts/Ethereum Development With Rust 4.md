@@ -137,7 +137,6 @@ You can use the following command to generate the corresponding ABI file:
 
 ```shell
 solc --abi SimpleStorage.sol -o ./
-
 ```
 
 
@@ -179,7 +178,6 @@ Here's an example of how the generated ABI file might look:
     "type": "function"
   }
 ]
-
 ```
 
 

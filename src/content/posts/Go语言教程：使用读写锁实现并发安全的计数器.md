@@ -115,7 +115,6 @@ func redundantUnlock() {
 	//rwMu.RUnlock() // 这里会引发panic。
 	rwMu.Unlock()
 }
-
 ```
 
 
@@ -130,7 +129,6 @@ type counter struct {
 	num uint         // 计数。
 	mu  sync.RWMutex // 读写锁。
 }
-
 ```
 
 
@@ -146,7 +144,6 @@ func (c *counter) number() uint {
 	defer c.mu.RUnlock()
 	return c.num
 }
-
 ```
 
 
@@ -163,7 +160,6 @@ func (c *counter) add(increment uint) uint {
 	c.num += increment
 	return c.num
 }
-
 ```
 
 
@@ -179,7 +175,6 @@ func main() {
 	count(&c)
 	redundantUnlock()
 }
-
 ```
 
 
@@ -226,7 +221,6 @@ func count(c *counter) {
 	<-sign
 	<-sign
 }
-
 ```
 
 
@@ -261,7 +255,6 @@ func redundantUnlock() {
 	//rwMu.RUnlock() // 这里会引发panic。
 	rwMu.Unlock()
 }
-
 ```
 
 

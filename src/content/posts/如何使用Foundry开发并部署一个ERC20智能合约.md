@@ -145,7 +145,6 @@ contract MyERC20Test is MyERC20, Test {
         assertEq(totalSupplyAfter, totalSupplyBefore - 50 * 10 ** decimals(), "Total supply should decrease");
     }
 }
-
 ```
 
 1. 部署 ERC20 合约

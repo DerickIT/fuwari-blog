@@ -76,7 +76,6 @@ func GetPrimes(max int) []int {
 	}
 	return primes
 }
-
 ```
 
 
@@ -146,7 +145,6 @@ func BenchmarkGetPrimesWith1000000(b *testing.B) {
 		GetPrimes(1000000)
 	}
 }
-
 ```
 
 
@@ -178,10 +176,9 @@ func BenchmarkGetPrimesWith1000000(b *testing.B) {
 在终端中运行以下命令来执行测试和基准测试：
 
 
-```text
+```plain text
 go test -v
 go test -bench=.
-
 ```
 
 

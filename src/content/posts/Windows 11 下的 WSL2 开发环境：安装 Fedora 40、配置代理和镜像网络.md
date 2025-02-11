@@ -139,7 +139,7 @@ wsl --install
 
 1. 在 Windows 中创建或编辑 `%UserProfile%\\.wslconfig` 文件：
 
-	```text
+	```plain text
 	[wsl2]
 	networkingMode=mirrored
 	dnsTunneling=true
@@ -204,7 +204,7 @@ ip addr
 4. 性能问题
 	- 在 `.wslconfig` 文件中限制 `WSL2` 的资源使用：
 
-		```text
+		```plain text
 		[wsl2]
 		memory=4GB
 		processors=2

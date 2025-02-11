@@ -84,7 +84,6 @@ func main() {
 	<-sign
 	<-sign
 }
-
 ```
 
 
@@ -101,7 +100,6 @@ sendCond := sync.NewCond(&lock)
 recvCond := sync.NewCond(lock.RLocker())
 sign := make(chan struct{}, 3)
 max := 5
-
 ```
 
 - `mailbox`：表示信箱的状态，0表示空，1表示满。
@@ -132,7 +130,6 @@ go func(max int) {
 		recvCond.Signal()
 	}
 }(max)
-
 ```
 
 - 使用`lock.Lock()`加锁，确保对`mailbox`的访问是线程安全的。
@@ -161,7 +158,6 @@ go func(max int) {
 		sendCond.Signal()
 	}
 }(max)
-
 ```
 
 - 使用`lock.RLock()`加锁，确保对`mailbox`的访问是线程安全的。
@@ -175,7 +171,6 @@ go func(max int) {
 ```go
 <-sign
 <-sign
-
 ```
 
 - 等待两个协程完成。
@@ -233,7 +228,6 @@ func main() {
 	<-sign
 	<-sign
 }
-
 ```
 
 

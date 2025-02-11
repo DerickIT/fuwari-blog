@@ -92,7 +92,6 @@ func main() {
 	}
 	fmt.Printf("The cat: %s\\n", cat)
 }
-
 ```
 
 
@@ -115,7 +114,6 @@ type AnimalCategory struct {
 	genus   string // 属。
 	species string // 种。
 }
-
 ```
 
 
@@ -128,7 +126,6 @@ func (ac AnimalCategory) String() string {
 		ac.kingdom, ac.phylum, ac.class, ac.order,
 		ac.family, ac.genus, ac.species)
 }
-
 ```
 
 
@@ -143,7 +140,6 @@ type Animal struct {
 	scientificName string // 学名。
 	AnimalCategory        // 动物基本分类。
 }
-
 ```
 
 
@@ -155,7 +151,6 @@ func (a Animal) String() string {
 	return fmt.Sprintf("%s (category: %s)",
 		a.scientificName, a.AnimalCategory)
 }
-
 ```
 
 
@@ -170,7 +165,6 @@ type Cat struct {
 	name string
 	Animal
 }
-
 ```
 
 
@@ -182,7 +176,6 @@ func (cat Cat) String() string {
 	return fmt.Sprintf("%s (category1: %s, name: %q)",
 		cat.scientificName, cat.Animal.AnimalCategory, cat.name)
 }
-
 ```
 
 
@@ -212,18 +205,16 @@ func main() {
 	}
 	fmt.Printf("The cat: %s\\n", cat)
 }
-
 ```
 
 
 运行结果如下：
 
 
-```text
+```plain text
 The animal category: cat
 The animal: American Shorthair (category: cat)
 The cat: American Shorthair (category1: cat, name: "little pig")
-
 ```
 
 

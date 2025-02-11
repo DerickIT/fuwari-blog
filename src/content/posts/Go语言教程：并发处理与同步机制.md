@@ -39,7 +39,6 @@ import (
 	"sync"
 	"time"
 )
-
 ```
 
 
@@ -60,7 +59,6 @@ type handlerConfig struct {
 	counter   int
 	counterMu sync.Mutex
 }
-
 ```
 
 - `singleHandler`：定义了一个处理函数类型，返回处理的数据、数据长度和错误信息。
@@ -76,7 +74,6 @@ func (hc *handlerConfig) count(increment int) int {
 	hc.counter += increment
 	return hc.counter
 }
-
 ```
 
 
@@ -179,7 +176,6 @@ func main() {
 		<-sign
 	}
 }
-
 ```
 
 

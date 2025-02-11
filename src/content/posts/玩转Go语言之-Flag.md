@@ -50,7 +50,6 @@ func main() {
 	flag.Parse()
 	fmt.Printf("Hello, %s!\\n", name)
 }
-
 ```
 
 
@@ -69,7 +68,6 @@ import (
 	"fmt"
 	"os"
 )
-
 ```
 
 - `flag`包用于解析命令行标志。
@@ -130,7 +128,7 @@ func main() {
 假设我们将代码保存为`main.go`，可以通过以下命令运行程序：
 
 
-```text
+```plain text
 go run main.go -name=GoLang
 ```
 
@@ -138,7 +136,7 @@ go run main.go -name=GoLang
 输出将会是：
 
 
-```text
+```plain text
 Hello, GoLang!
 ```
 
@@ -146,7 +144,7 @@ Hello, GoLang!
 如果不提供`-name`标志，程序将使用默认值`"everyone"`：
 
 
-```text
+```plain text
 go run main.go
 ```
 
@@ -154,7 +152,7 @@ go run main.go
 输出将会是：
 
 
-```text
+```plain text
 Hello, everyone!
 ```
 

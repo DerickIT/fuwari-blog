@@ -23,28 +23,24 @@ published: 2022-05-07T08:00:00.000Z
 
 	```go
 	ch := make(chan int)
-	
 	```
 
 2. **发送数据**：使用`<-`操作符将数据发送到通道。
 
 	```go
 	ch <- 42
-	
 	```
 
 3. **接收数据**：使用`<-`操作符从通道接收数据。
 
 	```go
 	value := <-ch
-	
 	```
 
 4. **关闭通道**：使用`close`函数关闭通道。关闭后的通道不能再发送数据，但可以继续接收数据，直到通道为空。
 
 	```go
 	close(ch)
-	
 	```
 
 
@@ -84,7 +80,6 @@ func main() {
 
     fmt.Println("End.")
 }
-
 ```
 
 
@@ -94,7 +89,6 @@ func main() {
 
 	```go
 	ch1 := make(chan int, 2)
-	
 	```
 
 
@@ -111,7 +105,6 @@ func main() {
 	    fmt.Println("Sender: close the channel...")
 	    close(ch1)
 	}()
-	
 	```
 
 
@@ -128,7 +121,6 @@ func main() {
 	    }
 	    fmt.Printf("Receiver: received an element: %v\\n", elem)
 	}
-	
 	```
 
 
@@ -138,7 +130,6 @@ func main() {
 
 	```go
 	fmt.Println("End.")
-	
 	```
 
 
