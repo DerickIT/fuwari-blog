@@ -20,14 +20,14 @@ On the second day of the fourth week, your learning tasks should continue with v
 ### Vocabulary
 
 - Learn another set of 20 new words related to software technology and daily life. Here are some examples:
-	- **Software Technology**: bug, compiler, debug, firewall, framework, frontend, backend, server, query, variable.
-	- **Daily Life**: grocery, laundry, commute, hobby, vacation, meeting, deadline, traffic, recipe, chores.
+    - **Software Technology**: bug, compiler, debug, firewall, framework, frontend, backend, server, query, variable.
+    - **Daily Life**: grocery, laundry, commute, hobby, vacation, meeting, deadline, traffic, recipe, chores.
 
 ### Grammar
 
 - Continue practicing the present simple tense. Focus on forming negative sentences and asking questions in the present simple.
-	- Negative sentences: "He does not (doesn't) write code on weekends."
-	- Questions: "Does she test the application every day?"
+    - Negative sentences: "He does not (doesn't) write code on weekends."
+    - Questions: "Does she test the application every day?"
 
 ### Practice
 
@@ -71,8 +71,8 @@ On the second day of the fourth week, your learning tasks should continue with v
 ### Grammar
 
 - Practice forming negative sentences and questions in the present simple tense[5].
-	- Negative sentences: Use 'do not' (don't) or 'does not' (doesn't) before the base form of the verb. For example, "She does not (doesn't) debug the software on Sundays."
-	- Questions: Use 'do' or 'does' at the beginning of the sentence, followed by the subject and the base form of the verb. For example, "Does he compile the code every day?"
+    - Negative sentences: Use 'do not' (don't) or 'does not' (doesn't) before the base form of the verb. For example, "She does not (doesn't) debug the software on Sundays."
+    - Questions: Use 'do' or 'does' at the beginning of the sentence, followed by the subject and the base form of the verb. For example, "Does he compile the code every day?"
 
 ### Practice
 

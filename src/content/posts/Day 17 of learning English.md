@@ -59,23 +59,23 @@ For today's study tasks, we will focus on vocabulary and grammar that will enhan
 ### Vocabulary:
 
 - **Task:** Learn 10 new words related to making plans for the future and professional communication. Here are your words:
-	1. Schedule
-	2. Appointment
-	3. Deadline
-	4. Project
-	5. Meeting
-	6. Objective
-	7. Strategy
-	8. Task
-	9. Plan
-	10. Goal
+    1. Schedule
+    2. Appointment
+    3. Deadline
+    4. Project
+    5. Meeting
+    6. Objective
+    7. Strategy
+    8. Task
+    9. Plan
+    10. Goal
 - **Acceptance Standard:** Be able to correctly use each word in a sentence that relates to future planning or professional settings.
 
 ### Grammar:
 
 - **Task:** Practice forming questions in the 'going to' future tense, which is used for planned actions or intentions.
-	- Structure: "Am/Is/Are + subject + going to + base verb"
-	- Example: "Are you going to attend the meeting tomorrow?"
+    - Structure: "Am/Is/Are + subject + going to + base verb"
+    - Example: "Are you going to attend the meeting tomorrow?"
 - **Acceptance Standard:** Write 5 questions using the 'going to' future tense with the vocabulary you've learned.
 
 ### Reading and Comprehension:

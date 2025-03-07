@@ -29,7 +29,7 @@ On the fifth day of the fourth week, your learning tasks should focus on reading
 ### Grammar
 
 - Continue practicing the present simple tense, focusing on forming negative sentences and questions. Also, practice using adverbs of frequency (always, usually, often, sometimes, rarely, never) in sentences.
-	- Example: "They never miss a deadline." "Do you always commute to work?"
+    - Example: "They never miss a deadline." "Do you always commute to work?"
 
 ### Practice
 

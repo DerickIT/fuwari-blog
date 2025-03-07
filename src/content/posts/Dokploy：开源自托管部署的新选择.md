@@ -19,7 +19,7 @@ image: 'https://images.unsplash.com/photo-1642083139428-9ee5fa423c46?ixlib=rb-4.
 published: 2024-07-26T08:00:00.000Z
 ---
 
-![projects.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/adfdc1fe-2109-46ac-9ad4-f50e8631f20c/projects.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VU5SUS33%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T053756Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEPb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGTAHzLeJGZfBay%2FstMTHrndZC979UGAebAWWKc%2FjJDwAiBzoU07fH6n68S3gBNqYf66YXQ%2F9bTsMRHXfGA%2ByewroCr%2FAwg%2BEAAaDDYzNzQyMzE4MzgwNSIMG2OJfITZ0leYicfQKtwDtGVfE%2FsZ4Z4%2F2Ll0N4v5BLjPi4ROy5EfNqnyB%2F0IVsXUr%2BzYUpSJQR%2FWTldX00XvYRNlx58%2BJZViflVSoCMguFAZFgAAvjoB0WQn00uxD6jSATVl83khaty%2F6Ux0Z3STSKJ9v8amWfBZYJxrwjsxt2SX%2BwtX72vR0OUHaV0oXXC4Hw3ELfXxqy3t8qHhYO2CIfYXv7xpsiVgP1oid%2BFlhu0oNqgKzViZ7nzb4SPzFhA05XX9Adqtx%2FwpLdQspuZ916k6o3udacnyBxMt9CMZnHqUqO6gFo2DoNftc2%2FuKaNVUjZTIeIoW%2FdDqYk3lLgF%2F0l%2Brv4W0llD8tU9mscCP68EjLEnXy1crfb2wvgi2OekTYBhLXkNgqg2WmvSA5Tq3Gsms85SIvSGNAOA9HB6JWGJfDD9fxkfyXo%2FVn787cPpRpVOTEZRuR6QkaMLk0J5LuQAfC9JHSSPbakSWRC7XYiNfi8nTXJi38Rc%2BrGlA6SpTyhCEixCk3yC5q157Np%2Fq8mj2LF0NVSx04MaJTLpDTwyvPaT7pK%2BgzyUP7B5Kf6bBmX3i%2FZj%2BkDcNIPjxwT9xbkUYhRXEzLWaO9UdUQGHMJFqejTjd5tMhoyV4irhi9kFXR6nerYNaWLwH0w%2BIWqvgY6pgGmH6b%2BbuUQPUAa8LG%2BgdnRbVnXTX459RFSvTac5sP2wtTkHdvUr9bdRxwpgUeD8KhjLQieh9oLV7ktrir24arhmBkMFsssThtn8EeVRrHJnj2sfJt6DmROnoO%2F8tZpdlJ2pVJzq67bCnw%2BFoweIDFme9A1sdIF%2FUekkpF1rLBzcplR7AZrLAloQyRqByNCdqkAOi%2F0iXKK7bmZhVV01xTdD2Lk6Agy&X-Amz-Signature=59d6195e37a0329f95fb60f00c05a48950706133dc309318ad2db6965ffd5234&X-Amz-SignedHeaders=host&x-id=GetObject)
+![projects.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5d24fe63-e567-4804-86f9-9fdc62e13082/adfdc1fe-2109-46ac-9ad4-f50e8631f20c/projects.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UU4SWMMW%2F20250307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20250307T213223Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAUaCXVzLXdlc3QtMiJGMEQCIDn3uBzKG6UGarNNSOCAuHicxY8qHffsLDPwYLmXk50LAiA8Ds1vmiHYelddxk8nd72bWUZJDbBzW46aOMd8iE2%2FvCr%2FAwhOEAAaDDYzNzQyMzE4MzgwNSIMgy%2FGA98lIuX5A1nTKtwDZFZK2ULsQkdY2mfz2%2FLvNuFDmOsVuEygWaSBx2RBk8K%2BY8UKkcAdjYwRVDpocc0pWwrFIksx3zLusefJMfW8XF1OmXBpn8emdAnv4r2ubXRC1QuLurj%2B9eLEHjT950kacXFKwesPMnZrKrVckO%2Byt4QuX6f%2Bs5jfT7veKhdYrA2IkwQMeFo%2BqJgjDd6hzBWstenqkYT4dAck%2FXFrAR8JAmJh9UwtbmC5HOwOCIthu0EguB718w2k71Oq%2FhBUDDZDADZy2EY8AeBVLtsDL8KNAwf%2B7aYXO44XPSiq%2FFXPgqXxZrk82%2FMju4IoEEb4OP2FxwKEveVI8KmsnE16mBDlB0Im55CwPzjhjUXVRVn3PSg1sRh3NvHjrBpbG6JxkxtHJa227EgwAp8sbHPCqrhfjJkWiIle40Wdi4uw2CWucWKa%2F4xkhLcCzIP9ZiQKGJuZDcjyAYJsN5ANTPZFVxgQ3KSr1nlC1d7whI%2FoD0XsxqAn3ZhL%2BBuTnuWA0CLmI8TKNLZlWcVS%2BKIc9kpNUqyFJ5bNzG5zCZ4sTESd%2FXRwbrdFS44dxKMn8pGAqcO55zXR0S2aNBGj7g3Rbv%2BxIcLomDCc1OqFHqNyf%2FT0Ss%2F8p3LknizuD0RqCV3ey80wxL2tvgY6pgEEn6xn%2B830gEM%2FXlg0NysIgoWG8lL%2B%2B58GDZTyZdDLGB4KIMf7Lf%2FtmDnqYUY4lwBbqhq7HssOos0%2BLPlFnk9jAicH6hmP6UV3ONbDEsSzlCstmr2vhQzX%2FI1a%2B7vV2prk178yUselJgo5QHP%2FgmQNZdYSoUdYONtgOwL23FvPp7476oBIyGSA9iWIbqYAobMhnDuI%2FSl55PPrY3o3kDtLY4zMzuc6&X-Amz-Signature=d955e21ea5cce16fea1e26ae6f3f103bf50717ff90e7e8bc3d9a0214376b652d&X-Amz-SignedHeaders=host&x-id=GetObject)
 
 
 在当今快速发展的技术世界中，高效的应用部署和管理变得越来越重要。作为开发者，我们经常面临着寻找既强大又经济实惠的部署解决方案的挑战。今天，我很高兴为大家介绍一个令人兴奋的新选择：Dokploy。
@@ -89,9 +89,9 @@ Dokploy 提供了详细的权限控制系统，让你可以精确管理用户对
 1. **安装 Dokploy**：
 只需在终端运行以下命令：
 
-	```plain text
-	curl -sSL <https://dokploy.com/install.sh> | sh
-	```
+    ```plain text
+    curl -sSL <https://dokploy.com/install.sh> | sh
+    ```
 
 2. **登录仪表板**：
 安装完成后，通过 Web 界面访问 Dokploy 仪表板。

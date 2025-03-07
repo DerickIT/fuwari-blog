@@ -44,19 +44,19 @@ Learning idioms will help you sound more like a native speaker and improve your 
 For Day 5 of Week 11, focusing on idiomatic expressions, here are some recommended study materials and methods to enhance your learning:
 
 1. **Online Resources for Idiomatic Expressions:**
-	- Search for websites or YouTube channels dedicated to English learning, specifically those that cover idiomatic expressions. These resources often provide explanations, example sentences, and sometimes even short quizzes to test your understanding.
+    - Search for websites or YouTube channels dedicated to English learning, specifically those that cover idiomatic expressions. These resources often provide explanations, example sentences, and sometimes even short quizzes to test your understanding.
 2. **Essential English Review:**
-	- Websites like Essential English Review offer structured vocabulary and idiom learning plans. For example, their "Week 11 - Day 3" might not directly match idiomatic expressions but exploring similar structured learning resources can provide a disciplined approach to expanding your vocabulary, including idioms[3].
+    - Websites like Essential English Review offer structured vocabulary and idiom learning plans. For example, their "Week 11 - Day 3" might not directly match idiomatic expressions but exploring similar structured learning resources can provide a disciplined approach to expanding your vocabulary, including idioms[3].
 3. **Interactive Learning Apps:**
-	- Consider using apps like Duolingo, Babbel, or Memrise, which often include lessons on idiomatic expressions as part of their language courses. These apps make learning fun and engaging through gamification.
+    - Consider using apps like Duolingo, Babbel, or Memrise, which often include lessons on idiomatic expressions as part of their language courses. These apps make learning fun and engaging through gamification.
 4. **Teachers Pay Teachers (TPT):**
-	- TPT offers resources like "Vocabulary Word Study: Word of the Week- Weeks 11-20," which, while focused on vocabulary, can be a useful format for learning idioms as well. You can adapt the "word of the week" idea to study an "idiom of the week," creating your own organizer to include the idiom, its meaning, and example sentences[5].
+    - TPT offers resources like "Vocabulary Word Study: Word of the Week- Weeks 11-20," which, while focused on vocabulary, can be a useful format for learning idioms as well. You can adapt the "word of the week" idea to study an "idiom of the week," creating your own organizer to include the idiom, its meaning, and example sentences[5].
 5. **Practice with Native Speakers:**
-	- Engage in conversation practice with native English speakers, either in person or through language exchange websites and apps. Try to use the idioms you've learned in context, and ask for feedback on your usage.
+    - Engage in conversation practice with native English speakers, either in person or through language exchange websites and apps. Try to use the idioms you've learned in context, and ask for feedback on your usage.
 6. **Keep a Journal:**
-	- Write down new idiomatic expressions you come across, along with their meanings and example sentences. Review this journal regularly to reinforce your learning.
+    - Write down new idiomatic expressions you come across, along with their meanings and example sentences. Review this journal regularly to reinforce your learning.
 7. **Watch English Media:**
-	- Watching movies, TV shows, and YouTube videos in English can expose you to idiomatic expressions used in various contexts. Note down any idioms you hear and look up their meanings afterward.
+    - Watching movies, TV shows, and YouTube videos in English can expose you to idiomatic expressions used in various contexts. Note down any idioms you hear and look up their meanings afterward.
 
 Best regards,
 Professor Judy

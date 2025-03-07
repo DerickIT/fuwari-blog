@@ -50,11 +50,11 @@ Keep practicing these new words throughout the day, and don't hesitate to reach 
 For the third day of the first week, we will focus on two main topics: Numbers and Days of the Week. Here are the specific materials and activities for each topic:
 
 1. **Numbers 1-10**:
-	- Materials: Flashcards with numbers 1-10 written on them, online videos or audio clips for pronunciation guidance.
-	- Activities: Practice pronouncing each number, use the numbers in simple sentences, and quiz yourself or have someone quiz you on the numbers.
+    - Materials: Flashcards with numbers 1-10 written on them, online videos or audio clips for pronunciation guidance.
+    - Activities: Practice pronouncing each number, use the numbers in simple sentences, and quiz yourself or have someone quiz you on the numbers.
 2. **Days of the Week**:
-	- Materials: Flashcards with the days of the week written on them, songs or rhymes that help memorize the days of the week, online videos or audio clips for pronunciation guidance.
-	- Activities: Practice pronouncing the days of the week, use the days in simple sentences (e.g., "Today is Monday"), and quiz yourself or have someone quiz you on the days of the week.
+    - Materials: Flashcards with the days of the week written on them, songs or rhymes that help memorize the days of the week, online videos or audio clips for pronunciation guidance.
+    - Activities: Practice pronouncing the days of the week, use the days in simple sentences (e.g., "Today is Monday"), and quiz yourself or have someone quiz you on the days of the week.
 
 Remember, the goal is to familiarize yourself with these basic English words and be able to use them in simple sentences. Practice is key, so make sure to repeat the words and sentences several times throughout the day[1][2][3][4][5].
 

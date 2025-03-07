@@ -38,13 +38,13 @@ func main() {
 ### 解析
 
 1. **defer的执行顺序**：
-	- `defer`语句会将其后的函数调用推迟到包含它的函数即将返回的时候执行。
-	- 多个`defer`语句的执行顺序是**后进先出**（LIFO）。
+    - `defer`语句会将其后的函数调用推迟到包含它的函数即将返回的时候执行。
+    - 多个`defer`语句的执行顺序是**后进先出**（LIFO）。
 2. **代码执行顺序**：
-	- `main`函数开始执行，首先注册`defer fmt.Println("first defer")`。
-	- 进入`for`循环，依次注册`defer fmt.Printf("defer in for [%d]\\n", i)`，其中`i`的值分别为0、1、2。
-	- 注册`defer fmt.Println("last defer")`。
-	- `main`函数即将返回时，按照后进先出的顺序执行所有的`defer`语句。
+    - `main`函数开始执行，首先注册`defer fmt.Println("first defer")`。
+    - 进入`for`循环，依次注册`defer fmt.Printf("defer in for [%d]\\n", i)`，其中`i`的值分别为0、1、2。
+    - 注册`defer fmt.Println("last defer")`。
+    - `main`函数即将返回时，按照后进先出的顺序执行所有的`defer`语句。
 
 ### 输出结果
 
@@ -101,16 +101,16 @@ func main() {
 ### 解析
 
 1. **panic**：
-	- `panic`用于引发一个恐慌，终止当前函数的执行，并开始沿着调用栈向上回溯，直到遇到`recover`或程序崩溃。
+    - `panic`用于引发一个恐慌，终止当前函数的执行，并开始沿着调用栈向上回溯，直到遇到`recover`或程序崩溃。
 2. **recover**：
-	- `recover`用于终止`panic`的回溯，恢复正常的执行流程。它只能在`defer`函数中有效。
+    - `recover`用于终止`panic`的回溯，恢复正常的执行流程。它只能在`defer`函数中有效。
 3. **代码执行顺序**：
-	- `main`函数开始执行，打印`"Enter function main."`。
-	- 注册`defer`函数。
-	- 调用`recover()`，此时没有`panic`，返回`nil`。
-	- 引发`panic`，错误信息为`"something wrong"`。
-	- `defer`函数被调用，`recover`捕获到`panic`，打印错误信息。
-	- `defer`函数执行完毕，`main`函数继续执行。
+    - `main`函数开始执行，打印`"Enter function main."`。
+    - 注册`defer`函数。
+    - 调用`recover()`，此时没有`panic`，返回`nil`。
+    - 引发`panic`，错误信息为`"something wrong"`。
+    - `defer`函数被调用，`recover`捕获到`panic`，打印错误信息。
+    - `defer`函数执行完毕，`main`函数继续执行。
 
 ### 输出结果
 
@@ -153,13 +153,13 @@ func caller() {
 ### 解析
 
 1. **panic的正确用法**：
-	- `panic(errors.New("something wrong"))`：引发一个带有错误信息的`panic`。
+    - `panic(errors.New("something wrong"))`：引发一个带有错误信息的`panic`。
 2. **panic的错误用法**：
-	- `panic(fmt.Println)`：`fmt.Println`是一个函数，不是错误信息或字符串，使用不当。
+    - `panic(fmt.Println)`：`fmt.Println`是一个函数，不是错误信息或字符串，使用不当。
 3. **代码执行顺序**：
-	- `main`函数开始执行，打印`"Enter function main."`。
-	- 调用`caller`函数。
-	- `caller`函数引发`panic`，错误信息为`"something wrong"`，程序终止。
+    - `main`函数开始执行，打印`"Enter function main."`。
+    - 调用`caller`函数。
+    - `caller`函数引发`panic`，错误信息为`"something wrong"`，程序终止。
 
 ### 输出结果
 
@@ -177,12 +177,12 @@ panic: something wrong
 通过以上示例，我们可以总结出以下几点：
 
 1. **defer**：
-	- 用于延迟函数的执行，直到包含它的函数即将返回时执行。
-	- 多个`defer`语句按照后进先出的顺序执行。
+    - 用于延迟函数的执行，直到包含它的函数即将返回时执行。
+    - 多个`defer`语句按照后进先出的顺序执行。
 2. **panic**：
-	- 用于引发一个恐慌，终止当前函数的执行，并开始沿着调用栈向上回溯。
+    - 用于引发一个恐慌，终止当前函数的执行，并开始沿着调用栈向上回溯。
 3. **recover**：
-	- 用于终止`panic`的回溯，恢复正常的执行流程。只能在`defer`函数中有效。
+    - 用于终止`panic`的回溯，恢复正常的执行流程。只能在`defer`函数中有效。
 
 通过理解和掌握`defer`、`panic`和`recover`的用法，可以更好地处理Go语言中的错误和资源管理，提高代码的健壮性和可维护性。
 

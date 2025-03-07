@@ -21,27 +21,27 @@ published: 2022-05-07T08:00:00.000Z
 
 1. **创建通道**：使用`make`函数创建一个通道。通道的类型由其传递的数据类型决定。
 
-	```go
-	ch := make(chan int)
-	```
+    ```go
+    ch := make(chan int)
+    ```
 
 2. **发送数据**：使用`<-`操作符将数据发送到通道。
 
-	```go
-	ch <- 42
-	```
+    ```go
+    ch <- 42
+    ```
 
 3. **接收数据**：使用`<-`操作符从通道接收数据。
 
-	```go
-	value := <-ch
-	```
+    ```go
+    value := <-ch
+    ```
 
 4. **关闭通道**：使用`close`函数关闭通道。关闭后的通道不能再发送数据，但可以继续接收数据，直到通道为空。
 
-	```go
-	close(ch)
-	```
+    ```go
+    close(ch)
+    ```
 
 
 ### 示例代码解析
@@ -87,51 +87,51 @@ func main() {
 
 1. **创建通道**：
 
-	```go
-	ch1 := make(chan int, 2)
-	```
+    ```go
+    ch1 := make(chan int, 2)
+    ```
 
 
-	这里我们创建了一个缓冲区大小为2的通道`ch1`。缓冲区允许通道在没有接收方的情况下存储最多2个元素。
+    这里我们创建了一个缓冲区大小为2的通道`ch1`。缓冲区允许通道在没有接收方的情况下存储最多2个元素。
 
 2. **发送方goroutine**：
 
-	```go
-	go func() {
-	    for i := 0; i < 10; i++ {
-	        fmt.Printf("Sender: sending element %v...\\n", i)
-	        ch1 <- i
-	    }
-	    fmt.Println("Sender: close the channel...")
-	    close(ch1)
-	}()
-	```
+    ```go
+    go func() {
+        for i := 0; i < 10; i++ {
+            fmt.Printf("Sender: sending element %v...\\n", i)
+            ch1 <- i
+        }
+        fmt.Println("Sender: close the channel...")
+        close(ch1)
+    }()
+    ```
 
 
-	这个goroutine负责向通道发送数据。它在循环中发送10个整数到通道`ch1`，然后关闭通道。
+    这个goroutine负责向通道发送数据。它在循环中发送10个整数到通道`ch1`，然后关闭通道。
 
 3. **接收方**：
 
-	```go
-	for {
-	    elem, ok := <-ch1
-	    if !ok {
-	        fmt.Println("Receiver: closed channel")
-	        break
-	    }
-	    fmt.Printf("Receiver: received an element: %v\\n", elem)
-	}
-	```
+    ```go
+    for {
+        elem, ok := <-ch1
+        if !ok {
+            fmt.Println("Receiver: closed channel")
+            break
+        }
+        fmt.Printf("Receiver: received an element: %v\\n", elem)
+    }
+    ```
 
 
-	主goroutine在一个无限循环中从通道接收数据。`elem, ok := <-ch1`语句从通道接收数据，并检查通道是否关闭。如果通道关闭，`ok`将为`false`，循环终止。
+    主goroutine在一个无限循环中从通道接收数据。`elem, ok := <-ch1`语句从通道接收数据，并检查通道是否关闭。如果通道关闭，`ok`将为`false`，循环终止。
 
 4. **结束程序**：
 
-	```go
-	fmt.Println("End.")
-	```
+    ```go
+    fmt.Println("End.")
+    ```
 
 
-	当接收方检测到通道关闭后，程序输出"End."并结束。
+    当接收方检测到通道关闭后，程序输出"End."并结束。
 

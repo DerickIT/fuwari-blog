@@ -17,8 +17,8 @@ published: 2024-02-03T08:00:00.000Z
 On the sixth day of Week 10 in the study plan, considering the focus on language learning and the absence of specific search results related to our English study plan, the tasks could include:
 
 1. **Practical Application**: Allocate time to apply what you've learned in real-world contexts. This could involve:
-	- Engaging in conversation practice with a native speaker or language exchange partner.
-	- Writing a blog post, email, or diary entry using the new vocabulary and grammar structures you've learned.
+    - Engaging in conversation practice with a native speaker or language exchange partner.
+    - Writing a blog post, email, or diary entry using the new vocabulary and grammar structures you've learned.
 2. **Vocabulary Expansion**: Spend time learning synonyms and antonyms for the week's vocabulary to deepen your understanding and flexibility in using these words. This can help improve your ability to express yourself more precisely.
 3. **Listening Practice**: Listen to English podcasts, watch movies, or find YouTube videos on topics of interest that include the vocabulary and grammar points you've been studying. Try to understand the main ideas and note any new words or expressions.
 4. **Reflection**: Reflect on your progress over the week. Identify what worked well and what areas need more focus. This can help you adjust your study plan for the following week to address any challenges.

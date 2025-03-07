@@ -23,23 +23,23 @@ Based on the search results, here's what you should focus on today:
 ### Vocabulary:
 
 - **Task:** Learn 10 new words related to professional communication and email writing. Here are your words:
-	1. Correspondence
-	2. Attach
-	3. Reply
-	4. Forward
-	5. Subject
-	6. Recipient
-	7. Signature
-	8. Draft
-	9. Inbox
-	10. Outbox
+    1. Correspondence
+    2. Attach
+    3. Reply
+    4. Forward
+    5. Subject
+    6. Recipient
+    7. Signature
+    8. Draft
+    9. Inbox
+    10. Outbox
 - **Acceptance Standard:** Be able to correctly use each word in a sentence that relates to professional communication or email writing[1].
 
 ### Grammar:
 
 - **Task:** Practice forming sentences in the present perfect tense, which is used to describe actions that happened at an unspecified time before now or actions that started in the past and continue to the present.
-	- Structure: "Has/Have + subject + past participle"
-	- Example: "I have attached the document to the email."
+    - Structure: "Has/Have + subject + past participle"
+    - Example: "I have attached the document to the email."
 - **Acceptance Standard:** Write 5 affirmative, 5 negative, and 5 interrogative sentences using the present perfect tense with the vocabulary you've learned[4].
 
 ### Reading and Comprehension:

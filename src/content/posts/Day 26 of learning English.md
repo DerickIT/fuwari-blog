@@ -29,7 +29,7 @@ On the sixth day of the fourth week, your learning tasks should focus on speakin
 ### Grammar
 
 - Continue practicing the present simple tense, focusing on forming negative sentences and questions. Also, practice using adverbs of frequency (always, usually, often, sometimes, rarely, never) in sentences.
-	- Example: "I always check my emails in the morning." "Does he often work late?"
+    - Example: "I always check my emails in the morning." "Does he often work late?"
 
 ### Practice
 

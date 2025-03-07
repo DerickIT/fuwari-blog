@@ -28,7 +28,7 @@ On the fourth day of the fourth week, your learning tasks should focus on enhanc
 ### Grammar
 
 - Continue practicing the present simple tense, focusing on forming negative sentences and questions. Also, practice using adverbs of frequency (always, usually, often, sometimes, rarely, never) in sentences.
-	- Example: "She rarely encounters a bug in the code." "Do they always meet the deadline?"
+    - Example: "She rarely encounters a bug in the code." "Do they always meet the deadline?"
 
 ### Practice
 

@@ -262,45 +262,45 @@ cast call $CONTRACT_ADDRESS "getMessage(uint256)" 0 --rpc-url $W3Q_RPC_URL
 1. Gas价格问题:
 如果交易卡住,可能是因为gas价格设置过低。使用以下命令查询当前gas价格:
 
-	```shell
-	cast gas-price --rpc-url $W3Q_RPC_URL
-	```
+    ```shell
+    cast gas-price --rpc-url $W3Q_RPC_URL
+    ```
 
 
-	然后相应调整gas价格。
+    然后相应调整gas价格。
 
 2. Nonce问题:
 确保使用正确的nonce。查询当前nonce:
 
-	```shell
-	cast nonce $WALLET_ADDRESS --rpc-url $W3Q_RPC_URL
-	```
+    ```shell
+    cast nonce $WALLET_ADDRESS --rpc-url $W3Q_RPC_URL
+    ```
 
 3. 余额不足:
 确保账户有足够的W3Q代币支付gas费用:
 
-	```shell
-	cast balance $WALLET_ADDRESS --rpc-url $W3Q_RPC_URL
-	```
+    ```shell
+    cast balance $WALLET_ADDRESS --rpc-url $W3Q_RPC_URL
+    ```
 
 4. 交易卡住:
 如果交易长时间未被确认,可以尝试用相同的nonce发送一个新交易,但提高gas价格:
 
-	```shell
-	cast send $CONTRACT_ADDRESS "postMessage(string)" "New message" --rpc-url $W3Q_RPC_URL --private-key $PRIVATE_KEY --gas-price 15000000000 --nonce <stuck_transaction_nonce> --chain-id 3334
-	```
+    ```shell
+    cast send $CONTRACT_ADDRESS "postMessage(string)" "New message" --rpc-url $W3Q_RPC_URL --private-key $PRIVATE_KEY --gas-price 15000000000 --nonce <stuck_transaction_nonce> --chain-id 3334
+    ```
 
 5. RPC节点响应慢:
 排查上面几个步骤，不行就加gas
 6. 合约调用失败:
 使用`cast estimate`估算所需的gas:
 
-	```shell
-	cast estimate $CONTRACT_ADDRESS "postMessage(string)" "Hello, W3Q!" --rpc-url $W3Q_RPC_URL --from $WALLET_ADDRESS
-	```
+    ```shell
+    cast estimate $CONTRACT_ADDRESS "postMessage(string)" "Hello, W3Q!" --rpc-url $W3Q_RPC_URL --from $WALLET_ADDRESS
+    ```
 
 
-	然后在发送交易时使用`--gas-limit`参数指定足够的gas。
+    然后在发送交易时使用`--gas-limit`参数指定足够的gas。
 
 
 ## 12. 结论

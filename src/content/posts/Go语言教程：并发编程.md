@@ -57,37 +57,37 @@ func main() {
 
 1. **通道的创建**：
 
-	```go
-	sign := make(chan struct{}, num)
-	```
+    ```go
+    sign := make(chan struct{}, num)
+    ```
 
 
-	这里我们创建了一个缓冲通道`sign`，缓冲大小为`num`（10）。通道用于在goroutine之间传递信号。
+    这里我们创建了一个缓冲通道`sign`，缓冲大小为`num`（10）。通道用于在goroutine之间传递信号。
 
 2. **启动多个goroutine**：
 
-	```go
-	for i := 0; i < num; i++ {
-	    go func() {
-	        fmt.Println(i)
-	        sign <- struct{}{}
-	    }()
-	}
-	```
+    ```go
+    for i := 0; i < num; i++ {
+        go func() {
+            fmt.Println(i)
+            sign <- struct{}{}
+        }()
+    }
+    ```
 
 
-	我们启动了`num`个goroutine，每个goroutine都会打印变量`i`的值，并向通道`sign`发送一个空结构体`struct{}`作为信号。
+    我们启动了`num`个goroutine，每个goroutine都会打印变量`i`的值，并向通道`sign`发送一个空结构体`struct{}`作为信号。
 
 3. **等待所有goroutine完成**：
 
-	```go
-	for j := 0; j < num; j++ {
-	    <-sign
-	}
-	```
+    ```go
+    for j := 0; j < num; j++ {
+        <-sign
+    }
+    ```
 
 
-	通过从通道`sign`接收信号，我们确保所有goroutine都已经完成。
+    通过从通道`sign`接收信号，我们确保所有goroutine都已经完成。
 
 
 ### 举一反三
@@ -139,55 +139,55 @@ func main() {
 
 1. **原子变量的使用**：
 
-	```go
-	var count uint32
-	```
+    ```go
+    var count uint32
+    ```
 
 
-	我们使用一个无符号32位整数`count`作为计数器，通过原子操作来保证并发安全。
+    我们使用一个无符号32位整数`count`作为计数器，通过原子操作来保证并发安全。
 
 2. **触发函数****`trigger`**：
 
-	```go
-	trigger := func(i uint32, fn func()) {
-	    for {
-	        if n := atomic.LoadUint32(&count); n == i {
-	            fn()
-	            atomic.AddUint32(&count, 1)
-	            break
-	        }
-	        time.Sleep(time.Nanosecond)
-	    }
-	}
-	```
+    ```go
+    trigger := func(i uint32, fn func()) {
+        for {
+            if n := atomic.LoadUint32(&count); n == i {
+                fn()
+                atomic.AddUint32(&count, 1)
+                break
+            }
+            time.Sleep(time.Nanosecond)
+        }
+    }
+    ```
 
 
-	触发函数`trigger`会不断检查`count`的值是否等于`i`，如果相等则执行传入的函数`fn`，并将`count`加1。
+    触发函数`trigger`会不断检查`count`的值是否等于`i`，如果相等则执行传入的函数`fn`，并将`count`加1。
 
 3. **启动多个goroutine**：
 
-	```go
-	for i := uint32(0); i < 10; i++ {
-	    go func(i uint32) {
-	        fn := func() {
-	            fmt.Println(i)
-	        }
-	        trigger(i, fn)
-	    }(i)
-	}
-	```
+    ```go
+    for i := uint32(0); i < 10; i++ {
+        go func(i uint32) {
+            fn := func() {
+                fmt.Println(i)
+            }
+            trigger(i, fn)
+        }(i)
+    }
+    ```
 
 
-	我们启动了10个goroutine，每个goroutine都会调用`trigger`函数，确保按顺序打印`i`的值。
+    我们启动了10个goroutine，每个goroutine都会调用`trigger`函数，确保按顺序打印`i`的值。
 
 4. **等待所有goroutine完成**：
 
-	```go
-	trigger(10, func() {})
-	```
+    ```go
+    trigger(10, func() {})
+    ```
 
 
-	最后，我们调用`trigger(10, func() {})`来等待所有goroutine完成。
+    最后，我们调用`trigger(10, func() {})`来等待所有goroutine完成。
 
 
 ### 拓展

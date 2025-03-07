@@ -29,7 +29,7 @@ On the third day of the fourth week, your learning tasks should focus on listeni
 ### Grammar
 
 - Continue practicing the present simple tense, focusing on forming negative sentences and questions. Also, start learning about adverbs of frequency (always, usually, often, sometimes, rarely, never) and their placement in sentences.
-	- Example: "He usually codes in the morning." "Does she often debug the software?"
+    - Example: "He usually codes in the morning." "Does she often debug the software?"
 
 ### Practice
 

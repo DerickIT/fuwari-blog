@@ -42,15 +42,15 @@ wsl --install
 1. 首先，在 `Microsoft Store` 中搜索并安装 "`Fedora Remix for WSL`"。
 2. 安装完成后，打开 `PowerShell` 并运行：
 
-	```powershell
-	wsl --set-default Fedora-40
-	```
+    ```powershell
+    wsl --set-default Fedora-40
+    ```
 
 3. 启动 Fedora：
 
-	```powershell
-	wsl -d Fedora-40
-	```
+    ```powershell
+    wsl -d Fedora-40
+    ```
 
 
 ## 3. 配置代理
@@ -69,36 +69,36 @@ wsl --install
 
 1. 在 Fedora 终端中运行：
 
-	```shell
-	curl -I <https://www.google.com>
-	```
+    ```shell
+    curl -I <https://www.google.com>
+    ```
 
 2. 如果看到成功的 HTTP 响应（状态码 200），说明代理配置正确。
 
-	```shell
-	HTTP/1.1 200 Connection established
-	
-	HTTP/2 200
-	content-type: text/html; charset=ISO-8859-1
-	content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-VlovGaKtTZ0GQAslKYYBEQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
-	p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
-	date: Wed, 24 Jul 2024 10:20:18 GMT
-	server: gws
-	x-xss-protection: 0
-	x-frame-options: SAMEORIGIN
-	expires: Wed, 24 Jul 2024 10:20:18 GMT
-	cache-control: private
-	set-cookie: AEC=AVYB7cpAJfuhUWhRO2oYW8hMAEubSO2uQHYMMifnY0QwTyqMWWCr_PHYLNk; expires=Mon, 20-Jan-2025 10:20:18 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
-	set-cookie: NID=516=h8MC0Bu7dJuDZqd8V5IUIsvUbzDV3WUZ7kVdutb4iFbLOC0oAe8TyOzBmN5DS_aMYq6lPBvxnAH2jn8aE3v9Fun5Vr4824hW3X44bs6XQIifmiK0TDYzWQufzqWdDLbC-oaa45SHKfktYbMHEHRUU-KHv8m8r7r93bMc5MDOGns; expires=Thu, 23-Jan-2025 10:20:18 GMT; path=/; domain=.google.com; HttpOnly
-	alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-	```
+    ```shell
+    HTTP/1.1 200 Connection established
+    
+    HTTP/2 200
+    content-type: text/html; charset=ISO-8859-1
+    content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-VlovGaKtTZ0GQAslKYYBEQ' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+    p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+    date: Wed, 24 Jul 2024 10:20:18 GMT
+    server: gws
+    x-xss-protection: 0
+    x-frame-options: SAMEORIGIN
+    expires: Wed, 24 Jul 2024 10:20:18 GMT
+    cache-control: private
+    set-cookie: AEC=AVYB7cpAJfuhUWhRO2oYW8hMAEubSO2uQHYMMifnY0QwTyqMWWCr_PHYLNk; expires=Mon, 20-Jan-2025 10:20:18 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+    set-cookie: NID=516=h8MC0Bu7dJuDZqd8V5IUIsvUbzDV3WUZ7kVdutb4iFbLOC0oAe8TyOzBmN5DS_aMYq6lPBvxnAH2jn8aE3v9Fun5Vr4824hW3X44bs6XQIifmiK0TDYzWQufzqWdDLbC-oaa45SHKfktYbMHEHRUU-KHv8m8r7r93bMc5MDOGns; expires=Thu, 23-Jan-2025 10:20:18 GMT; path=/; domain=.google.com; HttpOnly
+    alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+    ```
 
 3. 您还可以检查环境变量：
 
-	```shell
-	echo $http_proxy
-	echo $https_proxy
-	```
+    ```shell
+    echo $http_proxy
+    echo $https_proxy
+    ```
 
 
 ## 5. 配置开发环境
@@ -108,15 +108,15 @@ wsl --install
 
 1. 更新系统：
 
-	```shell
-	sudo dnf update -y
-	```
+    ```shell
+    sudo dnf update -y
+    ```
 
 2. 安装常用开发工具：
 
-	```shell
-	sudo dnf install -y git vim nodejs npm python3 python3-pip
-	```
+    ```shell
+    sudo dnf install -y git vim nodejs npm python3 python3-pip
+    ```
 
 3. 安装 `Visual Studio Code WSL` 扩展（在 Windows 中的 VS Code 里安装）。
 
@@ -139,18 +139,18 @@ wsl --install
 
 1. 在 Windows 中创建或编辑 `%UserProfile%\\.wslconfig` 文件：
 
-	```plain text
-	[wsl2]
-	networkingMode=mirrored
-	dnsTunneling=true
-	```
+    ```plain text
+    [wsl2]
+    networkingMode=mirrored
+    dnsTunneling=true
+    ```
 
 2. 在 PowerShell 中重启 WSL：
 
-	```powershell
-	wsl --shutdown
-	wsl
-	```
+    ```powershell
+    wsl --shutdown
+    wsl
+    ```
 
 
 ### 验证镜像网络
@@ -193,26 +193,26 @@ ip addr
 ## 7. 常见问题及解决方案
 
 1. WSL2 安装失败
-	- 确保 Windows 11 已更新到最新版本
-	- 在 `BIOS` 中启用虚拟化
+    - 确保 Windows 11 已更新到最新版本
+    - 在 `BIOS` 中启用虚拟化
 2. 代理设置不生效
-	- 检查代理 IP 和端口是否正确
-	- 尝试使用 `Windows` 主机的 IP 地址（通常是 172.x.x.1）
+    - 检查代理 IP 和端口是否正确
+    - 尝试使用 `Windows` 主机的 IP 地址（通常是 172.x.x.1）
 3. 镜像网络模式不工作
-	- 确保 Windows 11 版本支持此功能（需要 22H2 或更高版本）
-	- 检查 `.wslconfig` 文件的语法
+    - 确保 Windows 11 版本支持此功能（需要 22H2 或更高版本）
+    - 检查 `.wslconfig` 文件的语法
 4. 性能问题
-	- 在 `.wslconfig` 文件中限制 `WSL2` 的资源使用：
+    - 在 `.wslconfig` 文件中限制 `WSL2` 的资源使用：
 
-		```plain text
-		[wsl2]
-		memory=4GB
-		processors=2
-		```
+        ```plain text
+        [wsl2]
+        memory=4GB
+        processors=2
+        ```
 
 5. 文件系统性能
-	- 将项目文件存储在 `Linux` 文件系统中（`/home/your_username/`）而不是 Windows 文件系统（`/mnt/c/`）
-	- 如果系统盘空间不够，还可以将wsl2的系统镜像存储位置转移到其他盘符，已验证可行
+    - 将项目文件存储在 `Linux` 文件系统中（`/home/your_username/`）而不是 Windows 文件系统（`/mnt/c/`）
+    - 如果系统盘空间不够，还可以将wsl2的系统镜像存储位置转移到其他盘符，已验证可行
 
 ## 结论
 

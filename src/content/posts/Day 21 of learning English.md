@@ -20,16 +20,16 @@ On the first day of the fourth week, your learning tasks should include vocabula
 ### Vocabulary
 
 - Learn 20 new words related to software technology and daily life. Here are some examples:
-	- **Software Technology**: algorithm, application, code, database, encryption, hardware, interface, network, platform, software.
-	- **Daily Life**: breakfast, supermarket, exercise, transportation, restaurant, appointment, weekend, family, weather, schedule.
+    - **Software Technology**: algorithm, application, code, database, encryption, hardware, interface, network, platform, software.
+    - **Daily Life**: breakfast, supermarket, exercise, transportation, restaurant, appointment, weekend, family, weather, schedule.
 
 ### Grammar
 
 - Introduction to the present simple tense for routines and habitual actions. Learn the structure of sentences in the present simple, focusing on the use of verbs in the third person singular (he, she, it) which often require an -s or -es ending.
-	- Example sentences:
-		- "He **writes** code every day."
-		- "She **tests** the application before lunch."
-		- "It **encrypts** the data automatically."
+    - Example sentences:
+        - "He **writes** code every day."
+        - "She **tests** the application before lunch."
+        - "It **encrypts** the data automatically."
 
 ### Practice
 

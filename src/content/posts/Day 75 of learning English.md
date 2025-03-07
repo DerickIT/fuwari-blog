@@ -43,25 +43,25 @@ To practice speaking and listening skills on the second day of week 12, you can 
 ### Listening Practice
 
 1. **Listen to the Same Content Repeatedly**:
-	- Choose a short podcast episode or YouTube video related to technology or daily life topics. Listen to the same content every day for a week[2].
-	- Focus on identifying and understanding difficult words or phrases. Look them up and listen again to grasp their meaning fully[2].
-	- Try to mimic the speaker's pronunciation and intonation by speaking along with the audio. This can help improve your speaking fluency and listening comprehension simultaneously[2].
+    - Choose a short podcast episode or YouTube video related to technology or daily life topics. Listen to the same content every day for a week[2].
+    - Focus on identifying and understanding difficult words or phrases. Look them up and listen again to grasp their meaning fully[2].
+    - Try to mimic the speaker's pronunciation and intonation by speaking along with the audio. This can help improve your speaking fluency and listening comprehension simultaneously[2].
 2. **Intensive Listening**:
-	- Dedicate 15 minutes to listen to an audio file in a quiet place without interruptions. Concentrate on catching specific words, their usage, and the overall meaning[2].
-	- Take notes on important points, such as changes in the speaker's tone that might indicate emotions like anger or sarcasm, and any unfamiliar words[2].
+    - Dedicate 15 minutes to listen to an audio file in a quiet place without interruptions. Concentrate on catching specific words, their usage, and the overall meaning[2].
+    - Take notes on important points, such as changes in the speaker's tone that might indicate emotions like anger or sarcasm, and any unfamiliar words[2].
 3. **Experiment with Different Accents**:
-	- Listen to content featuring various English accents (e.g., British, American, Australian). This will help you become more adaptable in understanding English spoken with different accents[2].
+    - Listen to content featuring various English accents (e.g., British, American, Australian). This will help you become more adaptable in understanding English spoken with different accents[2].
 
 ### Speaking Practice
 
 1. **Join a Conversation Group**:
-	- Participate in an English conversation group, either in person or online. Platforms like Meetup can be useful for finding groups of English learners or native speakers willing to practice[2].
-	- This provides a real-life context for using new vocabulary and expressions you've learned, and it's an excellent opportunity to listen to others and respond in real-time[2].
+    - Participate in an English conversation group, either in person or online. Platforms like Meetup can be useful for finding groups of English learners or native speakers willing to practice[2].
+    - This provides a real-life context for using new vocabulary and expressions you've learned, and it's an excellent opportunity to listen to others and respond in real-time[2].
 2. **Record and Compare**:
-	- Record yourself speaking on a topic of interest or summarizing the content you've listened to. Compare your recording to the original audio to identify areas for improvement in pronunciation and fluency[2].
+    - Record yourself speaking on a topic of interest or summarizing the content you've listened to. Compare your recording to the original audio to identify areas for improvement in pronunciation and fluency[2].
 3. **Speak to Yourself**:
-	- Practice speaking English during daily activities, such as while running or showering. You can even engage in self-dialogue, pretending to be two different people having a conversation[2].
-	- This method helps you to think in English and improves your ability to form sentences quickly and naturally[2].
+    - Practice speaking English during daily activities, such as while running or showering. You can even engage in self-dialogue, pretending to be two different people having a conversation[2].
+    - This method helps you to think in English and improves your ability to form sentences quickly and naturally[2].
 
 ### Testing Standards
 

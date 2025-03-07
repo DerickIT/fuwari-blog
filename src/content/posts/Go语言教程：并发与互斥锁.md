@@ -131,82 +131,82 @@ func main() {
 
 1. **解析命令行参数**：
 
-	```go
-	flag.Parse()
-	```
+    ```go
+    flag.Parse()
+    ```
 
 2. **定义缓冲区**：
 
-	```go
-	var buffer bytes.Buffer
-	```
+    ```go
+    var buffer bytes.Buffer
+    ```
 
 3. **常量定义**：
 
-	```go
-	const (
-	    max1 = 5  // 启用的goroutine数量
-	    max2 = 10 // 每个goroutine写入的数据块数量
-	    max3 = 10 // 每个数据块中重复的数字数量
-	)
-	```
+    ```go
+    const (
+        max1 = 5  // 启用的goroutine数量
+        max2 = 10 // 每个goroutine写入的数据块数量
+        max3 = 10 // 每个数据块中重复的数字数量
+    )
+    ```
 
 4. **互斥锁和信号通道**：
 
-	```go
-	var mu sync.Mutex
-	sign := make(chan struct{}, max1)
-	```
+    ```go
+    var mu sync.Mutex
+    sign := make(chan struct{}, max1)
+    ```
 
 5. **启动goroutine**：
 
-	```go
-	for i := 1; i <= max1; i++ {
-	    go func(id int, writer io.Writer) {
-	        defer func() {
-	            sign <- struct{}{}
-	        }()
-	        for j := 1; j <= max2; j++ {
-	            header := fmt.Sprintf("\\n[id: %d, iteration: %d]", id, j)
-	            data := fmt.Sprintf(" %d", id*j)
-	            if protecting > 0 {
-	                mu.Lock()
-	            }
-	            _, err := writer.Write([]byte(header))
-	            if err != nil {
-	                log.Printf("error: %s [%d]", err, id)
-	            }
-	            for k := 0; k < max3; k++ {
-	                _, err := writer.Write([]byte(data))
-	                if err != nil {
-	                    log.Printf("error: %s [%d]", err, id)
-	                }
-	            }
-	            if protecting > 0 {
-	                mu.Unlock()
-	            }
-	        }
-	    }(i, &buffer)
-	}
-	```
+    ```go
+    for i := 1; i <= max1; i++ {
+        go func(id int, writer io.Writer) {
+            defer func() {
+                sign <- struct{}{}
+            }()
+            for j := 1; j <= max2; j++ {
+                header := fmt.Sprintf("\\n[id: %d, iteration: %d]", id, j)
+                data := fmt.Sprintf(" %d", id*j)
+                if protecting > 0 {
+                    mu.Lock()
+                }
+                _, err := writer.Write([]byte(header))
+                if err != nil {
+                    log.Printf("error: %s [%d]", err, id)
+                }
+                for k := 0; k < max3; k++ {
+                    _, err := writer.Write([]byte(data))
+                    if err != nil {
+                        log.Printf("error: %s [%d]", err, id)
+                    }
+                }
+                if protecting > 0 {
+                    mu.Unlock()
+                }
+            }
+        }(i, &buffer)
+    }
+    ```
 
 6. **等待所有goroutine完成**：
 
-	```go
-	for i := 0; i < max1; i++ {
-	    <-sign
-	}
-	```
+    ```go
+    for i := 0; i < max1; i++ {
+        <-sign
+    }
+    ```
 
 7. **读取并打印缓冲区内容**：
 
-	```go
-	data, err := ioutil.ReadAll(&buffer)
-	if err != nil {
-	    log.Fatalf("fatal error: %s", err)
-	}
-	log.Printf("The contents:\\n%s", data)
-	```
+    ```go
+    data, err := ioutil.ReadAll(&buffer)
+    if err != nil {
+        log.Fatalf("fatal error: %s", err)
+    }
+    log.Printf("The contents:\\n%s", data)
+    ```
 
 
 ## 互斥锁的作用

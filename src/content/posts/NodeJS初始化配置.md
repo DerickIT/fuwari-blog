@@ -33,7 +33,7 @@ published: 2019-11-16T08:00:00.000Z
 
 - 如果你要下载的依赖，都能在“淘宝”或者“cnpm”镜像源上找到，那么就能加速很多。
 
-	<u>_**换镜像源**_</u>
+    <u>_**换镜像源**_</u>
 
 - 如果你必须通过“npm镜像源”下载依赖（例如：你依赖的某特定版本的库，淘宝、cnpm镜像源上还没来得及与 npm 镜像源同步），那么你就需要<u>_**配置代理**_</u>，<u>_**科学上网**_</u>（如果你有[VPN](https://cloud.tencent.com/product/vpn?from_column=20065&from=20065)，那更省事）。
 
@@ -57,7 +57,7 @@ npm config set registry https://registry.npmjs.org/
 ![kr9swdjcl6.png](https://ask.qcloudimg.com/http-save/yehe-5774797/kr9swdjcl6.png)
 
 - **方式2：nrm 工具**
-	- nrm can help you easy and fast switch between different npm registries, now include: npm, cnpm, taobao, nj(nodejitsu).
+    - nrm can help you easy and fast switch between different npm registries, now include: npm, cnpm, taobao, nj(nodejitsu).
 
 ```typescript
 npm install -g nrm // 安装

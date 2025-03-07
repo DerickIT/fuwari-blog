@@ -65,33 +65,33 @@ Based on the guidance from the search results, it's clear that vocabulary is a f
 
 - **Objective**: Learn new vocabulary words related to common daily activities and interactions.
 - **Words**:
-	1. Schedule
-	2. Appointment
-	3. Deadline
-	4. Leisure
-	5. Errand
-	6. Invoice
-	7. Receipt
-	8. Refund
-	9. Discount
-	10. Warranty
-	11. Exchange
-	12. Delivery
-	13. Reservation
-	14. Cancellation
-	15. Inquiry
-	16. Assistance
-	17. Feedback
-	18. Recommendation
-	19. Complaint
-	20. Service
+    1. Schedule
+    2. Appointment
+    3. Deadline
+    4. Leisure
+    5. Errand
+    6. Invoice
+    7. Receipt
+    8. Refund
+    9. Discount
+    10. Warranty
+    11. Exchange
+    12. Delivery
+    13. Reservation
+    14. Cancellation
+    15. Inquiry
+    16. Assistance
+    17. Feedback
+    18. Recommendation
+    19. Complaint
+    20. Service
 
 ### Midday Session: Grammar Focus - Past Simple vs. Past Continuous
 
 - **Objective**: Understand the difference between past simple and past continuous tense and when to use each.
 - **Grammar Points**:
-	- Past Simple Tense: Used for completed actions in the past (e.g., "I finished the report yesterday.")
-	- Past Continuous Tense: Used for actions that were in progress at a specific time in the past (e.g., "I was working on the report at 8 PM yesterday.")
+    - Past Simple Tense: Used for completed actions in the past (e.g., "I finished the report yesterday.")
+    - Past Continuous Tense: Used for actions that were in progress at a specific time in the past (e.g., "I was working on the report at 8 PM yesterday.")
 - **Activity**: Complete exercises from an English grammar workbook or online resource, focusing on these two tenses.
 - **Outcome**: Be able to distinguish between the two tenses and use them correctly in sentences.
 

@@ -24,26 +24,26 @@ For the third day of the fifth week, we will continue to build on your vocabular
 
 - **Objective**: Learn new academic vocabulary words that are commonly used across various subjects.
 - **Words**:
-	1. Abolish
-	2. Escalate
-	3. Influence
-	4. Accomplish
-	5. Establish
-	6. Investigate
-	7. Accurate
-	8. Evaluate
-	9. Navigate
-	10. Announce
-	11. Evidence
-	12. Opposed
-	13. Anxious
-	14. Exhaust
-	15. Ordinary
-	16. Approach
-	17. Expansion
-	18. Passage
-	19. Approval
-	20. Expectation
+    1. Abolish
+    2. Escalate
+    3. Influence
+    4. Accomplish
+    5. Establish
+    6. Investigate
+    7. Accurate
+    8. Evaluate
+    9. Navigate
+    10. Announce
+    11. Evidence
+    12. Opposed
+    13. Anxious
+    14. Exhaust
+    15. Ordinary
+    16. Approach
+    17. Expansion
+    18. Passage
+    19. Approval
+    20. Expectation
 
 ### Midday Session: Grammar Focus - Future Simple Tense
 

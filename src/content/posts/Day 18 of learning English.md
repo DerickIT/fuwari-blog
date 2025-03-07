@@ -23,23 +23,23 @@ Based on the search results, here's what you should focus on today:
 ### Vocabulary:
 
 - **Task:** Learn 10 new words related to time management and planning. Here are your words:
-	1. Prioritize
-	2. Deadline
-	3. Schedule
-	4. Task
-	5. Assignment
-	6. Progress
-	7. Productive
-	8. Reminder
-	9. Organize
-	10. Plan
+    1. Prioritize
+    2. Deadline
+    3. Schedule
+    4. Task
+    5. Assignment
+    6. Progress
+    7. Productive
+    8. Reminder
+    9. Organize
+    10. Plan
 - **Acceptance Standard:** Be able to correctly use each word in a sentence that relates to time management or planning.
 
 ### Grammar:
 
 - **Task:** Practice forming sentences in the 'going to' future tense, focusing on affirmative, negative, and question forms.
-	- Structure: "Am/Is/Are + subject + going to + base verb"
-	- Example: "Are you going to complete the assignment by the deadline?"
+    - Structure: "Am/Is/Are + subject + going to + base verb"
+    - Example: "Are you going to complete the assignment by the deadline?"
 - **Acceptance Standard:** Write 5 affirmative, 5 negative, and 5 interrogative sentences using the 'going to' future tense with the vocabulary you've learned.
 
 ### Reading and Comprehension:
